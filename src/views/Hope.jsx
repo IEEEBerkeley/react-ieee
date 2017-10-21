@@ -1,96 +1,20 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import homeImage from '../assets/home.png';
 
 class Hope extends Component {
   render() {
     return (
-      <body>
-        <div class="wrapper">
-        <div class="header">
-        <div class="logo-cal vertically-centered" 
-          style={{ 'margin-top': '14px', 'margin-bottom': '14px' }}>
-        
+        <div>
+        <div className="hero"
+            style={{ backgroundImage: "url(" + homeImage + ")" }}>
         </div>
-        <div class="navigation">
-        <ul>
-        <li class="main">
-        <a href="https://ieee.berkeley.edu/events">EVENTS</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/events">All Events</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/events/calendar">Calendar</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/events/photos">Photos</a>
-        </li>
-        </ul>
-        <ul>
-        <li class="main">
-        <a href="https://ieee.berkeley.edu/industry">INDUSTRY</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/industry">Information</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/industry/sponsors">Sponsors</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/industry/donate">Donate</a>
-        </li>
-        </ul>
-        <ul>
-        <li class="main">
-        <a href="https://ieee.berkeley.edu/hope">H.O.P.E.</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/hope">About</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/hope/faq">FAQ</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/hope/resources">Resources</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/hope/archive">Archive</a>
-        </li>
-        </ul>
-        <ul>
-        <li class="main">
-        <a href="https://ieee.berkeley.edu/about">ABOUT</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/about">Information</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/about/officers">Officers</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/about/contact">Contact</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/about/micromouse">Micromouse</a>
-        </li>
-        </ul>
-        <ul>
-        <li class="main">
-        <a href="https://ieee.berkeley.edu/users/sign_in">LOGIN</a>
-        </li>
-        <li class="option">
-        <a href="https://ieee.berkeley.edu/users/sign_in">Officer</a>
-        </li>
-        </ul>
-        </div>
-        </div>
-        <div class="hero" ></div>
         <div class="submenu">
         <ul>
-        <a href="https://ieee.berkeley.edu/hope"><li class="current">About</li>
-        </a><a href="https://ieee.berkeley.edu/hope/faq"><li class="">FAQ</li>
-        </a><a href="https://ieee.berkeley.edu/hope/resources"><li class="">Resources</li>
-        </a><a href="https://ieee.berkeley.edu/hope/archive"><li class="">Archive</li>
-        </a><li class="page">H.O.P.E.</li>
+        <Link to={"/hope/faq"}><li class="">FAQ</li></Link>
+        <Link to={"/hope/resources"}><li class="">Resources</li></Link>
+        <Link to={"/hope/archive"}><li class="">Archive</li></Link>
+        <li class="page">H.O.P.E.</li>
         </ul>
         </div>
 
@@ -116,44 +40,8 @@ class Hope extends Component {
         
 
         </div>
-        <div class="push"></div>
         </div>
-        <div class="footer-wrapper">
-        <div class="footer">
-        <div class="copyright vertically-centered" style={{ 'margin-top': '45.5px', 'margin-bottom': '45.5px' }}>
-        <div class="logo-national">
-        
-        </div>
-        <p>2017 UC Berkeley IEEE</p>
-        </div>
-        <div class="media vertically-centered" style={{ 'margin-top': '49.5px', 'margin-bottom': '49.5px' }}>
-        <ul>
-        <li>
-        <form action="https://calmail.berkeley.edu//manage/list/listinfo_subscribe/ieee-members@lists.berkeley.edu" id="subscribe-list">
-        <div class="input-append">
-        <input name="address" placeholder="Enter email to join our mailing list" type="email" />
-        <button class="clickable add-on" type="submit">
-        <span aria-hidden="true" class="icon-arrow-right"></span>
-        </button>
-        </div>
-        </form>
-        </li>
-        <li>
-        <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416">
-        <span aria-hidden="true" class="icon icon-facebook"></span>
-        </a>
-        </li>
-        <li>
-        <a href="https://www.linkedin.com/groups/IEEE-UCB-Student-Branch-4549818">
-        <span aria-hidden="true" class="icon icon-linkedin"></span>
-        </a>
-        </li>
-        </ul>
-        <p class="promise">No spam. We promise.</p>
-        </div>
-        </div>
-        </div>
-        <div id="cboxOverlay" style={{'display': 'none'}}></div><div id="colorbox" class="" role="dialog" tabindex="-1" style={{ 'display': 'none'}}><div id="cboxWrapper"><div><div id="cboxTopLeft" style={{ 'float': 'left' }}></div><div id="cboxTopCenter" style={{ 'float': 'left' }}></div><div id="cboxTopRight" style={{ 'float': 'left' }}></div></div><div style={{ 'clear': 'left' }}><div id="cboxMiddleLeft" style={{ 'float': 'left' }}></div><div id="cboxContent" style={{ 'float': 'left' }}><div id="cboxTitle" style={{ 'float': 'left' }}></div><div id="cboxCurrent" style={{ 'float': 'left' }}></div><button id="cboxPrevious"></button><button id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style={{ 'float': 'left' }}></div><div id="cboxLoadingGraphic" style={{ 'float': 'left' }}></div><button id="cboxClose"></button></div><div id="cboxMiddleRight" style={{ 'float': 'left' }}></div></div><div style={{ 'clear': 'left' }}><div id="cboxBottomLeft" style={{ 'float': 'left' }}></div><div id="cboxBottomCenter" style={{ 'float': 'left' }}></div><div id="cboxBottomRight" style={{ 'float': 'left' }}></div></div></div><div style= {{ 'position': 'absolute', 'width': '9999px', 'visibility': 'hidden', 'display': 'none' }}></div></div></body>
+       
     );
   }
 }
