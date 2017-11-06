@@ -34,6 +34,7 @@ class Footer extends Component {
       </a>
       </li>
       </ul>
+      <br />
       <p className="promise">No spam. We promise.</p>
       </div>
       </div>

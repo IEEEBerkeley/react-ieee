@@ -6,7 +6,9 @@ class Header extends Component {
     return (
       <div className="header">
         <div className="logo-cal vertically-centered" style={{marginTop: '14px', marginBottom: '14px'}}>
+        <Link to={"/"}>
         <img alt={"Logo"} src={require("../assets/logo_main.png")} />
+        </Link>
         </div>
         <div className="navigation">
         <ul>

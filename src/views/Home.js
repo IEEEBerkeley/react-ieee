@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import homeImage from '../assets/home.png';
 
 class Home extends Component {

@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import homeImage from '../assets/home.png';
+import { Link } from 'react-router-dom';
+import memberImage from '../../assets/members.jpg';
 
 class About extends Component {
   render() {
     return (
       <div>
         <div className="hero"
-        style={{ backgroundImage: "url(" + homeImage + ")" }}>
+        style={{ backgroundImage: "url(" + memberImage + ")" }}>
+        </div>
+        <div className="submenu">
+        <ul>
+        <Link to={"/about"}><li className="">About</li></Link>
+        <Link to={"/about/officers"}><li className="">Officers</li></Link>
+        <Link to={"/about/contact"}><li className="">Contact</li></Link>
+        </ul>
         </div>
         <div class='content'>
           <div class='left'>

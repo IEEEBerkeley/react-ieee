@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://abhinadduri.github.io/react-ieee/",
   "dependencies": {
+    "fs": "0.0.1-security",
     "gh-pages": "^1.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
