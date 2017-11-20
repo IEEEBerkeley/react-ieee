@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import memberImage from '../../assets/members.jpg';
-
+// const fetch = require('fetch');
 
 function tryAndDefault(str) {
   try {

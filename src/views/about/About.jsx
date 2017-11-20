@@ -41,6 +41,7 @@ class About extends Component {
             <p>
               Club Membership has also been broken into 2 types, Officer and Member
             </p>
+            <br />
             <h3 class='blue'>
               Member
             </h3>
@@ -58,6 +59,7 @@ class About extends Component {
                 May qualify for micromouse funding IEEE Micromouse<br/>Article <a href="http://theinstitute.ieee.org/people/students/students-reinvent-micromouse-competition809" class="blue">click here</a>
               </li>
             </ul>
+            <br />
             <h3 class='blue'>
               Officer
             </h3>

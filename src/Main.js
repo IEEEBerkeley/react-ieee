@@ -11,7 +11,6 @@ import Archive from './views/hope/Archive';
 import Micromouse from './views/Micromouse';
 import About from './views/about/About';
 import Officers from './views/about/Officers';
-import Contact from './views/about/Contact';
 
 
 const Main = () => (
@@ -27,7 +26,7 @@ const Main = () => (
       <Route path='/micromouse' component={Micromouse}/>
       <Route exact path='/about' component={About}/>
       <Route path='/about/officers' component={Officers}/>
-      <Route path='/about/contact' component={Contact}/>
+      <Route path='/about/contact' component={About}/>
       <Route path='/*' component={Home}/>
     </Switch>
 )
