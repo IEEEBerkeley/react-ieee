@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import industryImage from '../assets/industry.png';
+import industryImage from '../../assets/industry.png';
 
 class Industry extends Component {
   render() {
@@ -13,7 +13,6 @@ class Industry extends Component {
         <ul>
         <Link to={"/industry"}><li className="">Information</li></Link>
         <Link to={"/industry/sponsors"}><li className="">Sponsors</li></Link>
-        <Link to={"/industry/donate"}><li className="">Donate</li></Link>
         </ul>
       </div>
       <div class = 'content'>

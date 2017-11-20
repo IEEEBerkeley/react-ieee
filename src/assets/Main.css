@@ -161,36 +161,36 @@
 }
 @font-face {
     font-family: 'OpenSansRegular';
-    src: url(/assets/opensans/OpenSans-Regular-webfont-c72c82162ce18b4b7712ca251dfa6078.eot);
-    src: url(/assets/opensans/OpenSans-Regular-webfont.eot?#iefix) format("embedded-opentype"), url(/assets/opensans/OpenSans-Regular-webfont-d78c50b191dadd2a6d70f10c142a5848.woff) format("woff"), url(/assets/opensans/OpenSans-Regular-webfont-84d6d1c15e06588f99b5c06a07fc5562.ttf) format("truetype"), url(/assets/opensans/OpenSans-Regular-webfont.svg#OpenSansRegular) format("svg");
+    src: url(fonts/opensans/OpenSans-Regular-webfont.eot);
+    src: url(fonts/opensans/OpenSans-Regular-webfont.eot?#iefix) format("embedded-opentype"), url(fonts/opensans/OpenSans-Regular-webfont.woff) format("woff"), url(fonts/opensans/OpenSans-Regular-webfont.ttf) format("truetype"), url(fonts/opensans/OpenSans-Regular-webfont.svg#OpenSansRegular) format("svg");
     font-weight: normal;
     font-style: normal
 }
 @font-face {
     font-family: 'OpenSansLight';
-    src: url(/assets/opensans/OpenSans-Light-webfont-de9d2280c2dec93c71b5e4b08b4a5fc8.eot);
-    src: url(/assets/opensans/OpenSans-Light-webfont.eot?#iefix) format("embedded-opentype"), url(/assets/opensans/OpenSans-Light-webfont-3b43733ccf5c2974a55d15ebda9797bb.woff) format("woff"), url(/assets/opensans/OpenSans-Light-webfont-94d489e3c043d8a6bfd4fa0e3d55276a.ttf) format("truetype"), url(/assets/opensans/OpenSans-Light-webfont.svg#OpenSansRegular) format("svg");
+    src: url(fonts/opensans/OpenSans-Light-webfont.eot);
+    src: url(fonts/opensans/OpenSans-Light-webfont.eot?#iefix) format("embedded-opentype"), url(fonts/opensans/OpenSans-Light-webfont.woff) format("woff"), url(fonts/opensans/OpenSans-Light-webfont.ttf) format("truetype"), url(fonts/opensans/OpenSans-Light-webfont.svg#OpenSansRegular) format("svg");
     font-weight: normal;
     font-style: normal
 }
 @font-face {
     font-family: 'OpenSansItalic';
-    src: url(/assets/opensans/OpenSans-Italic-webfont-f4da9a2b5001a52cd8d2912484625136.eot);
-    src: url(/assets/opensans/OpenSans-Italic-webfont.eot?#iefix) format("embedded-opentype"), url(/assets/opensans/OpenSans-Italic-webfont-e23fd14a70284b52b4b1054f32cedfa2.woff) format("woff"), url(/assets/opensans/OpenSans-Italic-webfont-5f8f8b1b0409a21715d0220208b9a035.ttf) format("truetype"), url(/assets/opensans/OpenSans-Italic-webfont.svg#OpenSansItalic) format("svg");
+    src: url(fonts/opensans/OpenSans-Italic-webfont.eot);
+    src: url(fonts/opensans/OpenSans-Italic-webfont.eot?#iefix) format("embedded-opentype"), url(fonts/opensans/OpenSans-Italic-webfont.woff) format("woff"), url(fonts/opensans/OpenSans-Italic-webfont.ttf) format("truetype"), url(fonts/opensans/OpenSans-Italic-webfont.svg#OpenSansItalic) format("svg");
     font-weight: normal;
     font-style: normal
 }
 @font-face {
     font-family: 'OpenSansSemibold';
-    src: url(/assets/opensans/OpenSans-Semibold-webfont-3bd85112665ee6454f1a4d171d883b21.eot);
-    src: url(/assets/opensans/OpenSans-Semibold-webfont.eot?#iefix) format("embedded-opentype"), url(/assets/opensans/OpenSans-Semibold-webfont-fbbdd151f3dc7dd6cbda1ae53d3028dd.woff) format("woff"), url(/assets/opensans/OpenSans-Semibold-webfont-5081332bc819b1737b7255f1bf70eed3.ttf) format("truetype"), url(/assets/opensans/OpenSans-Semibold-webfont.svg#OpenSansSemibold) format("svg");
+    src: url(fonts/opensans/OpenSans-Semibold-webfont.eot);
+    src: url(fonts/opensans/OpenSans-Semibold-webfont.eot?#iefix) format("embedded-opentype"), url(fonts/opensans/OpenSans-Semibold-webfont.woff) format("woff"), url(fonts/opensans/OpenSans-Semibold-webfont.ttf) format("truetype"), url(fonts/opensans/OpenSans-Semibold-webfont.svg#OpenSansSemibold) format("svg");
     font-weight: normal;
     font-style: normal
 }
 @font-face {
     font-family: 'glyph';
-    src: url(/assets/glyph/glyph-b3c2138e1ccba1f2ce9960d2f6710648.eot);
-    src: url(/assets/glyph/glyph.eot?#iefix) format("embedded-opentype"), url(/assets/glyph/glyph-323b72dfeb0b7db7b550657fe750596e.woff) format("woff"), url(/assets/glyph/glyph-3de288d0cf8001c3b8bebf06f3aadc7b.ttf) format("truetype"), url(/assets/glyph/glyph.svg#icomoon) format("svg");
+    src: url(fonts/glyph/glyph.eot);
+    src: url(fonts/glyph/glyph.eot?#iefix) format("embedded-opentype"), url(fonts/glyph/glyph.woff) format("woff"), url(fonts/glyph/glyph.ttf) format("truetype"), url(fonts/glyph/glyph.svg#icomoon) format("svg");
     font-weight: normal;
     font-style: normal
 }
@@ -718,7 +718,7 @@ form.formtastic ol li p {
     text-align: center;
     color: #FFFFFF;
     float: left;
-    background-image: url(/assets/date-79f7d7fa2144993d831484d4c48678e7.png);
+    background-image: url(date.png);
     background-position: center center;
     background-repeat: no-repeat
 }

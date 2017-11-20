@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './views/Home';
 import Events from './views/Events';
-import Industry from './views/Industry';
-import Calendar from './views/Industry';
+import Industry from './views/industry/Industry';
+import Sponsor from './views/industry/Sponsor';
 import Hope from './views/hope/Hope';
 import Faq from './views/hope/Faq';
 import Resources from './views/hope/Resources';
@@ -18,7 +18,8 @@ const Main = () => (
     <Switch>
       <Route exact path='/' component={Home}/>
       <Route path='/events' component={Events}/>
-      <Route path='/industry' component={Industry}/>
+      <Route exact path='/industry' component={Industry}/>
+      <Route path='/industry/sponsors' component={Sponsor}/>
       <Route exact path='/hope' component={Hope}/>
       <Route path='/hope/faq' component={Faq}/>
       <Route path='/hope/resources' component={Resources}/>

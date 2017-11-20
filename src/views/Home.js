@@ -34,6 +34,7 @@ class Home extends Component {
             <p>
             Club Membership has also been broken into 2 types, Officer and Member
             </p>
+            <br />
             <h3 className="blue">
             Member
             </h3>
@@ -51,6 +52,7 @@ class Home extends Component {
             May qualify for micromouse funding IEEE Micromouse<br />Article <a href="http://theinstitute.ieee.org/people/students/students-reinvent-micromouse-competition809" className="blue">click here</a>
             </li>
             </ul>
+            <br />
             <h3 className="blue">
             Officer
             </h3>
@@ -74,9 +76,6 @@ class Home extends Component {
             Business cards and an <a href="https://ieee.berkeley.edu/" className="blue">ieee.berkeley.edu</a> email address<a href="https://ieee.berkeley.edu/" className="blue"></a>
             </li>
             </ul>
-            <span className="heading">
-            <a href="https://ieee.berkeley.edu/events" className="blue">Upcoming Events</a>
-            </span>
           </div>
           <div className="right">
             <span className="heading">
