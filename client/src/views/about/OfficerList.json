@@ -1,0 +1,151 @@
+{
+    "Exec": [
+      {
+        "Chair": "Neeli Tummala"
+      },
+      {
+        "External V.P.": "Andrew Chan"
+      },
+      {
+        "Internal V.P.": "Alex Kumamoto"
+      },
+      {
+        "Treasurer": "Benjamin Li"
+      },
+      {
+        "Secretary": "Kevin Ma"
+      }
+    ],
+
+    "Website": [
+      {
+        "Director": "Abhinav Adduri"
+      },
+      {
+        "Officer": "Tejas Bharadwaj"
+      },
+      {
+        "Officer": "Anuj Desai"
+      },
+      {
+        "Officer": "Bill Cai"
+      }
+    ],
+
+    "Activities": [
+      {
+        "Director": "Kevin Jiao"
+      },
+      {
+        "Officer": "Jay Dong"
+      },
+      {
+        "Officer": "James Marsh"
+      },
+      {
+        "Officer": "Eric Wang"
+      },
+      {
+        "Officer": "Edward Fang"
+      }
+    ],
+
+    "Hope": [
+      {
+        "Director": "Kevin Zheng"
+      },
+      {
+        "Officer": "Hall Chen"
+      },
+      {
+        "Officer": "Kyle Tanghe"
+      },
+      {
+        "Officer": "Ernesto Rojas"
+      },
+      {
+        "Officer": "Tiffany Chien"
+      }
+    ],
+
+    "Indrel": [
+      {
+        "Director": "Alex Thomas"
+      },
+      {
+        "Officer": "Daniel Duazo"
+      },
+      {
+        "Officer": "Neha Godbole"
+      },
+      {
+        "Officer": "Srividhya Shanker"
+      },
+      {
+        "Officer": "Aishwarya Bhupatiraju"
+      },
+      {
+        "Officer": "Anoosha Balebail"
+      }
+    ],
+
+    "Prodev": [
+      {
+        "Director": "Hubert Tsen"
+      },
+      {
+        "Officer": "Alex Kassil"
+      },
+      {
+        "Officer": "Sock Ryu"
+      }
+    ],
+
+    "Techops": [
+      {
+        "Director": "Robert Quitt"
+      },
+      {
+        "Officer": "Ahad Rauf"
+      },
+      {
+        "Officer": "Sumukh Shiv"
+      },
+      {
+        "Officer": "Henry Muller"
+      },
+      {
+        "Officer": "Alex Pissinou Makki"
+      },
+      {
+        "Officer": "Lily Bhattacharjee"
+      },
+      {
+        "Officer": "Derek Zhou"
+      }
+    ],
+
+    "Micromouse": [
+      {
+        "Director": "Brent Yi"
+      },
+      {
+        "Officer": "Allan Zhao"
+      },
+      {
+        "Officer": "Billy Zhao"
+      },
+      {
+        "Officer": "Chandler Chen"
+      },
+      {
+        "Officer": "Nandita Iyer"
+      },
+      {
+        "Officer": "David Tseng"
+      },
+      {
+        "Officer": "Gregory Balke"
+      }
+    ]
+}
