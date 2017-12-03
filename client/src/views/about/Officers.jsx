@@ -70,7 +70,6 @@ class About extends Component {
   }
 
   updateFaces() {
-    // to do for next meeting
     let key = "" + this.currentCommittee;
 
     let grid = document.getElementById("face-grid");

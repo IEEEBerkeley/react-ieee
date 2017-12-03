@@ -377,6 +377,7 @@ a.icon-link span.icon {
     margin: 0px auto;
     list-style-type: none;
     line-height: 70px;
+    text-align: center;
     padding: 0px
 }
 .submenu ul a {
@@ -385,9 +386,12 @@ a.icon-link span.icon {
 }
 .submenu ul li {
     float: left;
-    margin-right: 125px;
+    width: 142px;
     font-size: 18px;
     font-family: 'OpenSansLight'
+}
+.submenu ul li:hover:not(.page) {
+    background-color: #CDCDCD;
 }
 .submenu ul li.current {
     background-image: url(/assets/current-fd27db282a6e23a595e9cd3c06a08912.png);

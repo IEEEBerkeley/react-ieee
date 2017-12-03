@@ -41,19 +41,19 @@ class Header extends Component {
         </ul>
         <ul>
           <li className="main">
-          <Link to={"/hope"}>H.O.P.E.</Link>
+          <Link to={"/prodev"}>PRODEV</Link>
           </li>
           <li className="option">
-          <Link to={"/hope"}>About</Link>
+          <Link to={"/prodev"}>About</Link>
           </li>
           <li className="option">
-          <Link to={"/hope/faq"}>FAQ</Link>
+          <Link to={"/prodev/faq"}>FAQ</Link>
           </li>
           <li className="option">
-          <Link to={"/hope/resources"}>Resources</Link>
+          <Link to={"/prodev/resources"}>Resources</Link>
           </li>
           <li className="option">
-          <Link to={"/hope/archive"}>Archive</Link>
+          <Link to={"/prodev/archive"}>Archive</Link>
           </li>
         </ul>
         <ul>

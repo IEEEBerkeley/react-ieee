@@ -11,11 +11,11 @@ class Hope extends Component {
         </div>
         <div className="submenu">
         <ul>
-        <Link to={"/hope"}><li className="">H.O.P.E.</li></Link>
-        <Link to={"/hope/faq"}><li className="">FAQ</li></Link>
-        <Link to={"/hope/resources"}><li className="">Resources</li></Link>
-        <Link to={"/hope/archive"}><li className="">Archive</li></Link>
-        <li className="page">H.O.P.E.</li>
+        <Link to={"/prodev"}><li className="">PRODEV</li></Link>
+        <Link to={"/prodev/faq"}><li className="">FAQ</li></Link>
+        <Link to={"/prodev/resources"}><li className="">Resources</li></Link>
+        <Link to={"/prodev/archive"}><li className="">Archive</li></Link>
+        <li className="page">PRODEV</li>
         </ul>
         </div>
         <div className="content">
