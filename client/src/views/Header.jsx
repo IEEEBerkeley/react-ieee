@@ -69,7 +69,7 @@ class Header extends Component {
           <Link to={"/about"}>Information</Link>
           </li>
           <li className="option">
-          <Link to={"/about/officers"}>Officers</Link>
+          <Link to={"/about/leadership"}>Leadership</Link>
           </li>
           <li className="option">
           <Link to={"/about/contact"}>Contact</Link>

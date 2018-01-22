@@ -128,7 +128,7 @@ class About extends Component {
         <div className="submenu">
         <ul>
         <Link to={"/about"}><li className="">About</li></Link>
-        <Link to={"/about/officers"}><li className="">Officers</li></Link>
+        <Link to={"/about/leadership"}><li className="">Officers</li></Link>
         <Link to={"/about/contact"}><li className="">Contact</li></Link>
         </ul>
         </div>
@@ -169,7 +169,7 @@ class About extends Component {
             </div>
           </div>
           <div className="right">
-            <span className="heading blue">Officers</span>
+            <span className="heading blue">Leadership</span>
             <br />
             <br />
             <ul className="committee-list ui-accordion ui-widget ui-helper-reset" role="tablist">

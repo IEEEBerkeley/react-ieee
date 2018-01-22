@@ -25,7 +25,7 @@ const Main = () => (
       <Route path='/prodev/archive' component={Archive}/>
       <Route path='/micromouse' component={Micromouse}/>
       <Route exact path='/about' component={About}/>
-      <Route path='/about/officers' component={Officers}/>
+      <Route path='/about/leadership' component={Officers}/>
       <Route path='/about/contact' component={About}/>
       <Route path='/*' component={Home}/>
     </Switch>
