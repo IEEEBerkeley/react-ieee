@@ -2,8 +2,6 @@
   "name": "react-ieee",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abhinadduri.github.io/react-ieee/",
-  "proxy": "http://localhost:3001/",
   "dependencies": {
     "dns": "^0.2.2",
     "express": "^4.16.2",
