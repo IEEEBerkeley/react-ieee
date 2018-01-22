@@ -34,10 +34,10 @@
 
     "Activities": [
       {
-        "Director": "Kevin Jiao"
+        "Director": "Jay Dong"
       },
       {
-        "Officer": "Jay Dong"
+        "Officer": "Kevin Jiao"
       },
       {
         "Officer": "James Marsh"
@@ -55,7 +55,7 @@
         "Director": "Kevin Zheng"
       },
       {
-        "Officer": "Hall Chen"
+        "Director": "Hall Chen"
       },
       {
         "Officer": "Kyle Tanghe"
@@ -91,13 +91,10 @@
 
     "Prodev": [
       {
-        "Director": "Hubert Tsen"
+        "Director": "Sock Ryu"
       },
       {
         "Officer": "Alex Kassil"
-      },
-      {
-        "Officer": "Sock Ryu"
       }
     ],
 
@@ -130,6 +127,9 @@
         "Director": "Brent Yi"
       },
       {
+        "Director": "Gregory Balke"
+      },
+      {
         "Officer": "Allan Zhao"
       },
       {
@@ -143,9 +143,12 @@
       },
       {
         "Officer": "David Tseng"
-      },
+      }
+    ],
+
+    "Photography": [
       {
-        "Officer": "Gregory Balke"
+        "Director": "Billy Lu"
       }
     ]
 }

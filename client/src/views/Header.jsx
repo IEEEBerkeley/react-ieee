@@ -21,9 +21,9 @@ class Header extends Component {
           <li className="option">
           <Link to={"/events/calendar"}>Calendar</Link>
           </li>
-          <li className="option">
+          {/*<li className="option">
           <Link to={"/events/photos"}>Photos</Link>
-          </li>
+          </li>*/}
         </ul>
         <ul>
           <li className="main">
@@ -35,11 +35,11 @@ class Header extends Component {
           <li className="option">
           <Link to={"/industry/sponsors"}>Sponsors</Link>
           </li>
-          <li className="option">
+          {/*<li className="option">
           <Link to={"/industry/donate"}>Donate</Link>
-          </li>
+          </li>*/}
         </ul>
-        <ul>
+        {/*<ul>
           <li className="main">
           <Link to={"/prodev"}>PRODEV</Link>
           </li>
@@ -55,7 +55,7 @@ class Header extends Component {
           <li className="option">
           <Link to={"/prodev/archive"}>Archive</Link>
           </li>
-        </ul>
+        </ul>*/}
         <ul>
           <li className="main">
           <Link to={"/micromouse"}>MICROMOUSE</Link>

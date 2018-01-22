@@ -31,7 +31,7 @@ class About extends Component {
       "7": "Techops",
       "8": "Website",
       "9": "Micromouse",
-      "0": "Alumni"
+      "0": "Photography"
     }
   }
   
@@ -243,6 +243,16 @@ class About extends Component {
               </p>
               </div>
             </li>
+            <li data-committee_id="0">
+              <span onClick={(e) => this.changeView(0, e)} className="committee-name clickable ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-1-header-9" aria-controls="ui-accordion-1-panel-9" aria-selected="false" tabIndex="-1"><span className="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
+              Photography
+              </span>
+              <div className="committee-description ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-9" aria-labelledby="ui-accordion-1-header-9" role="tabpanel" aria-expanded="false" aria-hidden="true" style={{display: "none"}}>
+              <p>
+              The Photography committee is in charge of taking photos at events and editing leadership portraits.
+              </p>
+              </div>
+            </li>
             <li data-committee_id="8">
               <span onClick={(e) => this.changeView(8, e)} className="committee-name clickable ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-1-header-8" aria-controls="ui-accordion-1-panel-8" aria-selected="false" tabIndex="-1"><span className="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
               Website
@@ -253,16 +263,7 @@ class About extends Component {
               </p>
               </div>
             </li>
-            <li data-committee_id="0">
-              <span onClick={(e) => this.changeView(0, e)} className="committee-name clickable ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-1-header-9" aria-controls="ui-accordion-1-panel-9" aria-selected="false" tabIndex="-1"><span className="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
-              Alumni
-              </span>
-              <div className="committee-description ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-9" aria-labelledby="ui-accordion-1-header-9" role="tabpanel" aria-expanded="false" aria-hidden="true" style={{display: "none"}}>
-              <p>
-              The glorious alumni, no longer with us on campus, but doing great things in the wild.
-              </p>
-              </div>
-            </li>
+            
             </ul>
 
           </div>

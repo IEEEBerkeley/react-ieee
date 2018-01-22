@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import homeImage from '../assets/home.png';
+import micromouseImage from '../assets/micromouse.png';
 
 class Micromouse extends Component {
   render() {
@@ -8,7 +8,7 @@ class Micromouse extends Component {
         <html>
         <body>
             <div className="hero"
-                style={{ backgroundImage: "url(" + homeImage + ")" }}>
+                style={{ backgroundImage: "url(" + micromouseImage + ")" }}>
             </div>
         <div class='content'>
         <span class='heading blue'>

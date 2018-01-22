@@ -12,7 +12,7 @@ class About extends Component {
         <div className="submenu">
         <ul>
         <Link to={"/about"}><li className="">About</li></Link>
-        <Link to={"/about/officers"}><li className="">Officers</li></Link>
+        <Link to={"/about/leadership"}><li className="">Officers</li></Link>
         <Link to={"/about/contact"}><li className="">Contact</li></Link>
         </ul>
         </div>
@@ -84,7 +84,7 @@ class About extends Component {
               </li>
             </ul>
           </div>
-          <div class='right'>
+          {/*<div class='right'>
             <ul>
               <li>
                 <a href="/ieeeconstitution.pdf">Our Constitution</a>
@@ -93,7 +93,7 @@ class About extends Component {
                 <a href="/about/advisor">Our Advisor</a>
               </li>
             </ul>
-          </div>
+          </div>*/}
         </div>
       </div>
     );

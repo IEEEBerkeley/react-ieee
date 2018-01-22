@@ -1,9 +1,67 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import eventsImage from '../assets/home.png';
 
 class Events extends Component {
+  constructor() {
+    super();
+    this.currentPage = 1;
+    this.numEvents = 10;
+    let self = this;
+  }
+
+  componentDidMount() {
+    this.changePage(1, null);
+  }
+
+  range(n) {
+    let arr = [];
+    for (let i = 1; i <= n; i++) {
+      arr.push(i);
+    }
+    return arr;
+  }
+
+  changePage(n, e) {
+    let newPage;
+
+    if (e == null) newPage = n;
+    else {
+      if (e.target.innerText == 'Next ›') {
+        newPage = this.currentPage + 1;
+      } else {
+        newPage = parseInt(e.target.innerText);
+      }
+    }
+    if (newPage > Math.ceil(this.numEvents / 4)) return;
+
+    let arr = document.getElementById('eventList').getElementsByClassName('event');
+    let steps = 0;
+
+    for (let i = 0; i < (newPage - 1) * 4; i++) {
+      steps += 1;
+      arr[i].style.display = 'none';
+    }
+
+    if (steps < arr.length)
+      arr[steps].style.display = 'block';
+    if (steps + 1 < arr.length)
+      arr[steps + 1].style.display = 'block';
+    if (steps + 2 < arr.length)
+      arr[steps + 2].style.display = 'block';
+    if (steps + 3 < arr.length)
+      arr[steps + 3].style.display = 'block';
+
+    for (let i = steps + 4; i < arr.length; i++) {
+      arr[i].style.display = 'none';
+    }
+
+    this.currentPage = newPage;
+  }
+
   render() {
+    let self = this;
     return (
       <div>
         <div className="hero"
@@ -15,14 +73,15 @@ class Events extends Component {
           {/*<Link to={"/industry/donate"}><li className="">Photos</li></Link>*/}
         </ul>
       </div>
-        <div class="content">
-        <div class="left">
+      <div class="content">
+      <div class="left">
         <span class="heading blue">All Events</span>
 
+        <div id="eventList">
         <div class="event">
           <div class="date">
           <span class="number">
-          26
+          23
           </span>
           <span class="month">
           Jan
@@ -30,53 +89,24 @@ class Events extends Component {
           </div>
         <div class="event-past www">
         <span class="event-title">
-        <a href="/events/58" class="event-title">General Meeting</a>
+        <p class="event-title">Calapalooza</p>
         </span>
         <div class="details">
           <span class="event-location">
           <span aria-hidden="true" class="icon icon-location"></span>
-          540 Cory
+          Lower Sproul
           </span>
           <span class="event-time">
           <span aria-hidden="true" class="icon icon-clock"></span>
-          Tuesday, 7 pm - 9 pm
+          Tuesday, 11 am - 2 pm
           </span>
           <p>
-          Come learn about UC Berkeley IEEE and how you can be involved!
+          Stop by our IEEE table at Calapalooza to learn more about us and how you can get involved!
           </p>
         </div>
         </div>
         </div>
-
-
-        <div class="event">
-        <div class="date">
-        <span class="number">
-        8
-        </span>
-        <span class="month">
-        Dec
-        </span>
-        </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <a href="/events/55" class="event-title">Micromouse final competition!</a>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        299 Cory
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Tuesday, 7:30 am - 8 am
-        </span>
-        <p>
-        Stop by to see our teams tackle our maze with their robot mice!
-        </p>
-        </div>
-        </div>
-        </div>
+        
 
 
         <div class="event">
@@ -85,29 +115,27 @@ class Events extends Component {
         23
         </span>
         <span class="month">
-        Sep
+        Jan
         </span>
         </div>
         <div class="event-past www">
         <span class="event-title">
-        <a href="/events/57" class="event-title">The Changing Face of Computing, from Serves to Sensors</a>
+        <p class="event-title">General Motors Infosession</p>
         </span>
         <div class="details">
         <span class="event-location">
         <span aria-hidden="true" class="icon icon-location"></span>
-        Banatao Auditorium, Sutardja Dai Hall
+        Wozniak Lounge
         </span>
         <span class="event-time">
         <span aria-hidden="true" class="icon icon-clock"></span>
-        Wednesday, 12 pm - 1 pm
+        Tuesday, 6 pm - 7:30 pm
         </span>
         <p>
-        EECS Department Colloquium Series and IEEE will co-host the first View from Top of the fall semester with Simon Segars, CEO, ARM Holdings. Mr. Segars will speak on The Changing Face of Computing, from Serves to Sensors: No longer relegated to a locked room in a building’s basement, computing is now all around us in plain sight – but we just cannot see it. This evolution of computing is having a profound impact on what we can achieve – and on the technology required to deliver computing. From servers to sensors, new technology is being invented while existing technology is re-invented.
-
-
-        Lunch will be provided!
-
-        http://engineering.berkeley.edu/news-events/events/view-top
+        Come out to the Wozniak Lounge on 1/23 for a chance to meet employees from GM, to learn about GM AND to get free pizza! Kevin Tierney, the GM director for "Vehicle Architecture Cybersecurity", will be giving a talk on addressing vehicle cybersecurity threat. Stay after to talk about potential employment or internship opportunities!
+        <br />
+        <br />
+        <a class="blue" href="https://www.facebook.com/events/1715603525150725/">https://www.facebook.com/events/1715603525150725/</a>
         </p>
         </div>
         </div>
@@ -117,67 +145,255 @@ class Events extends Component {
         <div class="event">
         <div class="date">
         <span class="number">
-        3
+        25
         </span>
         <span class="month">
-        Sep
+        Jan
         </span>
         </div>
         <div class="event-past www">
         <span class="event-title">
-        <a href="/events/56" class="event-title">General Meeting #1</a>
+        <p class="event-title">IEEE Spring 2018 Infosession</p>
         </span>
         <div class="details">
         <span class="event-location">
         <span aria-hidden="true" class="icon icon-location"></span>
-        521 Cory Hall
+        Wozniak Lounge
         </span>
         <span class="event-time">
         <span aria-hidden="true" class="icon icon-clock"></span>
-        Thursday, 6:30 pm - 7:30 pm
+        Thursday, 8 pm
         </span>
         <p>
-        Come learn about being involved in IEEE at U.C. Berkeley!
+        Come out to UC Berkeley IEEE's infosession for the Spring 2018 semester to learn more about who we are, what we do, and how to get involved! We will be recruiting for many officer positions, regardless of your class standing and prior involvement with IEEE. Free Sliver pizza will be provided and we will be giving away swag!
+        <br />
+        <br />
+        <a class="blue" href="https://www.facebook.com/events/393016431122760/">https://www.facebook.com/events/393016431122760/</a>
         </p>
         </div>
         </div>
         </div>
 
+
+        <div class="event">
+        <div class="date">
+        <span class="number">
+        7
+        </span>
+        <span class="month">
+        Feb
+        </span>
+        </div>
+        <div class="event-past www">
+        <span class="event-title">
+        <p class="event-title">Electronic Arts Infosession</p>
+        </span>
+        <div class="details">
+        <span class="event-location">
+        <span aria-hidden="true" class="icon icon-location"></span>
+        Wozniak Lounge
+        </span>
+        <span class="event-time">
+        <span aria-hidden="true" class="icon icon-clock"></span>
+        Wednesday, 6 pm - 8 pm
+        </span>
+        <p>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div class="event">
+        <div class="date">
+        <span class="number">
+        8
+        </span>
+        <span class="month">
+        Feb
+        </span>
+        </div>
+        <div class="event-past www">
+        <span class="event-title">
+        <p class="event-title">IEEE 1st General Meeting</p>
+        </span>
+        <div class="details">
+        <span class="event-location">
+        <span aria-hidden="true" class="icon icon-location"></span>
+        Wozniak Lounge
+        </span>
+        <span class="event-time">
+        <span aria-hidden="true" class="icon icon-clock"></span>
+        Thursday, 8 pm
+        </span>
+        <p>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div class="event">
+        <div class="date">
+        <span class="number">
+        20
+        </span>
+        <span class="month">
+        Feb
+        </span>
+        </div>
+        <div class="event-past www">
+        <span class="event-title">
+        <p class="event-title">Google Tech Talk</p>
+        </span>
+        <div class="details">
+        <span class="event-location">
+        <span aria-hidden="true" class="icon icon-location"></span>
+        Wozniak Lounge
+        </span>
+        <span class="event-time">
+        <span aria-hidden="true" class="icon icon-clock"></span>
+        Tuesday, 6 pm - 8 pm
+        </span>
+        <p>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div class="event">
+        <div class="date">
+        <span class="number">
+        2
+        </span>
+        <span class="month">
+        Mar
+        </span>
+        </div>
+        <div class="event-past www">
+        <span class="event-title">
+        <p class="event-title">IEEE Movie Night</p>
+        </span>
+        <div class="details">
+        <span class="event-location">
+        <span aria-hidden="true" class="icon icon-location"></span>
+        HP Auditorium
+        </span>
+        <span class="event-time">
+        <span aria-hidden="true" class="icon icon-clock"></span>
+        Friday, 5 pm
+        </span>
+        <p>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div class="event">
+        <div class="date">
+        <span class="number">
+        7
+        </span>
+        <span class="month">
+        Mar
+        </span>
+        </div>
+        <div class="event-past www">
+        <span class="event-title">
+        <p class="event-title">GE Digital Infosession</p>
+        </span>
+        <div class="details">
+        <span class="event-location">
+        <span aria-hidden="true" class="icon icon-location"></span>
+        Wozniak Lounge
+        </span>
+        <span class="event-time">
+        <span aria-hidden="true" class="icon icon-clock"></span>
+        Wednesday, 6 pm - 8 pm
+        </span>
+        <p>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div class="event">
+        <div class="date">
+        <span class="number">
+        15
+        </span>
+        <span class="month">
+        Mar
+        </span>
+        </div>
+        <div class="event-past www">
+        <span class="event-title">
+        <p class="event-title">IEEE 2nd General Meeting</p>
+        </span>
+        <div class="details">
+        <span class="event-location">
+        <span aria-hidden="true" class="icon icon-location"></span>
+        Wozniak Lounge
+        </span>
+        <span class="event-time">
+        <span aria-hidden="true" class="icon icon-clock"></span>
+        Thursday, 8 pm
+        </span>
+        <p>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div class="event">
+        <div class="date">
+        <span class="number">
+        24
+        </span>
+        <span class="month">
+        Apr
+        </span>
+        </div>
+        <div class="event-past www">
+        <span class="event-title">
+        <p class="event-title">IEEE 2nd General Meeting</p>
+        </span>
+        <div class="details">
+        <span class="event-location">
+        <span aria-hidden="true" class="icon icon-location"></span>
+        Wozniak Lounge
+        </span>
+        <span class="event-time">
+        <span aria-hidden="true" class="icon icon-clock"></span>
+        Tuesday, 8 pm
+        </span>
+        <p>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        </div>
+
         <div class="event-pagination">
-          <nav class="pagination">
-            
-            
-                <span class="page current">
-          1
+        <nav class="pagination">
+          {this.range(Math.ceil(this.numEvents/4)).map(function(index) {
+            return <span><a style={{cursor: "pointer"}} onClick={(e) => self.changePage(null, e)}>{index} &nbsp;</a></span>;
+          })}
+
+        <span class="page gap">… &nbsp;</span>
+
+        <span class="blue">
+          <a style={{cursor: "pointer"}} onClick={(e) => this.changePage(null, e)}>Next ›</a>
         </span>
 
-                <span class="page">
-          <a href="/events?page=2" rel="next">2</a>
-        </span>
 
-                <span class="page">
-          <a href="/events?page=3">3</a>
-        </span>
-
-                <span class="page">
-          <a href="/events?page=4">4</a>
-        </span>
-
-                <span class="page">
-          <a href="/events?page=5">5</a>
-        </span>
-
-                <span class="page gap">…</span>
-
-            <span class="next">
-          <a href="/events?page=2" rel="next">Next ›</a>
-        </span>
-
-            <span class="last">
-          <a href="/events?page=14">Last »</a>
-        </span>
-
-          </nav>
+        </nav>
 
         </div>
         </div>

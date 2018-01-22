@@ -77,11 +77,11 @@ class Home extends Component {
             </li>
             </ul>
           </div>
-          <div className="right">
+          {/*<div className="right">
             <span className="heading">
             <a className="blue">Photos</a>
             </span>
-          </div>
+          </div>*/}
         </div>
       </div>
     );

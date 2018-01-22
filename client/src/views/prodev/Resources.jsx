@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import hopeImage from '../../assets/hope.png';
+import homeImage from '../../assets/home.png';
 
 class Hope extends Component {
   render() {
     return (
         <div>
         <div className="hero"
-        style={{ backgroundImage: "url(" + hopeImage + ")" }}>
+        style={{ backgroundImage: "url(" + homeImage + ")" }}>
         </div>
         <div className="submenu">
         <ul>
         <Link to={"/prodev"}><li className="">PRODEV</li></Link>
         <Link to={"/prodev/faq"}><li className="">FAQ</li></Link>
-        <Link to={"/prodev/resources"}><li className="">Resources</li></Link>
-        <Link to={"/prodev/archive"}><li className="">Archive</li></Link>
+        {/*<Link to={"/prodev/resources"}><li className="">Resources</li></Link>*/}
+        {/*<Link to={"/prodev/archive"}><li className="">Archive</li></Link>*/}
         <li className="page">PRODEV</li>
         </ul>
         </div>
