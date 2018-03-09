@@ -52,7 +52,7 @@
         "Officer": "Eric Wang"
       },
       {
-        "Officer": "Edward Fang"
+        "Officer": "Alex Hong"
       }
     ],
 
@@ -97,7 +97,7 @@
 
     "Prodev": [
       {
-        "Director": "Sock Ryu"
+        "Director": "Seokhyeon Ryu"
       },
       {
         "Officer": "Alex Kassil"
@@ -124,7 +124,7 @@
         "Officer": "Lily Bhattacharjee"
       },
       {
-        "Officer": "Derek Zhou"
+        "Officer": "Emerson Hsieh"
       }
     ],
 
@@ -155,6 +155,13 @@
     "Photography": [
       {
         "Director": "Billy Lu"
+      },
+      {
+        "Director": "Jennifer Chen"
+      },
+      {
+        "Director": "Jodie Lu"
       }
+
     ]
 }
