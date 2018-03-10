@@ -198,7 +198,7 @@ class Events extends Component {
         Wednesday, 6 pm - 8 pm
         </span>
         <p>
-        
+        Were you ever interested in working for the gaming industry? Come out to the Wozniak Lounge on February 7th at 6 PM to speak to EA employees and the type of projects that you can work on! Free food will be provided!
         </p>
         </div>
         </div>
@@ -256,7 +256,7 @@ class Events extends Component {
         Tuesday, 6 pm - 8 pm
         </span>
         <p>
-        
+        This session will focus on Google engineers (and Berkeley alum!) who work on the hardware team. They’ll provide insight into Google’s emergence into the HW market, the ups and down the teams face, and perform demos. We’ll provide swag and food, please RSVP through the link below to let us know you’ll be in attendance!
         </p>
         </div>
         </div>
@@ -314,7 +314,36 @@ class Events extends Component {
         Wednesday, 6 pm - 8 pm
         </span>
         <p>
-        
+        GE Digital is the leading software company for the Industrial Internet. GE Digital is reimagining industry’s infrastructure by connecting software, apps and analytics to industrial businesses enabling them to operate smarter, faster and more efficiently.   Join GE engineers and recruiters to learn more about our technology and opportunities! Pizza will be served!  
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div class="event">
+        <div class="date">
+        <span class="number">
+        14
+        </span>
+        <span class="month">
+        Mar
+        </span>
+        </div>
+        <div class="event-past www">
+        <span class="event-title">
+        <p class="event-title">Dinner</p>
+        </span>
+        <div class="details">
+        <span class="event-location">
+        <span aria-hidden="true" class="icon icon-location"></span>
+        Cory 258
+        </span>
+        <span class="event-time">
+        <span aria-hidden="true" class="icon icon-clock"></span>
+        Wednesday, 6 pm - 9 pm
+        </span>
+        <p>
+        Come talk with a few engineers and a recruiter from Palo Alto Networks! Find out the daily lives of Palo Alto Network engineers and ask them questions it on their projects. This event is only open for IEEE members. 
         </p>
         </div>
         </div>
