@@ -331,7 +331,7 @@ class Events extends Component {
         </div>
         <div class="event-past www">
         <span class="event-title">
-        <p class="event-title">Dinner</p>
+        <p class="event-title">Palo Alto Networks Dinner</p>
         </span>
         <div class="details">
         <span class="event-location">
