@@ -7,12 +7,15 @@ class Events extends Component {
   constructor() {
     super();
     this.currentPage = 1;
-    this.numEvents = 10;
+    this.state = {numEvents: 10};
     let self = this;
   }
 
   componentDidMount() {
     this.changePage(1, null);
+    this.setState(previousState => {
+      return { numEvents: document.getElementById('eventList').childNodes.length }
+    })
   }
 
   range(n) {
@@ -25,6 +28,7 @@ class Events extends Component {
 
   changePage(n, e) {
     let newPage;
+    let numEvents = this.state.numEvents;
 
     if (e == null) newPage = n;
     else {
@@ -34,7 +38,7 @@ class Events extends Component {
         newPage = parseInt(e.target.innerText);
       }
     }
-    if (newPage > Math.ceil(this.numEvents / 4)) return;
+    if (newPage > Math.ceil(numEvents / 4)) return;
 
     let arr = document.getElementById('eventList').getElementsByClassName('event');
     let steps = 0;
@@ -78,194 +82,11 @@ class Events extends Component {
         <span class="heading blue">All Events</span>
 
         <div id="eventList">
-        <div class="event">
-          <div class="date">
-          <span class="number">
-          23
-          </span>
-          <span class="month">
-          Jan
-          </span>
-          </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">Calapalooza</p>
-        </span>
-        <div class="details">
-          <span class="event-location">
-          <span aria-hidden="true" class="icon icon-location"></span>
-          Lower Sproul
-          </span>
-          <span class="event-time">
-          <span aria-hidden="true" class="icon icon-clock"></span>
-          Tuesday, 11 am - 2 pm
-          </span>
-          <p>
-          Stop by our IEEE table at Calapalooza to learn more about us and how you can get involved!
-          </p>
-        </div>
-        </div>
-        </div>
-        
-
 
         <div class="event">
         <div class="date">
         <span class="number">
-        23
-        </span>
-        <span class="month">
-        Jan
-        </span>
-        </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">General Motors Infosession</p>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        Wozniak Lounge
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Tuesday, 6 pm - 7:30 pm
-        </span>
-        <p>
-        Come out to the Wozniak Lounge on 1/23 for a chance to meet employees from GM, to learn about GM AND to get free pizza! Kevin Tierney, the GM director for "Vehicle Architecture Cybersecurity", will be giving a talk on addressing vehicle cybersecurity threat. Stay after to talk about potential employment or internship opportunities!
-        <br />
-        <br />
-        <a class="blue" href="https://www.facebook.com/events/1715603525150725/">https://www.facebook.com/events/1715603525150725/</a>
-        </p>
-        </div>
-        </div>
-        </div>
-
-
-        <div class="event">
-        <div class="date">
-        <span class="number">
-        25
-        </span>
-        <span class="month">
-        Jan
-        </span>
-        </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">IEEE Spring 2018 Infosession</p>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        Wozniak Lounge
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Thursday, 8 pm
-        </span>
-        <p>
-        Come out to UC Berkeley IEEE's infosession for the Spring 2018 semester to learn more about who we are, what we do, and how to get involved! We will be recruiting for many officer positions, regardless of your class standing and prior involvement with IEEE. Free Sliver pizza will be provided and we will be giving away swag!
-        <br />
-        <br />
-        <a class="blue" href="https://www.facebook.com/events/393016431122760/">https://www.facebook.com/events/393016431122760/</a>
-        </p>
-        </div>
-        </div>
-        </div>
-
-
-        <div class="event">
-        <div class="date">
-        <span class="number">
-        7
-        </span>
-        <span class="month">
-        Feb
-        </span>
-        </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">Electronic Arts Infosession</p>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        Wozniak Lounge
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Wednesday, 6 pm - 8 pm
-        </span>
-        <p>
-        
-        </p>
-        </div>
-        </div>
-        </div>
-
-        <div class="event">
-        <div class="date">
-        <span class="number">
-        8
-        </span>
-        <span class="month">
-        Feb
-        </span>
-        </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">IEEE 1st General Meeting</p>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        Wozniak Lounge
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Thursday, 8 pm
-        </span>
-        <p>
-        
-        </p>
-        </div>
-        </div>
-        </div>
-
-        <div class="event">
-        <div class="date">
-        <span class="number">
-        20
-        </span>
-        <span class="month">
-        Feb
-        </span>
-        </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">Google Tech Talk</p>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        Wozniak Lounge
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Tuesday, 6 pm - 8 pm
-        </span>
-        <p>
-        
-        </p>
-        </div>
-        </div>
-        </div>
-
-        <div class="event">
-        <div class="date">
-        <span class="number">
-        2
+        14
         </span>
         <span class="month">
         Mar
@@ -273,48 +94,19 @@ class Events extends Component {
         </div>
         <div class="event-past www">
         <span class="event-title">
-        <p class="event-title">IEEE Movie Night</p>
+        <p class="event-title">Palo Alto Networks Dinner</p>
         </span>
         <div class="details">
         <span class="event-location">
         <span aria-hidden="true" class="icon icon-location"></span>
-        HP Auditorium
+        Cory 258
         </span>
         <span class="event-time">
         <span aria-hidden="true" class="icon icon-clock"></span>
-        Friday, 5 pm
+        Wednesday, 6 pm - 9 pm
         </span>
         <p>
-        
-        </p>
-        </div>
-        </div>
-        </div>
-
-        <div class="event">
-        <div class="date">
-        <span class="number">
-        7
-        </span>
-        <span class="month">
-        Mar
-        </span>
-        </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">GE Digital Infosession</p>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        Wozniak Lounge
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Wednesday, 6 pm - 8 pm
-        </span>
-        <p>
-        
+        Come talk with a few engineers and a recruiter from Palo Alto Networks! Find out the daily lives of Palo Alto Network engineers and ask them questions it on their projects. This event is only open for IEEE members. 
         </p>
         </div>
         </div>
@@ -349,40 +141,11 @@ class Events extends Component {
         </div>
         </div>
 
-        <div class="event">
-        <div class="date">
-        <span class="number">
-        24
-        </span>
-        <span class="month">
-        Apr
-        </span>
-        </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">IEEE 2nd General Meeting</p>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        Wozniak Lounge
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Tuesday, 8 pm
-        </span>
-        <p>
-        
-        </p>
-        </div>
-        </div>
-        </div>
-
         </div>
 
         <div class="event-pagination">
         <nav class="pagination">
-          {this.range(Math.ceil(this.numEvents/4)).map(function(index) {
+          {this.range(Math.ceil(this.state.numEvents/4)).map(function(index) {
             return <span><a style={{cursor: "pointer"}} onClick={(e) => self.changePage(null, e)}>{index} &nbsp;</a></span>;
           })}
 
