@@ -39,6 +39,11 @@ class Header extends Component {
           <Link to={"/industry/donate"}>Donate</Link>
           </li>*/}
         </ul>
+        <ul>
+          <li className="main">
+            <a href="https://ieee.berkeley.edu/hope/">HOPE</a>
+          </li>
+        </ul>
         {/*<ul>
           <li className="main">
           <Link to={"/prodev"}>PRODEV</Link>
