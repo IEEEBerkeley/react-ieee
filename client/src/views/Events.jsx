@@ -7,12 +7,15 @@ class Events extends Component {
   constructor() {
     super();
     this.currentPage = 1;
-    this.numEvents = 10;
+    this.state = {numEvents: 10};
     let self = this;
   }
 
   componentDidMount() {
     this.changePage(1, null);
+    this.setState(previousState => {
+      return { numEvents: document.getElementById('eventList').childNodes.length }
+    })
   }
 
   range(n) {
@@ -25,6 +28,7 @@ class Events extends Component {
 
   changePage(n, e) {
     let newPage;
+    let numEvents = this.state.numEvents;
 
     if (e == null) newPage = n;
     else {
@@ -34,7 +38,7 @@ class Events extends Component {
         newPage = parseInt(e.target.innerText);
       }
     }
-    if (newPage > Math.ceil(this.numEvents / 4)) return;
+    if (newPage > Math.ceil(numEvents / 4)) return;
 
     let arr = document.getElementById('eventList').getElementsByClassName('event');
     let steps = 0;
@@ -82,36 +86,6 @@ class Events extends Component {
         <div class="event">
         <div class="date">
         <span class="number">
-        15
-        </span>
-        <span class="month">
-        Mar
-        </span>
-        </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">IEEE 2nd General Meeting</p>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        Wozniak Lounge
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Thursday, 8 pm
-        </span>
-        <p>
-        
-        </p>
-        </div>
-        </div>
-        </div>
-
-
-        <div class="event">
-        <div class="date">
-        <span class="number">
         14
         </span>
         <span class="month">
@@ -138,11 +112,40 @@ class Events extends Component {
         </div>
         </div>
 
+        <div class="event">
+        <div class="date">
+        <span class="number">
+        15
+        </span>
+        <span class="month">
+        Mar
+        </span>
+        </div>
+        <div class="event-past www">
+        <span class="event-title">
+        <p class="event-title">IEEE 2nd General Meeting</p>
+        </span>
+        <div class="details">
+        <span class="event-location">
+        <span aria-hidden="true" class="icon icon-location"></span>
+        Wozniak Lounge
+        </span>
+        <span class="event-time">
+        <span aria-hidden="true" class="icon icon-clock"></span>
+        Thursday, 8 pm
+        </span>
+        <p>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
         </div>
 
         <div class="event-pagination">
         <nav class="pagination">
-          {this.range(Math.ceil(this.numEvents/4)).map(function(index) {
+          {this.range(Math.ceil(this.state.numEvents/4)).map(function(index) {
             return <span><a style={{cursor: "pointer"}} onClick={(e) => self.changePage(null, e)}>{index} &nbsp;</a></span>;
           })}
 
