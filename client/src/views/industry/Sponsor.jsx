@@ -21,6 +21,11 @@ class Sponsor extends Component {
 <div style={{marginLeft: -10 + 'px'}}>
 <div class="sponsor-container">
 <div class="sponsor">
+<a href="http://www.wish.com/" target="_blank"><img alt="Logo-wish" src={require("../../assets/industry/sponsors/logo-wish.png")} /></a>
+</div>
+</div>
+<div class="sponsor-container">
+<div class="sponsor">
 <a href="http://www.groupon.com" target="_blank"><img alt="Logo-groupon" src={require("../../assets/industry/sponsors/logo-groupon.png")} /></a>
 </div>
 </div>
