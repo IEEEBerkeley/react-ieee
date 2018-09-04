@@ -1,22 +1,25 @@
 {
     "Exec": [
       {
-        "Chair": "Neeli Tummala"
+        "Co-President": "Gregory Balke"
       },
       {
-        "External V.P.": "Andrew Chan"
+        "Co-President": "Brent Yi"
       },
       {
-        "Internal V.P.": "Alex Kumamoto"
+        "External V.P.": "Billy Lu"
       },
       {
-        "Treasurer": "Benjamin Li"
+        "External V.P.": "Ron Thalanki"
       },
       {
-        "Treasurer Intern": "Ron Thalanki"
+        "Internal V.P.": "Alex Kassil"
       },
       {
-        "Secretary": "Kevin Ma"
+        "Treasurer": "Hall Chen"
+      },
+      {
+        "Secretary": "Neha Godbole"
       }
     ],
 
