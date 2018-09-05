@@ -82,66 +82,227 @@ class Events extends Component {
         <span class="heading blue">All Events</span>
 
         <div id="eventList">
-
+{/*Start of code to add new event*/}
         <div class="event">
-        <div class="date">
-        <span class="number">
-        14
-        </span>
-        <span class="month">
-        Mar
-        </span>
-        </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">Palo Alto Networks Dinner</p>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        Cory 258
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Wednesday, 6 pm - 9 pm
-        </span>
-        <p>
-        Come talk with a few engineers and a recruiter from Palo Alto Networks! Find out the daily lives of Palo Alto Network engineers and ask them questions it on their projects. This event is only open for IEEE members. 
-        </p>
-        </div>
-        </div>
-        </div>
+            <div class="date">
+                <span class="number">
+                    10{/*DATE OF EVENT*/}
+                </span>
+                <span class="month">
+                    SEPT{/*EVENT MONTH ABBREVIATION*/}
+                </span>
+            </div>
 
+            <div class="event-past www">
+                <span class="event-title">
+                    <p class="event-title">
+                        New Member Meet & Greet{/*NAME OF EVENT*/}
+                    </p>
+                </span>
+                <div class="details">
+                    <span class="event-location">
+                        <span aria-hidden="true" class="icon icon-location"></span>
+                        Wozniak Lounge{/*EVENT LOCATION*/}
+                    </span>
+                    <span class="event-time">
+                        <span aria-hidden="true" class="icon icon-clock"></span>
+                        8pm-10pm{/*TIME OF EVENT*/}
+                    </span>
+                    <p>
+                        {/*INFORMATION ABOUT EVENT*/}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {/*end of code to add new event*/}
         <div class="event">
-        <div class="date">
-        <span class="number">
-        15
-        </span>
-        <span class="month">
-        Mar
-        </span>
+            <div class="date">
+                <span class="number">
+                    14{/*DATE OF EVENT*/}
+                </span>
+                <span class="month">
+                    SEPT{/*EVENT MONTH*/}
+                </span>
+            </div>
+
+            <div class="event-past www">
+                <span class="event-title">
+                    <p class="event-title">
+                        Board Game Night{/*NAME OF EVENT*/}
+                    </p>
+                </span>
+                <div class="details">
+                    <span class="event-location">
+                        <span aria-hidden="true" class="icon icon-location"></span>
+                        TBA{/*EVENT LOCATION*/}
+                    </span>
+                    <span class="event-time">
+                        <span aria-hidden="true" class="icon icon-clock"></span>
+                        TBA{/*TIME OF EVENT*/}
+                    </span>
+                    <p>
+                        {/*INFORMATION ABOUT EVENT*/}
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="event-past www">
-        <span class="event-title">
-        <p class="event-title">IEEE 2nd General Meeting</p>
-        </span>
-        <div class="details">
-        <span class="event-location">
-        <span aria-hidden="true" class="icon icon-location"></span>
-        Wozniak Lounge
-        </span>
-        <span class="event-time">
-        <span aria-hidden="true" class="icon icon-clock"></span>
-        Thursday, 8 pm
-        </span>
-        <p>
-        
-        </p>
+        <div class="event">
+            <div class="date">
+                <span class="number">
+                    18{/*DATE OF EVENT*/}
+                </span>
+                <span class="month">
+                    SEPT{/*EVENT MONTH*/}
+                </span>
+            </div>
+
+            <div class="event-past www">
+                <span class="event-title">
+                    <p class="event-title">
+                        Wish Info Session{/*NAME OF EVENT*/}
+                    </p>
+                </span>
+                <div class="details">
+                    <span class="event-location">
+                        <span aria-hidden="true" class="icon icon-location"></span>
+                        TBA{/*EVENT LOCATION*/}
+                    </span>
+                    <span class="event-time">
+                        <span aria-hidden="true" class="icon icon-clock"></span>
+                        TBA{/*TIME OF EVENT*/}
+                    </span>
+                    <p>
+                        {/*INFORMATION ABOUT EVENT*/}
+                    </p>
+                </div>
+            </div>
         </div>
+        <div class="event">
+            <div class="date">
+                <span class="number">
+                    22{/*DATE OF EVENT*/}
+                </span>
+                <span class="month">
+                    SEPT{/*EVENT MONTH*/}
+                </span>
+            </div>
+
+            <div class="event-past www">
+                <span class="event-title">
+                    <p class="event-title">
+                        Mentorship Program Starts{/*NAME OF EVENT*/}
+                    </p>
+                </span>
+                <div class="details">
+                    <span class="event-location">
+                        <span aria-hidden="true" class="icon icon-location"></span>
+                        TBA{/*EVENT LOCATION*/}
+                    </span>
+                    <span class="event-time">
+                        <span aria-hidden="true" class="icon icon-clock"></span>
+                        TBA{/*TIME OF EVENT*/}
+                    </span>
+                    <p>
+                        {/*INFORMATION ABOUT EVENT*/}
+                    </p>
+                </div>
+            </div>
         </div>
+        <div class="event">
+            <div class="date">
+                <span class="number">
+                    29{/*DATE OF EVENT*/}
+                </span>
+                <span class="month">
+                    SEPT{/*EVENT MONTH*/}
+                </span>
+            </div>
+
+            <div class="event-past www">
+                <span class="event-title">
+                    <p class="event-title">
+                        LinkedIn Portrait Session{/*NAME OF EVENT*/}
+                    </p>
+                </span>
+                <div class="details">
+                    <span class="event-location">
+                        <span aria-hidden="true" class="icon icon-location"></span>
+                        TBA{/*EVENT LOCATION*/}
+                    </span>
+                    <span class="event-time">
+                        <span aria-hidden="true" class="icon icon-clock"></span>
+                        TBA{/*TIME OF EVENT*/}
+                    </span>
+                    <p>
+                        {/*INFORMATION ABOUT EVENT*/}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="event">
+            <div class="date">
+                <span class="number">
+                    2{/*DATE OF EVENT*/}
+                </span>
+                <span class="month">
+                    OCT{/*EVENT MONTH*/}
+                </span>
+            </div>
+
+            <div class="event-past www">
+                <span class="event-title">
+                    <p class="event-title">
+                        Texas Instruments Infosession{/*NAME OF EVENT*/}
+                    </p>
+                </span>
+                <div class="details">
+                    <span class="event-location">
+                        <span aria-hidden="true" class="icon icon-location"></span>
+                        TBA{/*EVENT LOCATION*/}
+                    </span>
+                    <span class="event-time">
+                        <span aria-hidden="true" class="icon icon-clock"></span>
+                        TBA{/*TIME OF EVENT*/}
+                    </span>
+                    <p>
+                        {/*INFORMATION ABOUT EVENT*/}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="event">
+            <div class="date">
+                <span class="number">
+                    5{/*DATE OF EVENT*/}
+                </span>
+                <span class="month">
+                    OCT{/*EVENT MONTH*/}
+                </span>
+            </div>
+
+            <div class="event-past www">
+                <span class="event-title">
+                    <p class="event-title">
+                        IEEE Movie Night{/*NAME OF EVENT*/}
+                    </p>
+                </span>
+                <div class="details">
+                    <span class="event-location">
+                        <span aria-hidden="true" class="icon icon-location"></span>
+                        TBA{/*EVENT LOCATION*/}
+                    </span>
+                    <span class="event-time">
+                        <span aria-hidden="true" class="icon icon-clock"></span>
+                        TBA{/*TIME OF EVENT*/}
+                    </span>
+                    <p>
+                        {/*INFORMATION ABOUT EVENT*/}
+                    </p>
+                </div>
+            </div>
         </div>
 
-        </div>
+    </div>
 
         <div class="event-pagination">
         <nav class="pagination">
