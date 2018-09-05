@@ -165,11 +165,11 @@ class Events extends Component {
                 <div class="details">
                     <span class="event-location">
                         <span aria-hidden="true" class="icon icon-location"></span>
-                        TBA{/*EVENT LOCATION*/}
+                        290 Hearst Mining{/*EVENT LOCATION*/}
                     </span>
                     <span class="event-time">
                         <span aria-hidden="true" class="icon icon-clock"></span>
-                        TBA{/*TIME OF EVENT*/}
+                        6pm-8pm{/*TIME OF EVENT*/}
                     </span>
                     <p>
                         {/*INFORMATION ABOUT EVENT*/}
@@ -194,14 +194,8 @@ class Events extends Component {
                     </p>
                 </span>
                 <div class="details">
-                    <span class="event-location">
-                        <span aria-hidden="true" class="icon icon-location"></span>
-                        TBA{/*EVENT LOCATION*/}
-                    </span>
-                    <span class="event-time">
-                        <span aria-hidden="true" class="icon icon-clock"></span>
-                        TBA{/*TIME OF EVENT*/}
-                    </span>
+
+
                     <p>
                         {/*INFORMATION ABOUT EVENT*/}
                     </p>
@@ -258,11 +252,11 @@ class Events extends Component {
                 <div class="details">
                     <span class="event-location">
                         <span aria-hidden="true" class="icon icon-location"></span>
-                        TBA{/*EVENT LOCATION*/}
+                        Wozniak Lounge{/*EVENT LOCATION*/}
                     </span>
                     <span class="event-time">
                         <span aria-hidden="true" class="icon icon-clock"></span>
-                        TBA{/*TIME OF EVENT*/}
+                        6pm-8pm{/*TIME OF EVENT*/}
                     </span>
                     <p>
                         {/*INFORMATION ABOUT EVENT*/}
