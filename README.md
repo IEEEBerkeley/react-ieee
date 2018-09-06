@@ -39,3 +39,10 @@ As a sudoer:
 - check to make sure it worked
     -  logs in `/var/log/upstart/react-ieee`
     -  `sudo cat /var/log/upstart/react-ieee`
+
+updated 9/5/18:
+- `sudo systemctl stop react-ieee`
+- `sudo systemctl start react-ieee`
+- check to make sure it worked
+    -  `systemctl status react-ieee`
+    -  logs in `/var/log/nginx/access.log` and `/var/log/nginx/error.log
