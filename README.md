@@ -45,4 +45,4 @@ updated 9/5/18:
 - `sudo systemctl start react-ieee`
 - check to make sure it worked
     -  `systemctl status react-ieee`
-    -  logs in `/var/log/nginx/access.log` and `/var/log/nginx/error.log
+    -  logs in `/var/log/nginx/access.log` and `/var/log/nginx/error.log`
