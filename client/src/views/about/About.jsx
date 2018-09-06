@@ -35,54 +35,7 @@ class About extends Component {
               Be notified about upcoming events and opportunities by subscribing to our mailing list at the bottom of the page.
             </h3>
             <br/>
-            <span class='heading blue'>
-            Membership
-            </span>
-            <p>
-              Club Membership has also been broken into 2 types, Officer and Member
-            </p>
-            <br />
-            <h3 class='blue'>
-              Member
-            </h3>
-            <p>
-              Low to Minimal time commitment with continued perks such as
-            </p>
-            <ul>
-              <li>
-                Invitiations to events like Ski Trip, Banquet, Networking & Alumni events
-              </li>
-              <li>
-                Resume added to IEEE Resume Book
-              </li>
-              <li>
-                May qualify for micromouse funding IEEE Micromouse<br/>Article <a href="http://theinstitute.ieee.org/people/students/students-reinvent-micromouse-competition809" class="blue">click here</a>
-              </li>
-            </ul>
-            <br />
-            <h3 class='blue'>
-              Officer
-            </h3>
-            <p>
-              Required time commitment/duties with continued perks such as
-            </p>
-            <ul>
-              <li>
-                All Member benefits
-              </li>
-              <li>
-                Access to Moore room (w/ mandatory staffing)
-              </li>
-              <li>
-                Qualification to run/elect for director positions
-              </li>
-              <li>
-                Subsidized events
-              </li>
-              <li>
-                Business cards and an <a href="https://ieee.berkeley.edu" class="blue">ieee.berkeley.edu</a> email address<a href="https://ieee.berkeley.edu" class="blue"></a>
-              </li>
-            </ul>
+
           </div>
           {/*<div class='right'>
             <ul>
