@@ -29,7 +29,7 @@ class Footer extends Component {
       </a>
       </li>
       <li>
-      <a href="https://www.linkedin.com/groups/IEEE-UCB-Student-Branch-4549818">
+      <a href="https://www.linkedin.com/company/ieee-ucb/">
       <span aria-hidden="true" className="icon icon-linkedin"></span>
       </a>
       </li>

@@ -24,7 +24,7 @@ class About extends Component {
             <br/>
             <br/>
             <p>
-              The Institute of Electrical and Electronics Engineers is an international organization with over 350,000 members. The UC Berkeley   IEEE student branch was established in 1912 and is part of Region 6 (US - West) of the IEEE national branch. As one of the most   active EECS student organization on campus, we aim to promote professional awareness, encourage academic growth, and organize social activities within the EECS community.
+              The Institute of Electrical and Electronics Engineers is an international organization with over 350,000 members. The UC Berkeley   IEEE student branch was established in 1912 and is part of Region 6 (US - West) of the IEEE national branch. As one of the most   active Engineering student organization on campus, we aim to promote professional awareness, encourage academic growth, and organize social activities within the Engineering community.
             </p>
             <br/>
             <p>

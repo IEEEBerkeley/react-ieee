@@ -13,7 +13,7 @@ function tryAndDefault(team, str) {
     console.log()
     return require('../../assets/officers/' + team + '/' + str);
   } catch(err) {
-    return require('../../assets/officers/' + 'missing.png');
+    return require('../../assets/officers/missing.png');
   }
 }
 
@@ -31,12 +31,12 @@ class About extends Component {
       "7": "Techops",
       "8": "Website",
       "9": "Micromouse",
-      "0": "Photography"
+      "0": "Marketing"
     }
   }
 
   changeView(committee) {
-    if (this.currentCommittee == committee) {
+    if (this.currentCommittee === committee) {
       return;
     }
 
@@ -48,7 +48,7 @@ class About extends Component {
         continue;
       } else {
         var currVal = parseInt(li.attributes[0].value);
-        if (currVal == this.currentCommittee) {
+        if (currVal === this.currentCommittee) {
           li.getElementsByTagName('div')[0].style['display'] = 'none';
         }
       }
@@ -60,7 +60,7 @@ class About extends Component {
         continue;
       } else {
         var currVal = parseInt(li.attributes[0].value);
-        if (currVal == committee) {
+        if (currVal === committee) {
           this.currentCommittee = committee;
           li.getElementsByTagName('div')[0].style['display'] = 'block';
           this.updateFaces();
@@ -137,43 +137,43 @@ class About extends Component {
             <div id="face-grid"
               style={{ display: "block" }}>
               <div className="officer-container cboxElement">
-                <div className="tile"><img src={tryAndDefault("Exec", "gregory_balke.jpg")} /></div>
+                <div className="tile"><img src={tryAndDefault("Exec", "gregory_balke.jpg")} alt="" /></div>
                 <div className="tile salutation">
                   <div className="left-align"><span>Gregory Balke</span><span className="rank">Co-President</span></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
-                <div className="tile"><img src={tryAndDefault("Exec", "brent_yi.jpg")} /></div>
+                <div className="tile"><img src={tryAndDefault("Exec", "brent_yi.jpg")} alt=""/></div>
                 <div className="tile salutation">
                   <div className="left-align"><span>Brent Yi</span><span className="rank">Co-President</span></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
-                <div className="tile"><img src={tryAndDefault("Exec", "billy_lu.jpg")} /></div>
+                <div className="tile"><img src={tryAndDefault("Exec", "billy_lu.jpg")} alt=""/></div>
                 <div className="tile salutation">
                   <div className="left-align"><span>Billy Lu</span><span className="rank">External V.P.</span></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
-                <div className="tile"><img src={tryAndDefault("Exec", "ron_thalanki.jpg")} /></div>
+                <div className="tile"><img src={tryAndDefault("Exec", "ron_thalanki.jpg")} alt=""/></div>
                 <div className="tile salutation">
                   <div className="left-align"><span>Ron Thalanki</span><span className="rank">External V.P.</span></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
-                <div className="tile"><img src={tryAndDefault("Exec", "alex_kassil.jpg")} /></div>
+                <div className="tile"><img src={tryAndDefault("Exec", "alex_kassil.jpg")} alt="" /></div>
                 <div className="tile salutation">
-                  <div className="right-align"><span>Alex Kassil</span><span className="rank">Internal V.P.</span></div>
+                  <div className="left-align"><span>Alex Kassil</span><span className="rank">Internal V.P.</span></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
-                <div className="tile"><img src={tryAndDefault("Exec", "hall_chen.jpg")} /></div>
+                <div className="tile"><img src={tryAndDefault("Exec", "hall_chen.jpg")} alt="" /></div>
                 <div className="tile salutation">
-                  <div className="right-align"><span>Hall Chen</span><span className="rank">Treasurer</span></div>
+                  <div className="left-align"><span>Hall Chen</span><span className="rank">Treasurer</span></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
-                <div className="tile"><img src={tryAndDefault("Exec", "neha_godbole.jpg")} /></div>
+                <div className="tile"><img src={tryAndDefault("Exec", "neha_godbole.jpg")} alt="" /></div>
                 <div className="tile salutation">
                   <div className="left-align"><span>Neha Godbolea</span><span className="rank">Secretary</span></div>
                 </div>
@@ -251,17 +251,17 @@ class About extends Component {
               </span>
               <div className="committee-description ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-7" aria-labelledby="ui-accordion-1-header-7" role="tabpanel" aria-expanded="false" aria-hidden="true" style={{display: "none"}}>
               <p>
-              Our student branch hosts several computers and servers inside our very own lab, which also houses an open lab bench for soldering, making PCB's, and any other electrical engineering related task. The Tech-Ops committee resolves all technical issues in the IEEE lab and maintains the full availability of these services for the EECS community.
+              Our student branch hosts several computers and servers inside our very own lab, which also houses an open lab bench for soldering, making PCBs, and any other electrical engineering related task. The Tech-Ops committee resolves all technical issues in the IEEE lab and maintains the full availability of these services for the EECS community.
               </p>
               </div>
             </li>
             <li data-committee_id="0">
               <span onClick={(e) => this.changeView(0, e)} className="committee-name clickable ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-1-header-9" aria-controls="ui-accordion-1-panel-9" aria-selected="false" tabIndex="-1"><span className="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
-              Photography
+              Marketing
               </span>
               <div className="committee-description ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-9" aria-labelledby="ui-accordion-1-header-9" role="tabpanel" aria-expanded="false" aria-hidden="true" style={{display: "none"}}>
               <p>
-              The Photography committee is in charge of taking photos at events and editing leadership portraits.
+              The Marketing committee is in charge of taking photos at events and editing leadership portraits.
               </p>
               </div>
             </li>

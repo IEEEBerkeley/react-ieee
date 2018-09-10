@@ -20,12 +20,12 @@ class Contact extends Component {
           <div class='left'>
             <span class='heading blue'>
             Contact Us
-            <br /> 
+            <br />
             <br />
             </span>
             <p> Feel free to contact us through any of the platforms listed below. </p>
             <br />
-            <p> Email: ieeeucb@gmail.com </p>
+            <p> Email: <a class = "blue" href="mailto:ieeeucb@gmail.com">ieeeucb@gmail.com </a> </p>
             <br />
             <p> Facebook Page: <a class="blue" href="https://www.facebook.com/ieeeucb/">https://www.facebook.com/ieeeucb/</a> </p>
           </div>

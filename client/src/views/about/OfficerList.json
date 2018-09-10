@@ -25,19 +25,10 @@
 
     "Website": [
       {
-        "Director": "Abhinav Adduri"
+        "Director": "Eric Leong"
       },
       {
-        "Officer": "Bill Cai"
-      },
-      {
-        "Officer": "Anuj Desai"
-      },
-      {
-        "Officer": "Ewen Dai"
-      },
-      {
-        "Officer": "Eric Leong"
+        "Director": "Ewen Dai"
       },
       {
         "Officer": "Peru Dayani"
@@ -47,21 +38,11 @@
     "Activities": [
       {
         "Director": "Jay Dong"
-      },
+      }
+    ],
+    "Marketing": [
       {
-        "Officer": "Kevin Jiao"
-      },
-      {
-        "Officer": "James Marsh"
-      },
-      {
-        "Officer": "Eric Wang"
-      },
-      {
-        "Officer": "Alex Hong"
-      },
-      {
-        "Officer": "Ray Altenberg"
+        "Director": "Ray Altenberg"
       }
     ],
 
@@ -70,28 +51,20 @@
         "Director": "Kevin Zheng"
       },
       {
-        "Director": "Hall Chen"
+        "Director": "Olivia Hsu"
       },
       {
-        "Officer": "Ernesto Rojas"
-      },
-      {
-        "Officer": "Tiffany Chien"
+        "Officer": "Hall Chen"
       }
+
     ],
 
     "Indrel": [
       {
-        "Director": "Alex Thomas"
-      },
-      {
-        "Officer": "Neha Godbole"
+        "Director": "Aishwarya Bhupatiraju"
       },
       {
         "Officer": "Srividhya Shanker"
-      },
-      {
-        "Officer": "Aishwarya Bhupatiraju"
       },
       {
         "Officer": "Anoosha Balebail"
@@ -103,31 +76,20 @@
 
     "Prodev": [
       {
-        "Director": "Seokhyeon Ryu"
+        "Director": "Alex Kassil"
       },
+
       {
-        "Officer": "Alex Kassil"
-      },
-      {
-        "Officer": "Soumya Avva"
-      },
-      {
-        "Officer": "Ryan Tran"
+        "Officer": "Ryan Trainer"
       }
     ],
 
     "Techops": [
       {
-        "Director": "Robert Quitt"
+        "Director": "Ahad Rauf"
       },
       {
-        "Officer": "Ahad Rauf"
-      },
-      {
-        "Officer": "Sumukh Shivakumar"
-      },
-      {
-        "Officer": "Henry Muller"
+        "Officer": "Robert Quitt"
       },
       {
         "Officer": "Emerson Hsieh"
@@ -136,22 +98,13 @@
 
     "Micromouse": [
       {
-        "Director": "Brent Yi"
+        "Director": "Nandita Iyer"
       },
       {
-        "Director": "Gregory Balke"
+        "Officer": "Brent Yi"
       },
       {
-        "Officer": "Allan Zhao"
-      },
-      {
-        "Officer": "Chandler Chen"
-      },
-      {
-        "Officer": "Nandita Iyer"
-      },
-      {
-        "Officer": "Albert Yu"
+        "Officer": "Billy Zhao"
       },
       {
         "Officer": "Lorne Briones"

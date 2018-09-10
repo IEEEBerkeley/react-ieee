@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './views/Home';
 import Events from './views/Events';
+import Calendar from './views/Calendar.jsx';
 import Industry from './views/industry/Industry';
 import Sponsor from './views/industry/Sponsor';
 import Hope from './views/prodev/Hope';
@@ -17,7 +18,8 @@ import Officers from './views/about/Officers';
 const Main = () => (
     <Switch>
       <Route exact path='/' component={Home}/>
-      <Route path='/events' component={Events}/>
+      <Route exact path='/events' component={Events}/>
+      <Route path='/events/calendar' component={Events}/>
       <Route exact path='/industry' component={Industry}/>
       <Route path='/industry/sponsors' component={Sponsor}/>
       {/*<Route exact path='/prodev' component={Hope}/>*/}

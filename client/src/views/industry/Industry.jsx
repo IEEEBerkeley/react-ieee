@@ -40,7 +40,7 @@ class Industry extends Component {
       <br>
       </br>
       <p>
-      We are working on a Corporate Sponsorship Package that you can purchase. Please contact us for more information.
+      We are working on a Corporate Sponsorship Package that you can purchase. Please <a href="mailto:ieeeucb@gmail.com" class="blue" id="nationals-link">contact us</a> for more information.
       </p>
       <br></br>
       <span class='subheading grey'>
@@ -49,7 +49,7 @@ class Industry extends Component {
       <br>
       </br>
       <p>
-      If you would like to order a Resume Book, please contact us.
+      If you would like to order a Resume Book, please <a href="mailto:ieeeucb@gmail.com" class="blue" id="nationals-link">contact us</a>.
       </p>
       </div>
     </div>
