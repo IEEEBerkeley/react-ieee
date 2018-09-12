@@ -261,7 +261,7 @@ class About extends Component {
               </span>
               <div className="committee-description ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-9" aria-labelledby="ui-accordion-1-header-9" role="tabpanel" aria-expanded="false" aria-hidden="true" style={{display: "none"}}>
               <p>
-              The Marketing committee is in charge of taking photos at events and editing leadership portraits.
+              The Marketing committee is in charge of club branding, photography, social media, and our newsletter.
               </p>
               </div>
             </li>
