@@ -89,6 +89,11 @@ class Sponsor extends Component {
 <a href="http://www.salesforce.com/" target="_blank" rel="noopener noreferrer"><img alt="Logo-salesforce" src={require("../../assets/industry/sponsors/logo-salesforce.png")} /></a>
 </div>
 </div>
+<div class="sponsor-container">
+<div class="sponsor">
+<a href="https://bayareacircuits.com/" target="_blank" rel="noopener noreferrer"><img alt="Logo-bac" src={require("../../assets/industry/sponsors/logo-bac.png")} /></a>
+</div>
+</div>
 <div style={{clear: "both" }}></div>
 </div>
 <br />
