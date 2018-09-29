@@ -8,6 +8,7 @@
     "fetch": "^1.1.0",
     "fs": "0.0.1-security",
     "gh-pages": "^1.0.0",
+    "googleapis": "^27.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.2.2"

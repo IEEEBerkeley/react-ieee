@@ -73,7 +73,7 @@ class Events extends Component {
         </div>
         <div className="submenu">
         <ul>
-          <Link to={"/industry"}><li className="">All Events</li></Link>
+          {/*<Link to={"/events"}><li className="">All Events</li></Link>*/}
           {/*<Link to={"/industry/donate"}><li className="">Photos</li></Link>*/}
         </ul>
       </div>
@@ -82,101 +82,6 @@ class Events extends Component {
         <span class="heading blue">All Events</span>
 
         <div id="eventList">
-{/*Start of code to add new event*/}
-        <div class="event">
-            <div class="date">
-                <span class="number">
-                    10{/*DATE OF EVENT*/}
-                </span>
-                <span class="month">
-                    SEPT{/*EVENT MONTH ABBREVIATION*/}
-                </span>
-            </div>
-
-            <div class="event-past www">
-                <span class="event-title">
-                    <p class="event-title">
-                        New Member Meet & Greet{/*NAME OF EVENT*/}
-                    </p>
-                </span>
-                <div class="details">
-                    <span class="event-location">
-                        <span aria-hidden="true" class="icon icon-location"></span>
-                        Wozniak Lounge{/*EVENT LOCATION*/}
-                    </span>
-                    <span class="event-time">
-                        <span aria-hidden="true" class="icon icon-clock"></span>
-                        8pm-10pm{/*TIME OF EVENT*/}
-                    </span>
-                    <p>
-                        {/*INFORMATION ABOUT EVENT*/}
-                    </p>
-                </div>
-            </div>
-        </div>
-        {/*end of code to add new event*/}
-        <div class="event">
-            <div class="date">
-                <span class="number">
-                    14{/*DATE OF EVENT*/}
-                </span>
-                <span class="month">
-                    SEPT{/*EVENT MONTH*/}
-                </span>
-            </div>
-
-            <div class="event-past www">
-                <span class="event-title">
-                    <p class="event-title">
-                        Board Game Night{/*NAME OF EVENT*/}
-                    </p>
-                </span>
-                <div class="details">
-                    <span class="event-location">
-                        <span aria-hidden="true" class="icon icon-location"></span>
-                        TBA{/*EVENT LOCATION*/}
-                    </span>
-                    <span class="event-time">
-                        <span aria-hidden="true" class="icon icon-clock"></span>
-                        TBA{/*TIME OF EVENT*/}
-                    </span>
-                    <p>
-                        {/*INFORMATION ABOUT EVENT*/}
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="event">
-            <div class="date">
-                <span class="number">
-                    18{/*DATE OF EVENT*/}
-                </span>
-                <span class="month">
-                    SEPT{/*EVENT MONTH*/}
-                </span>
-            </div>
-
-            <div class="event-past www">
-                <span class="event-title">
-                    <p class="event-title">
-                        Wish Info Session{/*NAME OF EVENT*/}
-                    </p>
-                </span>
-                <div class="details">
-                    <span class="event-location">
-                        <span aria-hidden="true" class="icon icon-location"></span>
-                        290 Hearst Mining{/*EVENT LOCATION*/}
-                    </span>
-                    <span class="event-time">
-                        <span aria-hidden="true" class="icon icon-clock"></span>
-                        6pm-8pm{/*TIME OF EVENT*/}
-                    </span>
-                    <p>
-                        {/*INFORMATION ABOUT EVENT*/}
-                    </p>
-                </div>
-            </div>
-        </div>
         <div class="event">
             <div class="date">
                 <span class="number">
