@@ -175,7 +175,7 @@ class About extends Component {
               <div className="officer-container cboxElement">
                 <div className="tile"><img src={tryAndDefault("Exec", "neha_godbole.jpg")} alt="" /></div>
                 <div className="tile salutation">
-                  <div className="left-align"><span>Neha Godbolea</span><span className="rank">Secretary</span></div>
+                  <div className="left-align"><span>Neha Godbole</span><span className="rank">Secretary</span></div>
                 </div>
               </div>
             </div>

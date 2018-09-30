@@ -15,12 +15,14 @@ class Header extends Component {
           <li className="main">
           <Link to={"/events"}>EVENTS</Link>
           </li>
+          {/*
           <li className="option">
           <Link to={"/events"}>All Events</Link>
           </li>
           <li className="option">
           <Link to={"/events/calendar"}>Calendar</Link>
           </li>
+          */}
           {/*<li className="option">
           <Link to={"/events/photos"}>Photos</Link>
           </li>*/}
@@ -29,12 +31,14 @@ class Header extends Component {
           <li className="main">
           <Link to={"/industry"}>INDUSTRY</Link>
           </li>
+          {/*
           <li className="option">
           <Link to={"/industry"}>Information</Link>
           </li>
           <li className="option">
           <Link to={"/industry/sponsors"}>Sponsors</Link>
           </li>
+          */}
           {/*<li className="option">
           <Link to={"/industry/donate"}>Donate</Link>
           </li>*/}
@@ -70,6 +74,7 @@ class Header extends Component {
           <li className="main">
           <Link to={"/about"}>ABOUT</Link>
           </li>
+          {/*
           <li className="option">
           <Link to={"/about"}>Information</Link>
           </li>
@@ -79,6 +84,7 @@ class Header extends Component {
           <li className="option">
           <Link to={"/about/contact"}>Contact</Link>
           </li>
+          */}
         </ul>
         </div>
       </div>
