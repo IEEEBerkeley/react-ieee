@@ -82,31 +82,7 @@ class Events extends Component {
         <span class="heading blue">All Events</span>
 
         <div id="eventList">
-        <div class="event">
-            <div class="date">
-                <span class="number">
-                    22{/*DATE OF EVENT*/}
-                </span>
-                <span class="month">
-                    SEPT{/*EVENT MONTH*/}
-                </span>
-            </div>
-
-            <div class="event-past www">
-                <span class="event-title">
-                    <p class="event-title">
-                        Mentorship Program Starts{/*NAME OF EVENT*/}
-                    </p>
-                </span>
-                <div class="details">
-
-
-                    <p>
-                        {/*INFORMATION ABOUT EVENT*/}
-                    </p>
-                </div>
-            </div>
-        </div>
+    
         <div class="event">
             <div class="date">
                 <span class="number">
@@ -200,7 +176,37 @@ class Events extends Component {
                 </div>
             </div>
         </div>
+        <div class="event">
+            <div class="date">
+                <span class="number">
+                    16{/*DATE OF EVENT*/}
+                </span>
+                <span class="month">
+                    OCT{/*EVENT MONTH*/}
+                </span>
+            </div>
 
+            <div class="event-past www">
+                <span class="event-title">
+                    <p class="event-title">
+                        C3IoT Infosession{/*NAME OF EVENT*/}
+                    </p>
+                </span>
+                <div class="details">
+                    <span class="event-location">
+                        <span aria-hidden="true" class="icon icon-location"></span>
+                        Wozniak Lounge{/*EVENT LOCATION*/}
+                    </span>
+                    <span class="event-time">
+                        <span aria-hidden="true" class="icon icon-clock"></span>
+                        6pm-8pm{/*TIME OF EVENT*/}
+                    </span>
+                    <p>
+                        {/*INFORMATION ABOUT EVENT*/}
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 
         <div class="event-pagination">
