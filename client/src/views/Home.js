@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import homeImage from '../assets/home.png';
+import Slides from './slides';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <div className="hero"
-             style={{ backgroundImage: "url(" + homeImage + ")" }}>
+        <div className="hero">
+            <Slides/>
+             {/**style={{ backgroundImage: "url(" + homeImage + ")" }}>**/}
         </div>
         <div className="content">
           <div className="left">
@@ -28,7 +30,6 @@ class Home extends Component {
             Be notified about upcoming events and opportunities by subscribing to our mailing list at the bottom of the page.
             </h3>
             <br />
-            
           </div>
           {/*<div className="right">
             <span className="heading">
