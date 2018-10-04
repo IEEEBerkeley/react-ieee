@@ -7,6 +7,7 @@
     "jquery": "^3.3.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-responsive": "^5.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^1.1.5",
     "react-slick": "^0.23.1",
@@ -18,7 +19,8 @@
     "client": "node start-client.js"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.0.0",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
     "concurrently": "3.1.0"
   }
 }
