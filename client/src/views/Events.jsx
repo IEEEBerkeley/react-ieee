@@ -82,69 +82,7 @@ class Events extends Component {
         <span class="heading blue">All Events</span>
 
         <div id="eventList">
-    
-        <div class="event">
-            <div class="date">
-                <span class="number">
-                    29{/*DATE OF EVENT*/}
-                </span>
-                <span class="month">
-                    SEPT{/*EVENT MONTH*/}
-                </span>
-            </div>
 
-            <div class="event-past www">
-                <span class="event-title">
-                    <p class="event-title">
-                        LinkedIn Portrait Session{/*NAME OF EVENT*/}
-                    </p>
-                </span>
-                <div class="details">
-                    <span class="event-location">
-                        <span aria-hidden="true" class="icon icon-location"></span>
-                        TBA{/*EVENT LOCATION*/}
-                    </span>
-                    <span class="event-time">
-                        <span aria-hidden="true" class="icon icon-clock"></span>
-                        TBA{/*TIME OF EVENT*/}
-                    </span>
-                    <p>
-                        {/*INFORMATION ABOUT EVENT*/}
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="event">
-            <div class="date">
-                <span class="number">
-                    2{/*DATE OF EVENT*/}
-                </span>
-                <span class="month">
-                    OCT{/*EVENT MONTH*/}
-                </span>
-            </div>
-
-            <div class="event-past www">
-                <span class="event-title">
-                    <p class="event-title">
-                        Texas Instruments Infosession{/*NAME OF EVENT*/}
-                    </p>
-                </span>
-                <div class="details">
-                    <span class="event-location">
-                        <span aria-hidden="true" class="icon icon-location"></span>
-                        Wozniak Lounge{/*EVENT LOCATION*/}
-                    </span>
-                    <span class="event-time">
-                        <span aria-hidden="true" class="icon icon-clock"></span>
-                        6pm-8pm{/*TIME OF EVENT*/}
-                    </span>
-                    <p>
-                        {/*INFORMATION ABOUT EVENT*/}
-                    </p>
-                </div>
-            </div>
-        </div>
         <div class="event">
             <div class="date">
                 <span class="number">
@@ -164,11 +102,11 @@ class Events extends Component {
                 <div class="details">
                     <span class="event-location">
                         <span aria-hidden="true" class="icon icon-location"></span>
-                        TBA{/*EVENT LOCATION*/}
+                        HP Auditorium{/*EVENT LOCATION*/}
                     </span>
                     <span class="event-time">
                         <span aria-hidden="true" class="icon icon-clock"></span>
-                        TBA{/*TIME OF EVENT*/}
+                        6-10pm{/*TIME OF EVENT*/}
                     </span>
                     <p>
                         {/*INFORMATION ABOUT EVENT*/}

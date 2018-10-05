@@ -26,7 +26,7 @@ class SimpleSlider extends React.Component {
           <img alt = "pic" src={require('../assets/industry.png')}/>
         </div>
         <div>
-          <img alt = "pic" src={require('../assets/micromouse.png')}/>
+          <img alt = "pic" src={require('../assets/officer_photo.jpg')}/>
         </div>
       </Slider>
     );
