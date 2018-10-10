@@ -925,6 +925,10 @@ a.hope-resource:hover {
 #cboxSlideshow {
     cursor: pointer
 }
+.centertext {
+    float:right;
+    padding-bottom: 1em
+}
 .cboxPhoto {
     float: left;
     margin: auto;

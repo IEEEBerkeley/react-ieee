@@ -17,7 +17,10 @@ class Googlecal extends Component {
         );
     }
 }
-const iframe = '<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=berkeley.edu_9k08nrpdahaujiva7u1ss9j92s%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>';
+const iframe = '<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%233366ff&amp;src=berkeley.edu_9k08nrpdahaujiva7u1ss9j92s%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FLos_Angeles" style="border:solid 1px #777" width="900" height="700" frameborder="0" scrolling="no"></iframe>';
+const divStyle = {
+  padding: '40px',
+};
 
 class Calendar extends Component {
 
@@ -28,20 +31,18 @@ class Calendar extends Component {
           <div className="hero"
           style={{ backgroundImage: "url(" + eventsImage + ")" }}>
           </div>
-          <div className="submenu">
-          <ul>
-            <Link to={"/events"}><li className="">All Events</li></Link>
-            <Link to={"/Calendar"}><li className="">Calendar</li></Link>
-          </ul>
-        </div>
-      <div class="content">
-     
-      <div class = "left">
-      <Googlecal iframe={iframe} />
-      </div>
 
-        </div>
+      <div class="content">
+
+      <div class = "left">
+          <span class="heading blue centertext">All Events</span>
+
+          <div style = {divStyle}>
+          <Googlecal iframe={iframe} />
+          </div>
       </div>
+    </div>
+    </div>
     );
   }
 }

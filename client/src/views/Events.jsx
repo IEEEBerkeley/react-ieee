@@ -21,7 +21,6 @@ class Calendar extends Component {
     }
 }
 
-
 class Events extends Component {
   constructor() {
     super();
@@ -126,37 +125,6 @@ class Events extends Component {
                     <span class="event-time">
                         <span aria-hidden="true" class="icon icon-clock"></span>
                         6-10pm{/*TIME OF EVENT*/}
-                    </span>
-                    <p>
-                        {/*INFORMATION ABOUT EVENT*/}
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="event">
-            <div class="date">
-                <span class="number">
-                    16{/*DATE OF EVENT*/}
-                </span>
-                <span class="month">
-                    OCT{/*EVENT MONTH*/}
-                </span>
-            </div>
-
-            <div class="event-past www">
-                <span class="event-title">
-                    <p class="event-title">
-                        C3IoT Infosession{/*NAME OF EVENT*/}
-                    </p>
-                </span>
-                <div class="details">
-                    <span class="event-location">
-                        <span aria-hidden="true" class="icon icon-location"></span>
-                        Wozniak Lounge{/*EVENT LOCATION*/}
-                    </span>
-                    <span class="event-time">
-                        <span aria-hidden="true" class="icon icon-clock"></span>
-                        6pm-8pm{/*TIME OF EVENT*/}
                     </span>
                     <p>
                         {/*INFORMATION ABOUT EVENT*/}

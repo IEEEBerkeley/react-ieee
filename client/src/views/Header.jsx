@@ -13,7 +13,7 @@ class Header extends Component {
         <div className="navigation">
         <ul>
           <li className="main">
-          <Link to={"/events"}>EVENTS</Link>
+          <Link to={"/events/Calendar"}>EVENTS</Link>
           </li>
           {/*
           <li className="option">
