@@ -775,10 +775,6 @@ form.formtastic ol li p {
     float: left;
     background-color: #E0E0E0
 }
-#face-grid .officer-container:hover {
-    color: #FFFFFF;
-    background-color: #2F3337
-}
 #face-grid .tile {
     margin: 0px;
     width: 142px;
