@@ -18,6 +18,7 @@
     "randomatic": "^3.1.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-protected-mailto": "^1.0.3",
     "react-router-dom": "^4.2.2",
     "sshpk": "^1.15.1",
     "url-parse": "^1.4.3"
