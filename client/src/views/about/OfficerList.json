@@ -32,17 +32,45 @@
       },
       {
         "Officer": "Peru Dayani"
+      },
+      {
+        "Officer": "Josh Yeung"
+      },
+      {
+        "Officer": "Joshua Yuan"
       }
     ],
 
     "Activities": [
       {
         "Director": "Jay Dong"
+      },
+      {
+        "Officer" : "Alex Hong"
+      },
+      {
+        "Officer" : "Kevin Jiao"
+      },
+      {
+        "Officer" : "Michelle Hwang"
       }
+
     ],
     "Marketing": [
       {
         "Director": "Ray Altenberg"
+      },
+      {
+        "Officer" : "Billy Lu"
+      },
+      {
+        "Officer" : "Jennifer Chen"
+      },
+      {
+        "Officer" : "Jodie Lu"
+      },
+      {
+        "Officer" : "Shreya Kannan"
       }
     ],
 
@@ -71,6 +99,9 @@
       },
       {
         "Officer": "Risham Sidhu"
+      },
+      {
+        "Officer" : "Neha Godbole"
       }
     ],
 
@@ -81,6 +112,9 @@
 
       {
         "Officer": "Ryan Trainer"
+      },
+      {
+        "Officer" : "Huges Vigner"
       }
     ],
 
@@ -93,6 +127,18 @@
       },
       {
         "Officer": "Emerson Hsieh"
+      },
+      {
+        "Officer" : "Derek Zhou"
+      },
+      {
+        "Officer" : "Henry Muller"
+      },
+      {
+        "Officer" : "Mark Theis"
+      },
+      {
+        "Officer" : "Sumukh Shivakumar"
       }
     ],
 
@@ -104,23 +150,16 @@
         "Officer": "Brent Yi"
       },
       {
-        "Officer": "Billy Zhao"
+        "Officer": "Chandler Chen"
       },
       {
         "Officer": "Lorne Briones"
-      }
-    ],
-
-    "Photography": [
-      {
-        "Director": "Billy Lu"
       },
       {
-        "Director": "Jennifer Chen"
+        "Officer" : "Allan Zhao"
       },
       {
-        "Director": "Jodie Lu"
+        "Officer" : "Gregory Balke"
       }
-
     ]
 }
