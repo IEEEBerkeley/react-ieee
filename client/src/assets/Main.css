@@ -159,6 +159,11 @@
 #cboxClose:hover {
     background-position: bottom center
 }
+#micromouseSlide {
+    padding: 1%;
+    padding-bottom: 3%
+}
+
 @font-face {
     font-family: 'OpenSansRegular';
     src: url(fonts/opensans/OpenSans-Regular-webfont.eot);
