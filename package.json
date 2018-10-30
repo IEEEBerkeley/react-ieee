@@ -16,6 +16,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-iframe": "^1.3.3",
+    "react-protected-mailto": "^1.0.3",
     "react-responsive": "^5.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^1.1.5",
