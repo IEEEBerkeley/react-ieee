@@ -53,6 +53,9 @@
       },
       {
         "Officer" : "Michelle Hwang"
+      },
+      {
+        "Officer": "Felix Ching"
       }
 
     ],
@@ -102,6 +105,9 @@
       },
       {
         "Officer" : "Neha Godbole"
+      },
+      {
+      "Officer": "Sharan Kumar"
       }
     ],
 
@@ -114,7 +120,13 @@
         "Officer": "Ryan Trainer"
       },
       {
-        "Officer" : "Huges Vigner"
+        "Officer": "Hugues Vigner"
+      },
+      {
+        "Officer": "Neha Hudait"
+      },
+      {
+        "Officer": "Neelesh Dodda"
       }
     ],
 
