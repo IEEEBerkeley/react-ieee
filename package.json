@@ -5,7 +5,7 @@
     "create-react-class": "^15.6.3",
     "cryptiles": "^4.1.2",
     "deep-extend": "^0.6.0",
-    "express": "4.13.3",
+    "express": "^4.16.4",
     "fs": "0.0.2",
     "hoek": "^5.0.4",
     "jquery": "^3.3.1",
