@@ -14,7 +14,7 @@ class About extends Component {
         <ul>
         <Link to={"/about"}><li className="">About</li></Link>
         <Link to={"/about/leadership"}><li className="">Officers</li></Link>
-        <Link to={"/about/contact"}><li className="">Contact</li></Link>
+        {/**<Link to={"/about/contact"}><li className="">Contact</li></Link>**/}
         </ul>
         </div>
         <div class='content'>
