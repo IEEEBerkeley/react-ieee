@@ -46,34 +46,24 @@
         "Director": "Jay Dong"
       },
       {
-        "Officer" : "Alex Hong"
-      },
-      {
-        "Officer" : "Kevin Jiao"
-      },
-      {
         "Officer" : "Michelle Hwang"
       },
       {
         "Officer": "Felix Ching"
       }
-
     ],
     "Marketing": [
       {
         "Director": "Ray Altenberg"
       },
       {
-        "Officer" : "Billy Lu"
-      },
-      {
-        "Officer" : "Jennifer Chen"
-      },
-      {
-        "Officer" : "Jodie Lu"
+        "Officer" : "Jimmy Pippin"
       },
       {
         "Officer" : "Shreya Kannan"
+      },
+      {
+        "Officer" : "Alyssa Huang"
       }
     ],
 
@@ -115,7 +105,6 @@
       {
         "Director": "Alex Kassil"
       },
-
       {
         "Officer": "Ryan Trainer"
       },
@@ -126,7 +115,7 @@
         "Officer": "Neha Hudait"
       },
       {
-        "Officer": "Neelesh Dodda"
+        "Officer": "Neelesh Ramchandran"
       }
     ],
 
@@ -141,16 +130,7 @@
         "Officer": "Emerson Hsieh"
       },
       {
-        "Officer" : "Derek Zhou"
-      },
-      {
-        "Officer" : "Henry Muller"
-      },
-      {
         "Officer" : "Mark Theis"
-      },
-      {
-        "Officer" : "Sumukh Shivakumar"
       }
     ],
 
@@ -162,16 +142,10 @@
         "Officer": "Brent Yi"
       },
       {
-        "Officer": "Chandler Chen"
-      },
-      {
         "Officer": "Lorne Briones"
       },
       {
-        "Officer" : "Allan Zhao"
-      },
-      {
-        "Officer" : "Gregory Balke"
+        "Officer" : "Billy Zhao"
       }
     ]
 }
