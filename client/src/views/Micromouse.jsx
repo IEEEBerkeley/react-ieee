@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import micromouseImage from '../assets/micromouse.png';
+import Slides from './MicromousePic.js';
 
 class Micromouse extends Component {
   render() {
@@ -28,6 +29,9 @@ class Micromouse extends Component {
         </div>
         </body>
         </html>
+        <div id = "micromouseSlide">
+        <Slides/>
+        </div>
       </div>
     );
   }
