@@ -10,10 +10,22 @@
           }
       },
       {
-        "Co-President": "Brent Yi"
+        "Co-President": "Brent Yi",
+        "Links": {
+          "Github": "https://github.com/brentyi",
+          "Linkedin": "https://linkedin.com/in/brentyi",
+          "Personal": "http://brentyi.com/",
+          "Twitter": "https://twitter.com/brenthyi"
+        }
       },
       {
-        "External V.P.": "Billy Lu"
+        "External V.P.": "Billy Lu",
+        "Links": {
+          "Github": "https://github.com/williammlu",
+          "Linkedin": "https://www.linkedin.com/in/williammlu/",
+          "Personal": "http://william.lu/",
+          "Instagram": "https://instagram.com/williammlu"
+        }
       },
       {
         "External V.P.": "Ron Thalanki",
@@ -36,19 +48,41 @@
 
     "Website": [
       {
-        "Director": "Eric Leong"
+        "Director": "Eric Leong",
+        "Links": {
+          "Github": "https://github.com/mageofboy",
+          "Linkedin": "https://linkedin.com/in/eric-leong-542a56149/",
+          "Personal": "https://ericleong.herokuapp.com"
+        }
       },
       {
-        "Director": "Ewen Dai"
+        "Director": "Ewen Dai",
+        "Links": {
+            "Github": "https://github.com/ewendai",
+            "Linkedin": "linkedin.com/in/ewendai"
+        }
       },
       {
-        "Officer": "Peru Dayani"
+        "Officer": "Peru Dayani",
+        "Links": {
+          "Github": "https://github.com/PeruDayani",
+          "Linkedin": "https://www.linkedin.com/in/peru-dayani-09367314a/"
+        }
       },
       {
-        "Officer": "Josh Yeung"
+        "Officer": "Josh Yeung",
+        "Links": {
+          "Github": "https://github.com/yeungjosh",
+          "Linkedin": "https://www.linkedin.com/in/yeungjosh/"
+        }
       },
       {
-        "Officer": "Joshua Yuan"
+        "Officer": "Joshua Yuan",
+        "Links": {
+          "Github": "https://github.com/joshuayuan/",
+          "Linkedin": "http://linkedin.com/in/joshua-yuan",
+          "Personal": "http://joshuayuan.me"
+        }
       }
     ],
 
@@ -120,19 +154,30 @@
         "Officer": "Ryan Trainer"
       },
       {
-        "Officer": "Hugues Vigner"
+        "Officer": "Hugues Vigner",
+        "Links": {
+          "Github": "https://github.com/hvigner",
+          "Linkedin": "https://www.linkedin.com/in/hugues-vigner/"
+        }
       },
       {
         "Officer": "Neha Hudait"
       },
       {
-        "Officer": "Neelesh Ramchandran"
+        "Officer": "Neelesh Ramchandran",
+        "Links": {
+            "Linkedin": "https://www.linkedin.com/in/neelesh-ramachandran"
+        }
       }
     ],
 
     "Techops": [
       {
-        "Director": "Ahad Rauf"
+        "Director": "Ahad Rauf",
+        "Links": {
+          "Github": "https://github.com/ahadrauf",
+          "Linkedin": "https://www.linkedin.com/in/ahadrauf"
+        }
       },
       {
         "Officer": "Robert Quitt"
@@ -141,7 +186,12 @@
         "Officer": "Emerson Hsieh"
       },
       {
-        "Officer" : "Mark Theis"
+        "Officer" : "Mark Theis",
+        "Links": {
+          "Github": "https://github.com/metheis",
+          "Linkedin": "https://linkedin.com/in/mark-theis",
+          "Perosnal": "https://mark.theis.ca/"
+        }
       }
     ],
 
@@ -150,7 +200,13 @@
         "Director": "Nandita Iyer"
       },
       {
-        "Officer": "Brent Yi"
+        "Officer": "Brent Yi",
+        "Links": {
+          "Github": "https://github.com/brentyi",
+          "Linkedin": "https://linkedin.com/in/brentyi",
+          "Personal": "http://brentyi.com/",
+          "Twitter": "https://twitter.com/brenthyi"
+        }
       },
       {
         "Officer": "Lorne Briones"
