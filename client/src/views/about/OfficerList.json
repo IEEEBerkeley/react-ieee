@@ -1,7 +1,13 @@
 {
     "Exec": [
       {
-        "Co-President": "Gregory Balke"
+        "Co-President": "Gregory Balke",
+        "Links":
+          {
+            "Instagram": "link1",
+            "Github": "link2",
+            "Twitter": "link3"
+          }
       },
       {
         "Co-President": "Brent Yi"
@@ -10,7 +16,12 @@
         "External V.P.": "Billy Lu"
       },
       {
-        "External V.P.": "Ron Thalanki"
+        "External V.P.": "Ron Thalanki",
+        "Links":
+          {
+            "Github": "https://www.github.com/ronthalanki",
+            "Linkedin": "https://www.linkedin.com/in/sairanjiththalanki"
+          }
       },
       {
         "Internal V.P.": "Alex Kassil"

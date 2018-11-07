@@ -792,9 +792,24 @@ form.formtastic ol li p {
 }
 #face-grid .salutation .left-align {
     position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: left
+}
+#face-grid .salutation .left-align-top {
+    position: absolute;
     top: 10px;
     left: 10px;
     text-align: left
+}
+#face-grid .salutation .bottom-align {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+#face-grid .salutation .bottom-align .icon{
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
 }
 #face-grid .salutation .right-align {
     position: absolute;

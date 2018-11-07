@@ -108,10 +108,31 @@ class About extends Component {
         rankSpan.innerHTML = key;
 
         let tileNameDiv = document.createElement("div");
-        tileNameDiv.classList = "left-align";
+        tileNameDiv.classList = "left-align-top";
         tileNameDiv.appendChild(nameSpan);
         tileNameDiv.appendChild(rankSpan);
         tileName.appendChild(tileNameDiv);
+
+        // Officer links:
+        if (Object.values(people[i]).length > 1){
+          let links = Object.values(people[i])[1]; // JSON object with string:string
+          let bottomDiv = document.createElement("div");
+          bottomDiv.classList = "bottom-align";
+
+          console.log(links);
+          console.log(links.length);
+
+          for (var iconName in links) {
+            let link = links[iconName];
+            console.log(iconName + " " + link);
+            let aTag = document.createElement("a");
+            aTag.href = link;
+            aTag.classList = "icon";
+            aTag.appendChild(document.createTextNode(iconName)); // should be an icon not text.
+            bottomDiv.appendChild(aTag);
+          }
+          tileName.appendChild(bottomDiv);
+        }
         div.appendChild(tileName);
 
         grid.appendChild(div);
@@ -139,7 +160,13 @@ class About extends Component {
               <div className="officer-container cboxElement">
                 <div className="tile"><img src={tryAndDefault("Exec", "gregory_balke.jpg")} alt="" /></div>
                 <div className="tile salutation">
-                  <div className="left-align"><span>Gregory Balke</span><span className="rank">Co-President</span></div>
+                  <div className="left-align-top"><span>Gregory Balke</span><span className="rank">Co-President</span></div>
+                  <div className="bottom-align">
+                    <a href="#" className="icon">Ic1</a>
+                    <a href="#" className="icon">Ic2</a>
+                    <a href="#" className="icon">Ic3</a>
+                    <a href="#" className="icon">Ic4</a>
+                  </div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
