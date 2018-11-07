@@ -161,10 +161,7 @@ class About extends Component {
                 <div className="tile salutation">
                   <div className="left-align-top"><span>Gregory Balke</span><span className="rank">Co-President</span></div>
                   <div className="bottom-align">
-                    <a href="#" className="icon">Ic1</a>
-                    <a href="#" className="icon">Ic2</a>
-                    <a href="#" className="icon">Ic3</a>
-                    <a href="#" className="icon">Ic4</a>
+                    <i className="icon-personal"></i>
                   </div>
                 </div>
               </div>
