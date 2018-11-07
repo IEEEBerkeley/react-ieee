@@ -127,7 +127,6 @@ class About extends Component {
             console.log(iconName + " " + link);
             let aTag = document.createElement("a");
             aTag.href = link;
-            aTag.classList = "icon";
             aTag.appendChild(document.createTextNode(iconName)); // should be an icon not text.
             bottomDiv.appendChild(aTag);
           }

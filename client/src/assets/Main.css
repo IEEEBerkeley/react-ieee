@@ -808,13 +808,12 @@ form.formtastic ol li p {
     text-align: left
 }
 #face-grid .salutation .bottom-align {
+    display: flex;
     position: absolute;
     bottom: 10px;
-    left: 10px;
-}
-#face-grid .salutation .bottom-align .icon{
-    display: inline-block;
-    margin: 5px 10px 5px 10px;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-content: flex-start;
 }
 #face-grid .salutation .right-align {
     position: absolute;
