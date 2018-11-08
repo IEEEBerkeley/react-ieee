@@ -169,21 +169,21 @@ class About extends Component {
                 <div className="tile"><img src={tryAndDefault("Exec", "brent_yi.jpg")} alt=""/></div>
                 <div className="tile salutation">
                   <div className="left-align-top"><span>Brent Yi</span><span className="rank">Co-President</span></div>
-                  <div className="bottom-align"><a href="https://github.com/brentyi"><i className="icon-github"></i></a><a href="https://linkedin.com/in/brentyi"><i className="icon-linkedin"></i></a><a href="https://brentyi.com"><i className="icon-personal"></i></a><a href="https://twitter.com/brenthyi"><i className="icon-twitter"></i></a></div>
+                  <div className="bottom-align"><a href="https://github.com/brentyi" className="icon"><i className="icon-github"></i></a><a href="https://linkedin.com/in/brentyi" className="icon"><i className="icon-linkedin"></i></a><a href="https://brentyi.com" className="icon"><i className="icon-personal"></i></a><a href="https://twitter.com/brenthyi" className="icon"><i className="icon-twitter"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
                 <div className="tile"><img src={tryAndDefault("Exec", "billy_lu.jpg")} alt=""/></div>
                 <div className="tile salutation">
                   <div className="left-align-top"><span>Billy Lu</span><span className="rank">External V.P.</span></div>
-                  <div className="bottom-align"><a href="https://github.com/williammlu"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/williammlu/"><i className="icon-linkedin"></i></a><a href="http://william.lu/"><i className="icon-personal"></i></a><a href="https://instagram.com/williammlu"><i className="icon-instagram"></i></a></div>
+                  <div className="bottom-align"><a href="https://github.com/williammlu" className="icon"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/williammlu/" className="icon"><i className="icon-linkedin"></i></a><a href="http://william.lu/" className="icon"><i className="icon-personal"></i></a><a href="https://instagram.com/williammlu" className="icon"><i className="icon-instagram"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
                 <div className="tile"><img src={tryAndDefault("Exec", "ron_thalanki.jpg")} alt=""/></div>
                 <div className="tile salutation">
                   <div className="left-align-top"><span>Ron Thalanki</span><span className="rank">External V.P.</span></div>
-                  <div className="bottom-align"><a href="https://www.github.com/ronthalanki"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/sairanjiththalanki"><i className="icon-linkedin"></i></a></div>
+                  <div className="bottom-align"><a href="https://www.github.com/ronthalanki" className="icon"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/sairanjiththalanki" className="icon"><i className="icon-linkedin"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">

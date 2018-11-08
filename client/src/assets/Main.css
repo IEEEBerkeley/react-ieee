@@ -868,7 +868,7 @@ form.formtastic ol li p {
     margin: 0px 10px;
 }
 #face-grid .salutation .bottom-align .icon:hover {
-    font-size: 110%;
+    transform: scale(1.5);
 }
 #face-grid .salutation .right-align {
     position: absolute;
