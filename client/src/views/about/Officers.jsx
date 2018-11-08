@@ -127,7 +127,10 @@ class About extends Component {
             console.log(iconName + " " + link);
             let aTag = document.createElement("a");
             aTag.href = link;
-            aTag.appendChild(document.createTextNode(iconName)); // should be an icon not text.
+            aTag.classList = "icon";
+            let icon = document.createElement("i");
+            icon.classList = "icon-" + iconName.toLowerCase();
+            aTag.appendChild(icon);
             bottomDiv.appendChild(aTag);
           }
           tileName.appendChild(bottomDiv);
@@ -160,45 +163,45 @@ class About extends Component {
                 <div className="tile"><img src={tryAndDefault("Exec", "gregory_balke.jpg")} alt="" /></div>
                 <div className="tile salutation">
                   <div className="left-align-top"><span>Gregory Balke</span><span className="rank">Co-President</span></div>
-                  <div className="bottom-align">
-                    <i className="icon-personal"></i>
-                  </div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
                 <div className="tile"><img src={tryAndDefault("Exec", "brent_yi.jpg")} alt=""/></div>
                 <div className="tile salutation">
-                  <div className="left-align"><span>Brent Yi</span><span className="rank">Co-President</span></div>
+                  <div className="left-align-top"><span>Brent Yi</span><span className="rank">Co-President</span></div>
+                  <div className="bottom-align"><a href="https://github.com/brentyi"><i className="icon-github"></i></a><a href="https://linkedin.com/in/brentyi"><i className="icon-linkedin"></i></a><a href="https://brentyi.com"><i className="icon-personal"></i></a><a href="https://twitter.com/brenthyi"><i className="icon-twitter"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
                 <div className="tile"><img src={tryAndDefault("Exec", "billy_lu.jpg")} alt=""/></div>
                 <div className="tile salutation">
-                  <div className="left-align"><span>Billy Lu</span><span className="rank">External V.P.</span></div>
+                  <div className="left-align-top"><span>Billy Lu</span><span className="rank">External V.P.</span></div>
+                  <div className="bottom-align"><a href="https://github.com/williammlu"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/williammlu/"><i className="icon-linkedin"></i></a><a href="http://william.lu/"><i className="icon-personal"></i></a><a href="https://instagram.com/williammlu"><i className="icon-instagram"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
                 <div className="tile"><img src={tryAndDefault("Exec", "ron_thalanki.jpg")} alt=""/></div>
                 <div className="tile salutation">
-                  <div className="left-align"><span>Ron Thalanki</span><span className="rank">External V.P.</span></div>
+                  <div className="left-align-top"><span>Ron Thalanki</span><span className="rank">External V.P.</span></div>
+                  <div className="bottom-align"><a href="https://www.github.com/ronthalanki"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/sairanjiththalanki"><i className="icon-linkedin"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
                 <div className="tile"><img src={tryAndDefault("Exec", "alex_kassil.jpg")} alt="" /></div>
                 <div className="tile salutation">
-                  <div className="left-align"><span>Alex Kassil</span><span className="rank">Internal V.P.</span></div>
+                  <div className="left-align-top"><span>Alex Kassil</span><span className="rank">Internal V.P.</span></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
                 <div className="tile"><img src={tryAndDefault("Exec", "hall_chen.jpg")} alt="" /></div>
                 <div className="tile salutation">
-                  <div className="left-align"><span>Hall Chen</span><span className="rank">Treasurer</span></div>
+                  <div className="left-align-top"><span>Hall Chen</span><span className="rank">Treasurer</span></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
                 <div className="tile"><img src={tryAndDefault("Exec", "neha_godbole.jpg")} alt="" /></div>
                 <div className="tile salutation">
-                  <div className="left-align"><span>Neha Godbole</span><span className="rank">Secretary</span></div>
+                  <div className="left-align-top"><span>Neha Godbole</span><span className="rank">Secretary</span></div>
                 </div>
               </div>
             </div>

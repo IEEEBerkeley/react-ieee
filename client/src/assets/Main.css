@@ -199,6 +199,7 @@
     font-weight: normal;
     font-style: normal
 }
+
 @font-face {
   font-family: 'fontello';
   src: url(fonts/fontello/fontello.eot?25221796);
@@ -243,7 +244,7 @@
   margin-left: .2em;
  
   /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
+  font-size: 150%;
  
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
@@ -302,7 +303,7 @@
 .icon-personal:before { content: "\e800"; }
 .icon-twitter:before { content: "\f099"; }
 .icon-facebook:before { content: "\f09a"; }
-.icon-linkedin:before { content: "\f0e1"; }
+.icon-github:before { content: "\f09b"; }
 .icon-instagram:before { content: "\f16d"; }
 * {
     margin: 0
@@ -864,6 +865,10 @@ form.formtastic ol li p {
     justify-content: space-evenly;
     flex-flow: row wrap;
     align-content: flex-start;
+    margin: 0px 10px;
+}
+#face-grid .salutation .bottom-align .icon:hover {
+    font-size: 110%;
 }
 #face-grid .salutation .right-align {
     position: absolute;

@@ -1,13 +1,7 @@
 {
     "Exec": [
       {
-        "Co-President": "Gregory Balke",
-        "Links":
-          {
-            "Instagram": "link1",
-            "Github": "link2",
-            "Twitter": "link3"
-          }
+        "Co-President": "Gregory Balke"
       },
       {
         "Co-President": "Brent Yi",
@@ -29,11 +23,10 @@
       },
       {
         "External V.P.": "Ron Thalanki",
-        "Links":
-          {
-            "Github": "https://www.github.com/ronthalanki",
-            "Linkedin": "https://www.linkedin.com/in/sairanjiththalanki"
-          }
+        "Links": {
+          "Github": "https://www.github.com/ronthalanki",
+          "Linkedin": "https://www.linkedin.com/in/sairanjiththalanki"
+        }
       },
       {
         "Internal V.P.": "Alex Kassil"
@@ -58,8 +51,8 @@
       {
         "Director": "Ewen Dai",
         "Links": {
-            "Github": "https://github.com/ewendai",
-            "Linkedin": "linkedin.com/in/ewendai"
+          "Github": "https://github.com/ewendai",
+          "Linkedin": "linkedin.com/in/ewendai"
         }
       },
       {
@@ -81,7 +74,8 @@
         "Links": {
           "Github": "https://github.com/joshuayuan/",
           "Linkedin": "http://linkedin.com/in/joshua-yuan",
-          "Personal": "http://joshuayuan.me"
+          "Personal": "http://joshuayuan.me",
+          "Instagram": "http://instagram.com/jolly_joshy"
         }
       }
     ],
