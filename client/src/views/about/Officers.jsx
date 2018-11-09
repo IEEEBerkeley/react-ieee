@@ -77,7 +77,6 @@ class About extends Component {
     if (key in this.committeeDict && this.committeeDict[key] in officerData) {
       let people = officerData[this.committeeDict[key]];
 
-
       while (grid.children.length > 0) {
         grid.children[0].remove();
       }
