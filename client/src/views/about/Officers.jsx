@@ -115,16 +115,12 @@ class About extends Component {
 
         // Officer links:
         if (Object.values(people[i]).length > 1){
-          let links = Object.values(people[i])[1]; // JSON object with string:string
+          let links = Object.values(people[i])[1];
           let bottomDiv = document.createElement("div");
           bottomDiv.classList = "bottom-align";
 
-          console.log(links);
-          console.log(links.length);
-
           for (var iconName in links) {
             let link = links[iconName];
-            console.log(iconName + " " + link);
             let aTag = document.createElement("a");
             aTag.href = link;
             aTag.classList = "icon";
@@ -135,8 +131,8 @@ class About extends Component {
           }
           tileName.appendChild(bottomDiv);
         }
-        div.appendChild(tileName);
 
+        div.appendChild(tileName);
         grid.appendChild(div);
       }
     }
