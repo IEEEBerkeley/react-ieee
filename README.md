@@ -26,6 +26,7 @@ url.
 
 - ssh into ieee.berkeley.edu
     - `ssh <username>@ieee.berkeley.edu`
+    - `ssh -i .ssh/id_ed25519 username@ieee.berkeley.edu`
 - `cd /srv/react-ieee`
 - `sudo su deployer`
 - `git fetch`
