@@ -6,6 +6,10 @@
     "cryptiles": "^4.1.2",
     "deep-extend": "^0.6.0",
     "dns": "^0.2.2",
+    "eslint": "^4.19.1",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1",
     "express": "^4.16.2",
     "fetch": "^1.1.0",
     "fs": "0.0.1-security",
@@ -19,10 +23,12 @@
     "randomatic": "^3.1.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-lazyload": "^2.3.0",
     "react-protected-mailto": "^1.0.3",
     "react-router-dom": "^4.2.2",
     "sshpk": "^1.15.1",
-    "url-parse": "^1.4.3"
+    "url-parse": "^1.4.3",
+    "webpack": "^3.12.0"
   },
   "scripts": {
     "predeploy": "npm run build",
