@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import memberImage from '../../assets/members.jpg';
+import LazyLoad from 'react-lazyload';
 
 class Contact extends Component {
   render() {
     return (
       <div>
+      <LazyLoad height={200}>
         <div className="hero"
         style={{ backgroundImage: "url(" + memberImage + ")" }}>
         </div>
+        </LazyLoad>
         <div className="submenu">
         <ul>
         <Link to={"/about"}><li className="">About</li></Link>

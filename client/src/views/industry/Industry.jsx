@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import industryImage from '../../assets/industry.png';
-
+import LazyLoad from 'react-lazyload';
 class Industry extends Component {
   render() {
     return (
     <div>
+    <LazyLoad height={200}>
       <div className="hero"
         style={{ backgroundImage: "url(" + industryImage + ")" }}>
         </div>
+        </LazyLoad>
         <div className="submenu">
         <ul>
         <Link to={"/industry"}><li className="">Information</li></Link>
