@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import industryImage from '../../assets/industry.png';
+import LazyLoad from 'react-lazyload';
 import Download from './Download';
+
 class Sponsor extends Component {
   render() {
     return (
@@ -19,6 +21,7 @@ class Sponsor extends Component {
 <div>
 <span class="heading blue">Corporate Sponsors</span>
 <div style={{marginLeft: -10 + 'px'}}>
+<LazyLoad height={200}>
 <div class="sponsor-container">
 <div class="sponsor">
 <a href="http://www.wish.com/" target="_blank" rel="noopener noreferrer"><img alt="Logo-wish" src={require("../../assets/industry/sponsors/logo-wish.png")} /></a>
@@ -94,6 +97,7 @@ class Sponsor extends Component {
 <a href="https://bayareacircuits.com/" target="_blank" rel="noopener noreferrer"><img alt="Logo-bac" src={require("../../assets/industry/sponsors/logo-bac.png")} /></a>
 </div>
 </div>
+</LazyLoad>
 <div style={{clear: "both" }}></div>
 </div>
 <br />

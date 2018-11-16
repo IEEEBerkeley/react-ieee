@@ -2,6 +2,8 @@ import React from 'react';
 import Slider from "react-slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+import LazyLoad from 'react-lazyload';
+
 
 class SimpleSlider extends React.Component {
   render() {
@@ -17,6 +19,7 @@ class SimpleSlider extends React.Component {
         variablewidth: true
     };
     return (
+    <LazyLoad height={200}>
       <Slider {...settings}>
         <div>
         <img alt="" src={require('../assets/micromouse/micromouse1.jpg')}/>
@@ -40,6 +43,7 @@ class SimpleSlider extends React.Component {
         <img alt="" src={require('../assets/micromouse/micromouse6.jpg')}/>
         </div>
       </Slider>
+    </LazyLoad>
     );
   }
 }
