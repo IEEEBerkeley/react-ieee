@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import industryImage from '../../assets/industry.png';
 import LazyLoad from 'react-lazyload';
+import Download from './Download';
 
 class Sponsor extends Component {
   render() {
@@ -102,9 +103,9 @@ class Sponsor extends Component {
 <br />
 <br />
 <p>
-Want to sponsor? Please read about &nbsp;
-<a href="/sponsor.pdf" class="blue">company sponsorship.</a>
+Want to sponsor? <Download> </Download>
 </p>
+
 </div>
 
 </div>
