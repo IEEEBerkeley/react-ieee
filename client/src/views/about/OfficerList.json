@@ -32,10 +32,17 @@
         "Internal V.P.": "Alex Kassil"
       },
       {
-        "Treasurer": "Hall Chen"
+        "Treasurer": "Hall Chen",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/hall-z-h-chen-a39b04a0",
+          "Personal": "https://im.hallchen.us"
+        }
       },
       {
-        "Secretary": "Neha Godbole"
+        "Secretary": "Neha Godbole",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/neha-godbole-b61274126/"
+        }
       }
     ],
 
@@ -114,7 +121,11 @@
         "Director": "Olivia Hsu"
       },
       {
-        "Officer": "Hall Chen"
+        "Officer": "Hall Chen",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/hall-z-h-chen-a39b04a0",
+          "Personal": "https://im.hallchen.us"
+        }
       }
 
     ],
@@ -133,7 +144,10 @@
         "Officer": "Risham Sidhu"
       },
       {
-        "Officer" : "Neha Godbole"
+        "Officer" : "Neha Godbole",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/neha-godbole-b61274126/"
+        }
       },
       {
       "Officer": "Sharan Kumar"
@@ -155,7 +169,12 @@
         }
       },
       {
-        "Officer": "Neha Hudait"
+        "Officer": "Neha Hudait",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/nehahudait",
+          "Instagram": "https://www.instagram.com/nehahudz/",
+          "Twitter": "https://twitter.com/nehahudz"
+        }
       },
       {
         "Officer": "Neelesh Ramachandran",

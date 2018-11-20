@@ -203,6 +203,7 @@ class About extends Component {
                 <div className="tile"><img src={tryAndDefault("Exec", "hall_chen.jpg")} alt="" /></div>
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Hall Chen</span><span className="rank">Treasurer</span></div>
+                    <div className="bottom-align"><a href="https://www.linkedin.com/in/hall-z-h-chen-a39b04a0" className="icon"><i className="icon-linkedin"></i></a><a href="https://im.hallchen.us" className="icon"><i className="icon-personal"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
@@ -211,6 +212,7 @@ class About extends Component {
                 </LazyLoad>
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Neha Godbole</span><span className="rank">Secretary</span></div>
+                    <div className="bottom-align"><a href="https://www.linkedin.com/in/neha-godbole-b61274126/" className="icon"><i className="icon-linkedin"></i></a></div>
                 </div>
               </div>
             </div>
