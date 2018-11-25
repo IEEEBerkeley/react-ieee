@@ -445,7 +445,8 @@ a.icon-link span.icon {
     width: 142px;
     font-size: 18px;
     font-family: 'OpenSansLight';
-    color: navy;
+    color: gray;
+    font-weight: bold;
 }
 .submenu ul li:hover:not(.page) {
     background-color: #CDCDCD;
