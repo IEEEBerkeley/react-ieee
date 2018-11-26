@@ -24,14 +24,12 @@ class Footer extends Component {
       </form>
       </li>
       <li>
-      <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416">
-      <span aria-hidden="true" className="icon icon-facebook"></span>
-      </a>
+      <li>
+        <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416" className="icon"><i className="icon-facebook"></i></a>
       </li>
       <li>
-      <a href="https://www.linkedin.com/company/ieee-ucb/">
-      <span aria-hidden="true" className="icon icon-linkedin"></span>
-      </a>
+      <a href="https://www.linkedin.com/company/ieee-ucb/" className="icon"><i className="icon-linkedin"></i></a>
+      </li>
       </li>
       </ul>
       <br />
