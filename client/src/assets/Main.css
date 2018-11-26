@@ -426,7 +426,7 @@ a.icon-link span.icon {
     min-width: 1024px;
     height: 70px;
     color: #FFFFFF;
-    background-color: #7B858F
+    background-color: transparent;
 }
 .submenu ul {
     width: 968px;
@@ -444,10 +444,13 @@ a.icon-link span.icon {
     float: left;
     width: 142px;
     font-size: 18px;
-    font-family: 'OpenSansLight'
+    font-family: 'OpenSansLight';
+    color: gray;
+    font-weight: bold;
 }
 .submenu ul li:hover:not(.page) {
     background-color: #CDCDCD;
+    text-decoration: underline;
 }
 .submenu ul li.current {
     background-image: url(/assets/current-fd27db282a6e23a595e9cd3c06a08912.png);
