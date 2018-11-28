@@ -152,6 +152,7 @@ class About extends Component {
         {/** <Link to={"/about/contact"}><li className="">Contact</li></Link> **/}
         </ul>
         </div>
+        <LazyLoad>
         <div className="content">
           <div className="left">
             <div id="face-grid"
@@ -317,6 +318,7 @@ class About extends Component {
 
           </div>
         </div>
+        </LazyLoad>
       </div>
     );
   }
