@@ -9,7 +9,7 @@ class Footer extends Component {
       <div className="logo-national">
       <a href="https://www.ieee.org/"><img alt={"Logo"} src={require("../assets/logo_kite.png")} /></a>
       </div>
-      <p>2018 UC Berkeley IEEE</p>
+      <p>© 2019 UC Berkeley IEEE</p>
       </div>
       <div className="media vertically-centered" style={{marginTop: '51px', marginBottom: '51px'}}>
       <ul>

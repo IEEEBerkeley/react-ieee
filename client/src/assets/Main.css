@@ -133,6 +133,7 @@
 #cboxPrevious:hover {
     background-position: bottom left
 }
+
 #cboxNext {
     position: absolute;
     top: 50%;
@@ -314,7 +315,7 @@ body {
 }
 body {
     font-family: 'OpenSansRegular';
-    font-size: 14px;
+    font-size: 16px;
     background-color: #FAFAFA;
     background-image: url(/assets/bg_container-2fbfa4184e846302151032c4b005c4293.png);
     background-repeat: repeat-y;
@@ -348,13 +349,14 @@ a.icon-link span.icon {
     font-size: 14px
 }
 .wrapper {
-    max-width: 1280px;
+    /* max-width: 1280px;
+    min-width: 1024px; */
     min-width: 1024px;
     background-color: #FFFFFF;
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -150px
+    /* margin: 0 auto -150px */
 }
 .footer-wrapper,
 .push {
@@ -363,14 +365,16 @@ a.icon-link span.icon {
 .footer-wrapper {
     background-color: #2F3337;
     color: #FFFFFF;
-    max-width: 1280px;
-    min-width: 1024px;
-    margin: 0px auto
+    max-width: 100%;
+    /* max-width: 1280px;
+    min-width: 1024px; */
+    margin: 0px auto;
+    height: 200px;
 }
 .header {
-    width: 968px;
+    width: 90%;
     margin: 0px auto;
-    height: 150px
+    height: 150px;
 }
 .header .logo-cal {
     width: 287px;
@@ -416,14 +420,22 @@ a.icon-link span.icon {
     color: #2F3337
 }
 .hero {
-    max-width: 1280px;
+    /* max-width: 1280px;
+    min-width: 1024px; */
     min-width: 1024px;
-    height: 367px;
+    height: 400px;
     background-position: center center
 }
+.bg_image {
+
+}
+
+.slider_main {
+  width: 90%;
+}
 .submenu {
-    max-width: 1280px;
-    min-width: 1024px;
+    /* max-width: 1280px;
+    min-width: 1024px; */
     height: 70px;
     color: #FFFFFF;
     background-color: transparent;
@@ -517,7 +529,7 @@ table td.row-header {
     width: 968px;
     margin: 0px auto;
     height: 150px;
-    font-size: 12px
+    font-size: 12px;
 }
 .footer .copyright {
     float: left;
@@ -543,18 +555,23 @@ table td.row-header {
     list-style-type: none
 }
 .footer .media .icon {
-    padding-top: 4px;
+    /* padding-top: 4px;
     float: left;
     font-size: 20px;
     line-height: 30px;
     margin-left: 8px;
     text-align: center;
-    width: 34px;
-    background-color: #98A1AA
+    width: 34px; */
+    margin-left: 10px;
+    display: block;
+    text-align: center;
+    padding: 10px 5px 5px 10px;
+    color: white;
+    font-size: 20px;
+    background-color: #98A1AA;
+    border-radius: 5px;
 }
-.footer .media a {
-    color: white
-}
+
 .clickable {
     cursor: pointer
 }
@@ -663,7 +680,7 @@ input[type="password"] {
 textarea {
     height: 100px;
     padding: 10px;
-    font-size: 13px
+    font-size: 13px;
 }
 .input-prepend,
 .input-append {

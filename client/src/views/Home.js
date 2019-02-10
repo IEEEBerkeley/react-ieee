@@ -7,9 +7,11 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="hero">
+        <div className="hero bg_image">
+        <center>
             <Slides/>
              {/**style={{ backgroundImage: "url(" + homeImage + ")" }}>**/}
+        </center>
         </div>
         <div className="content">
           <div className="left">
