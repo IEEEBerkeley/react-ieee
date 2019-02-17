@@ -164,7 +164,18 @@
     padding: 1%;
     padding-bottom: 3%
 }
-
+.mailing {
+  font-weight: bold;
+  padding-top: 5px;
+}
+.learnmore {
+  font-weight: bold;
+  font-size: 20px;
+  float:right;
+}
+li.mail {
+  padding-top: 10px;
+}
 @font-face {
     font-family: 'OpenSansRegular';
     src: url(fonts/opensans/OpenSans-Regular-webfont.eot);
