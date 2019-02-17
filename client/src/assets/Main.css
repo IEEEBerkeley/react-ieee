@@ -163,6 +163,19 @@
     padding: 1%;
     padding-bottom: 3%
 }
+.mailing {
+  font-weight: bold;
+  padding-top: 5px;
+}
+.learnmore {
+  font-weight: bold;
+  font-size: 20px;
+  float:right;
+}
+li.mail {
+  padding-top: 10px;
+}
+
 
 @font-face {
     font-family: 'OpenSansRegular';
@@ -498,6 +511,7 @@ a.icon-link span.icon {
 .content .right ul li span.clickable:hover {
     color: #2F3337
 }
+
 table {
     border-collapse: collapse;
     width: 100%
@@ -543,13 +557,15 @@ table td.row-header {
     list-style-type: none
 }
 .footer .media .icon {
-    padding-top: 4px;
+    padding-right: 5px;
+    padding-top: 5px;
     float: left;
     font-size: 20px;
     line-height: 30px;
     margin-left: 8px;
     text-align: center;
     width: 34px;
+    border-radius: 5px;
     background-color: #98A1AA
 }
 .footer .media a {

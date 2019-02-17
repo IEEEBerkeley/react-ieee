@@ -32,11 +32,6 @@ class SimpleSlider extends React.Component {
           <img alt = "pic" src={require('../assets/industry.png')}/>
           </LazyLoad>
         </div>
-        <div>
-        <LazyLoad height={200}>
-          <img alt = "pic" src={require('../assets/officer_photo.jpg')}/>
-          </LazyLoad>
-        </div>
       </Slider>
     );
   }
