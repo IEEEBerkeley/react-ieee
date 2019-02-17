@@ -13,12 +13,13 @@ import Micromouse from './views/Micromouse';
 import About from './views/about/About';
 import Contact from './views/about/Contact';
 import Officers from './views/about/Officers';
+import Apply from './views/Apply'
 
 
 const Main = () => (
     <Switch>
       <Route exact path='/' component={Home}/>
-      <Route exact path='/events' component={Events}/>
+      <Route exact path='/events' component={Calendar}/>
       <Route path='/events/calendar' component={Calendar}/>
       <Route exact path='/industry' component={Industry}/>
       <Route path='/industry/sponsors' component={Sponsor}/>
@@ -29,7 +30,8 @@ const Main = () => (
       <Route path='/micromouse' component={Micromouse}/>
       <Route exact path='/about' component={About}/>
       <Route path='/about/leadership' component={Officers}/>
-      <Route path='/about/contact' component={Contact}/>
+      {/*<Route path='/about/contact' component={Contact}/>*/}
+      <Route path='/apply' component={Apply}/>
       <Route path='/*' component={Home}/>
     </Switch>
 )
