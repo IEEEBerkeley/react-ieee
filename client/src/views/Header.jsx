@@ -11,11 +11,7 @@ class Header extends Component {
         </Link>
         </div>
         <div className="navigation">
-        <ul>
-          <li className="main">
-            <Link to={"/"}>Home</Link>
-          </li>
-        </ul>
+
         <ul>
           <li className="main">
           <Link to={"/events"}>EVENTS</Link>

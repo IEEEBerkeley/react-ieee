@@ -13,12 +13,6 @@ class Footer extends Component {
       </div>
       <div className="media vertically-centered" style={{marginTop: '51px', marginBottom: '51px'}}>
       <ul>
-      <li>
-      <p  className="learnmore"> Learn More
-      </p>
-      </li>
-      </ul>
-      <ul>
       <li className="mail">
         <a className="mailing" href="http://eepurl.com/c-RpPr"> Join our mailing list</a>
       </li>

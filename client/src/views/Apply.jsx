@@ -12,7 +12,7 @@ class Apply extends Component {
             </div>
         <div class='content'>
         <span class='heading blue'>
-        Micromouse
+        Join IEEE!
         </span>
         <p>
         <br />
