@@ -166,6 +166,7 @@
 .mailing {
   font-weight: bold;
   padding-top: 5px;
+  text-decoration: underline;
 }
 .learnmore {
   font-weight: bold;
@@ -175,7 +176,6 @@
 li.mail {
   padding-top: 10px;
 }
-
 
 @font-face {
     font-family: 'OpenSansRegular';
