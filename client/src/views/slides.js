@@ -16,6 +16,7 @@ class SimpleSlider extends React.Component {
         autoplaySpeed: 3500
     };
     return (
+      <div className="slider_main">
       <Slider {...settings}>
         <div>
         <LazyLoad height={200}>
@@ -33,6 +34,7 @@ class SimpleSlider extends React.Component {
           </LazyLoad>
         </div>
       </Slider>
+      </div>
     );
   }
 }

@@ -133,6 +133,7 @@
 #cboxPrevious:hover {
     background-position: bottom left
 }
+
 #cboxNext {
     position: absolute;
     top: 50%;
@@ -161,7 +162,13 @@
 }
 #micromouseSlide {
     padding: 1%;
-    padding-bottom: 3%
+    padding-bottom: 3%;
+    width: 96%;
+}
+.copyrighted {
+  font-size: 12px;
+  margin-left: 10%;
+  margin-top: 1%;
 }
 .mailing {
   font-weight: bold;
@@ -176,7 +183,6 @@
 li.mail {
   padding-top: 10px;
 }
-
 @font-face {
     font-family: 'OpenSansRegular';
     src: url(fonts/opensans/OpenSans-Regular-webfont.eot);
@@ -318,6 +324,7 @@ li.mail {
 
 .icon-github:before { content: "\f09b"; }
 .icon-instagram:before { content: "\f16d"; }
+
 * {
     margin: 0
 }
@@ -327,7 +334,7 @@ body {
 }
 body {
     font-family: 'OpenSansRegular';
-    font-size: 14px;
+    font-size: 16px;
     background-color: #FAFAFA;
     background-image: url(/assets/bg_container-2fbfa4184e846302151032c4b005c4293.png);
     background-repeat: repeat-y;
@@ -361,13 +368,14 @@ a.icon-link span.icon {
     font-size: 14px
 }
 .wrapper {
-    max-width: 1280px;
+    /* max-width: 1280px;
+    min-width: 1024px; */
     min-width: 1024px;
     background-color: #FFFFFF;
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -150px
+    /* margin: 0 auto -150px */
 }
 .footer-wrapper,
 .push {
@@ -376,14 +384,16 @@ a.icon-link span.icon {
 .footer-wrapper {
     background-color: #2F3337;
     color: #FFFFFF;
-    max-width: 1280px;
-    min-width: 1024px;
-    margin: 0px auto
+    max-width: 100%;
+    /* max-width: 1280px;
+    min-width: 1024px; */
+    margin: 0px auto;
+    height: 200px;
 }
 .header {
     width: 968px;
     margin: 0px auto;
-    height: 150px
+    height: 150px;
 }
 .header .logo-cal {
     width: 287px;
@@ -429,14 +439,23 @@ a.icon-link span.icon {
     color: #2F3337
 }
 .hero {
-    max-width: 1280px;
+    /* max-width: 1280px;
+    min-width: 1024px; */
+    background-repeat: no-repeat;
     min-width: 1024px;
-    height: 367px;
+    height: 400px;
     background-position: center center
 }
+.bg_image {
+
+}
+
+.slider_main {
+  width: 90%;
+}
 .submenu {
-    max-width: 1280px;
-    min-width: 1024px;
+    /* max-width: 1280px;
+    min-width: 1024px; */
     height: 70px;
     color: #FFFFFF;
     background-color: transparent;
@@ -480,7 +499,7 @@ a.icon-link span.icon {
     width: 968px;
     margin: 0px auto;
     padding: 43px 0 75px 0;
-    overflow: auto
+    overflow: auto;
 }
 .content .left {
     width: 570px;
@@ -511,7 +530,6 @@ a.icon-link span.icon {
 .content .right ul li span.clickable:hover {
     color: #2F3337
 }
-
 table {
     border-collapse: collapse;
     width: 100%
@@ -531,11 +549,14 @@ table td.row-header {
     width: 968px;
     margin: 0px auto;
     height: 150px;
-    font-size: 12px
+    font-size: 12px;
 }
 .footer .copyright {
     float: left;
     text-align: center
+}
+.microslide {
+  margin-left: 2%;
 }
 .footer .copyright .logo-national {
     width: 128px;
@@ -543,8 +564,9 @@ table td.row-header {
     margin-bottom: 5px
 }
 .footer .copyright .logo-national img {
-    border: 0px
+    border: 0px;
 }
+
 .footer .media {
     float: right
 }
@@ -557,20 +579,18 @@ table td.row-header {
     list-style-type: none
 }
 .footer .media .icon {
-    padding-right: 5px;
-    padding-top: 5px;
-    float: left;
-    font-size: 20px;
-    line-height: 30px;
-    margin-left: 8px;
-    text-align: center;
-    width: 34px;
-    border-radius: 5px;
-    background-color: #98A1AA
+  padding-right: 5px;
+  padding-top: 5px;
+  float: left;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 8px;
+  text-align: center;
+  width: 34px;
+  border-radius: 5px;
+  background-color: #98A1AA
 }
-.footer .media a {
-    color: white
-}
+
 .clickable {
     cursor: pointer
 }
@@ -679,7 +699,7 @@ input[type="password"] {
 textarea {
     height: 100px;
     padding: 10px;
-    font-size: 13px
+    font-size: 13px;
 }
 .input-prepend,
 .input-append {

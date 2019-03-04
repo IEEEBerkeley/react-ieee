@@ -10,7 +10,7 @@ class SimpleSlider extends React.Component {
     var settings = {
         infinite: true,
         speed: 1500,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         dots : false,
@@ -19,6 +19,7 @@ class SimpleSlider extends React.Component {
         variablewidth: true
     };
     return (
+    <div className="microslide">
     <LazyLoad height={200}>
       <Slider {...settings}>
         <div>
@@ -44,6 +45,7 @@ class SimpleSlider extends React.Component {
         </div>
       </Slider>
     </LazyLoad>
+    </div>
     );
   }
 }
