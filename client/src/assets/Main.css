@@ -173,6 +173,7 @@
 .mailing {
   font-weight: bold;
   padding-top: 5px;
+  text-decoration: underline;
 }
 .learnmore {
   font-weight: bold;
