@@ -92,13 +92,13 @@
 
     "Activities": [
       {
-        "Director": "Jay Dong"
+        "Director": "Claudia Korea"
       },
       {
-        "Officer" : "Michelle Hwang"
+        "Officer" : "Eric Gao"
       },
       {
-        "Officer": "Felix Ching"
+        "Officer": "George Wang"
       }
     ],
     "Marketing": [
@@ -165,10 +165,12 @@
 
     "Prodev": [
       {
-        "Director": "Alex Kassil"
-      },
-      {
-        "Officer": "Ryan Trainer"
+        "Director": "Neha Hudait",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/nehahudait",
+          "Instagram": "https://www.instagram.com/nehahudz/",
+          "Twitter": "https://twitter.com/nehahudz"
+        }
       },
       {
         "Officer": "Hugues Vigner",
@@ -178,18 +180,19 @@
         }
       },
       {
-        "Officer": "Neha Hudait",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/nehahudait",
-          "Instagram": "https://www.instagram.com/nehahudz/",
-          "Twitter": "https://twitter.com/nehahudz"
-        }
-      },
-      {
         "Officer": "Neelesh Ramachandran",
         "Links": {
           "Linkedin": "https://www.linkedin.com/in/neelesh-ramachandran"
         }
+      },
+      {
+        "Officer": "Alyssa Huang"
+      },
+      {
+        "Officer": "Eugene Wong"
+      },
+      {
+        "Officer": "Lucas Huang"
       }
     ],
 
