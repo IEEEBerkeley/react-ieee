@@ -35,8 +35,7 @@ class Calendar extends Component {
       <div class="content">
 
       <div class = "left">
-          <span class="heading blue centertext">All Events</span>
-
+          
           <div style = {divStyle}>
           <Googlecal iframe={iframe} />
           </div>
