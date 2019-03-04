@@ -35,12 +35,6 @@ url.
 
 As a sudoer:
 
-- `sudo initctl stop react-ieee`
-- `sudo initctl start react-ieee`
-- check to make sure it worked
-    -  logs in `/var/log/upstart/react-ieee`
-    -  `sudo cat /var/log/upstart/react-ieee`
-
 updated 9/5/18:
 - `sudo systemctl stop react-ieee`
 - `sudo systemctl start react-ieee`
