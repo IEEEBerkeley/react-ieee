@@ -162,7 +162,13 @@
 }
 #micromouseSlide {
     padding: 1%;
-    padding-bottom: 3%
+    padding-bottom: 3%;
+    width: 96%;
+}
+.copyrighted {
+  font-size: 12px;
+  margin-left: 10%;
+  margin-top: 1%;
 }
 .mailing {
   font-weight: bold;
@@ -317,6 +323,7 @@ li.mail {
 
 .icon-github:before { content: "\f09b"; }
 .icon-instagram:before { content: "\f16d"; }
+
 * {
     margin: 0
 }
@@ -383,7 +390,7 @@ a.icon-link span.icon {
     height: 200px;
 }
 .header {
-    width: 80%;
+    width: 968px;
     margin: 0px auto;
     height: 150px;
 }
@@ -433,6 +440,7 @@ a.icon-link span.icon {
 .hero {
     /* max-width: 1280px;
     min-width: 1024px; */
+    background-repeat: no-repeat;
     min-width: 1024px;
     height: 400px;
     background-position: center center
@@ -490,7 +498,7 @@ a.icon-link span.icon {
     width: 968px;
     margin: 0px auto;
     padding: 43px 0 75px 0;
-    overflow: auto
+    overflow: auto;
 }
 .content .left {
     width: 570px;
@@ -546,14 +554,18 @@ table td.row-header {
     float: left;
     text-align: center
 }
+.microslide {
+  margin-left: 2%;
+}
 .footer .copyright .logo-national {
     width: 128px;
     height: 37px;
     margin-bottom: 5px
 }
 .footer .copyright .logo-national img {
-    border: 0px
+    border: 0px;
 }
+
 .footer .media {
     float: right
 }
@@ -566,21 +578,16 @@ table td.row-header {
     list-style-type: none
 }
 .footer .media .icon {
-    /* padding-top: 4px;
-    float: left;
-    font-size: 20px;
-    line-height: 30px;
-    margin-left: 8px;
-    text-align: center;
-    width: 34px; */
-    margin-left: 10px;
-    display: block;
-    text-align: center;
-    padding: 10px 5px 5px 10px;
-    color: white;
-    font-size: 20px;
-    background-color: #98A1AA;
-    border-radius: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  float: left;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 8px;
+  text-align: center;
+  width: 34px;
+  border-radius: 5px;
+  background-color: #98A1AA
 }
 
 .clickable {

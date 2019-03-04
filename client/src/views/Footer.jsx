@@ -6,10 +6,9 @@ class Footer extends Component {
       <div className="footer-wrapper">
       <div className="footer">
       <div className="copyright vertically-centered" style={{marginTop: '47px', marginBottom: '47px'}}>
-      <div className="logo-national">
-      <a href="https://www.ieee.org/"><img alt={"Logo"} src={require("../assets/logo_kite.png")} /></a>
-      </div>
-      <p>© Copyright 2019 UC Berkeley IEEE</p>
+        <div className="logo-national">
+        <a href="https://www.ieee.org/"><img alt={"Logo"} src={require("../assets/logo_kite.png")} /></a>
+        </div>
       </div>
       <div className="media vertically-centered" style={{marginTop: '51px', marginBottom: '51px'}}>
       <ul>
@@ -22,10 +21,14 @@ class Footer extends Component {
       <li>
       <a href="https://www.linkedin.com/company/ieee-ucb/" className="icon"><i className="icon-linkedin"></i></a>
       </li>
+      <li>
+      <a href="https://www.instagram.com/ieeeucb/" className="icon"><i className="icon-instagram"></i></a>
+      </li>
       </ul>
       <br />
       </div>
       </div>
+      <p className="copyrighted">© Copyright 2019 UC Berkeley IEEE</p>
       </div>
     );
   }

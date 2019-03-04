@@ -9,13 +9,18 @@ class Micromouse extends Component {
       <div>
         <html>
         <body>
-            <div className="hero"
-                style={{ backgroundImage: "url(" + micromouseImage + ")" }}>
+            <div className="hero">
+            <div id = "micromouseSlide">
+            <LazyLoad height={200}>
+                <Slides/>
+            </LazyLoad>
+            </div>
             </div>
         <div class='content'>
         <span class='heading blue'>
         Micromouse
         </span>
+
         <p>
         <br />
         The UC Berkeley IEEE Student Branch’s Micromouse DeCal is a hands-on course aimed at undergraduates with an interest in robotics. In the class, teams of 2~5 students are formed to build and program autonomous, maze-solving cars that follow the standards set in IEEE’s Micromouse competition.
@@ -30,11 +35,6 @@ class Micromouse extends Component {
         </div>
         </body>
         </html>
-        <div id = "micromouseSlide">
-        <LazyLoad height={200}>
-            <Slides/>
-        </LazyLoad>
-        </div>
       </div>
     );
   }
