@@ -63,13 +63,6 @@
         }
       },
       {
-        "Officer": "Peru Dayani",
-        "Links": {
-          "Github": "https://github.com/PeruDayani",
-          "Linkedin": "https://www.linkedin.com/in/peru-dayani-09367314a/"
-        }
-      },
-      {
         "Officer": "Josh Yeung",
         "Links": {
           "Github": "https://github.com/yeungjosh",
@@ -83,6 +76,16 @@
           "Linkedin": "https://linkedin.com/in/joshua-yuan",
           "Personal": "https://joshuayuan.me",
           "Instagram": "https://instagram.com/jolly_joshy"
+        }
+      },
+      {
+        "Officer": "Vera Wang"
+      },
+      {
+        "Officer": "Nimalen Sivapalan",
+        "Links": {
+          "Github": "https://github.com/nsivapalan/",
+          "Linkedin": "https://linkedin.com/in/nimalen"
         }
       }
     ],
@@ -106,10 +109,16 @@
         "Officer" : "Jimmy Pippin"
       },
       {
-        "Officer" : "Shreya Kannan"
+        "Officer" : "Alexander Zerkel"
+      },
+      {
+        "Officer" : "Vincent Wu"
       },
       {
         "Officer" : "Alyssa Huang"
+      },
+      {
+        "Officer" : "Sydney Ty"
       }
     ],
 
