@@ -22,13 +22,6 @@
         }
       },
       {
-        "External V.P.": "Ron Thalanki",
-        "Links": {
-          "Github": "https://www.github.com/ronthalanki",
-          "Linkedin": "https://www.linkedin.com/in/sairanjiththalanki"
-        }
-      },
-      {
         "Internal V.P.": "Alex Kassil"
       },
       {
@@ -130,13 +123,8 @@
         "Director": "Olivia Hsu"
       },
       {
-        "Officer": "Hall Chen",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/hall-z-h-chen-a39b04a0",
-          "Personal": "https://im.hallchen.us"
-        }
+        "Officer": "Leon Wu"
       }
-
     ],
 
     "Indrel": [
@@ -238,6 +226,13 @@
       },
       {
         "Officer" : "Billy Zhao"
+      },
+      {
+        "Officer": "Ron Thalanki",
+        "Links": {
+          "Github": "https://www.github.com/ronthalanki",
+          "Linkedin": "https://www.linkedin.com/in/sairanjiththalanki"
+        }
       }
     ]
 }
