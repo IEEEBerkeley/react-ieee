@@ -449,6 +449,129 @@ a.icon-link span.icon {
 .bg_image {
 
 }
+/* new navigation bar
+*/
+.toolbar {
+  width: 100%;
+  background: #2F3337;
+
+}
+.toolbar_logo {
+  width: 287px;
+  height: 122px;
+}
+.toolbar_logo img {
+  border: 0px;
+}
+.toolbar_navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+.toolbar_navigation-items a {
+  color: white;
+  text-decoration: none;
+}
+.toolbar_navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.spacer {
+  flex: 1;
+}
+.toolbar_navigation-items li {
+  padding: 0 0.5rem
+}
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active {
+  color: yellow;
+}
+
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  width: 36px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.toggle-button__line {
+  width: 30px;
+  height: 2px;
+  background: white;
+}
+.toggle-button:focus {
+  outline: none;
+}
+.side-drawer {
+  height: 100%;
+  background: #2F3337;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+.side-drawer ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.side-drawer.open {
+  transform: translateX(0);
+
+}
+.side-drawer a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+.side-drawer li {
+  margin: 0.5rem 0;
+}
+.side-drawer a:hover,
+.side-drawer a:active {
+  color: #fa923f;
+}
+.backdrop {
+  position: fixed;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+@media (max-width: 768px) {
+  .toolbar_navigation-items {
+    display:none;
+  }
+}
+@media (min-width: 769px) {
+  .side-drawer {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .toolbar__toggle-button {
+    display: none;
+  }
+}
+
+
+
 
 .slider_main {
   width: 90%;

@@ -10,6 +10,7 @@ class App extends Component {
       <div>
         <div className="wrapper">
           <Header />
+
           <Main />
           <Footer />
         </div>
