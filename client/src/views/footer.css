@@ -1,0 +1,46 @@
+.copyright {
+    margin-Top: '47px';
+    margin-Bottom: '47px';
+}
+
+.media {
+    margin-Top: '51px';
+    margin-Bottom: '51px';
+}
+
+.icon {
+    width: '39px';
+    height: '39px';
+    margin-top:30px;
+    /* margin-left:30px; */
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.mail {
+    margin-top:30px;
+}
+
+.logo-national {
+    margin-top:30px;
+    /* display: flex;
+    justify-content: center;
+
+    flex-direction: column; */
+    /* text-align: center; */
+    /* align-items: center;    */
+    /* background: silver; */
+    /* width: 100%; */
+    /* height: 20%;  */
+}
+
+.copyrighted {
+    float: left;
+    height: 35px;
+    margin: 0px 50px 0px 0px;
+    /* color: #000; */
+    text-align: left;
+    padding: 10px 30px;
+    width: 280px;
+}

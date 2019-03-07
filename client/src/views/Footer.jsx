@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import './footer.css';
 
 class Footer extends Component {
   render() {
     return (
       <div className="footer-wrapper">
       <div className="footer">
-      <div className="copyright vertically-centered" style={{marginTop: '47px', marginBottom: '47px'}}>
+      <div className="copyright vertically-centered" >
         <div className="logo-national">
         <a href="https://www.ieee.org/"><img alt={"Logo"} src={require("../assets/logo_kite.png")} /></a>
         </div>
       </div>
-      <div className="media vertically-centered" style={{marginTop: '51px', marginBottom: '51px'}}>
+      <div className="media vertically-centered" style={{marginTop: '51px'}}>   {/* this one gets weird when deleted ^ */}
       <ul>
       <li className="mail">
         <a className="mailing" href="http://eepurl.com/c-RpPr"> Join our mailing list</a>
