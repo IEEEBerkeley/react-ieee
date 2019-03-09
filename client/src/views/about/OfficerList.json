@@ -141,10 +141,10 @@
         "Officer": "Risham Sidhu"
       },
       {
-        "Officer" : "Neha Godbole",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/neha-godbole-b61274126/"
-        }
+        "Officer" : "Harish Palani"
+      },
+      {
+        "Officer" : "Chelijea Jang"
       },
       {
       "Officer": "Sharan Kumar"
@@ -213,6 +213,9 @@
         "Director": "Nandita Iyer"
       },
       {
+        "Director": "Lorne Briones"
+      },
+      {
         "Officer": "Brent Yi",
         "Links": {
           "Github": "https://github.com/brentyi",
@@ -222,10 +225,7 @@
         }
       },
       {
-        "Officer": "Lorne Briones"
-      },
-      {
-        "Officer" : "Billy Zhao"
+        "Officer" : "Keahooi Hung"
       },
       {
         "Officer": "Ron Thalanki",
@@ -233,6 +233,36 @@
           "Github": "https://www.github.com/ronthalanki",
           "Linkedin": "https://www.linkedin.com/in/sairanjiththalanki"
         }
+      },
+      {
+        "Officer": "Meera Lester",
+      },
+      {
+        "Officer": "Eric Zhong",
+      },
+      {
+        "Officer": "Aakarsh Gupta",
+      },
+      {
+        "Officer": "Ahad Rauf",
+      },
+      {
+        "Officer": "Amay Saxena",
+      },
+      {
+        "Officer": "William (Billy) Zhao",
+      },
+      {
+        "Officer": "Greg Balke",
+      },
+      {
+        "Officer": "Xingyu Jin",
+      },
+      {
+        "Officer": "Gary Xiang",
+      },
+      {
+        "Officer": "Tara Mirmira",
       }
     ]
 }
