@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import micromouseImage from '../assets/micromouse.png';
-
+import memberImage from '../assets/members.jpg';
 class Apply extends Component {
   render() {
     return (
@@ -8,7 +8,7 @@ class Apply extends Component {
         <html>
         <body>
             <div className="hero"
-                style={{ backgroundImage: "url(" + micromouseImage + ")" }}>
+                style={{ backgroundImage: "url(" + memberImage + ")" }}>
             </div>
         <div class='content'>
         <span class='heading blue'>
@@ -16,6 +16,9 @@ class Apply extends Component {
         </span>
         <p>
         <br />
+        <p> Apply
+        <a href="https://tinyurl.com/ucbieeesp19" class="blue" target="_blank"> here</a>.
+        </p>
         Contact us for more information.
         <br />
         <br />
