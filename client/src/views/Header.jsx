@@ -28,7 +28,7 @@ class Header extends Component {
         <nav className="toolbar_navigation">
         <div className="toolbar_logo" style={{marginTop: '14px', marginBottom: '14px'}}>
           <Link to={"/"}>
-          <img alt={"Logo"} src={require("../assets/logo_main.png")} />
+          <img alt={"Logo"} src={require("../assets/logo_main1.png")} />
           </Link>
         </div>
         <div className="spacer"/>
@@ -37,7 +37,7 @@ class Header extends Component {
             <li><a href="/"> HOME</a> </li>
             <li><a href="/events"> EVENTS</a> </li>
             <li><a href="/industry"> INDUSTRY</a> </li>
-            <li><a href="/hope"> HOPE</a> </li>
+            <li><a href="https://ieee.berkeley.edu/hope/"> HOPE</a> </li>
             <li><a href="/micromouse"> MICROMOUSE</a> </li>
             <li><a href="/about"> ABOUT</a> </li>
             <li><a href="/apply"> APPLY</a> </li>

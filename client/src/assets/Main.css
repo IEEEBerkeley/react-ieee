@@ -449,6 +449,28 @@ a.icon-link span.icon {
 .bg_image {
 
 }
+.applylink a {
+  color: blue
+}
+/* unvisited link */
+.applylink a:link {
+  color: red;
+}
+
+/* visited link */
+.applylink a:visited {
+  color: green;
+}
+
+/* mouse over link */
+.applylink a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.applylink a:active {
+  color: blue;
+}
 /* new navigation bar
 */
 .toolbar {
