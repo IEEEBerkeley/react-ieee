@@ -584,14 +584,23 @@ a.icon-link span.icon {
     float: right;
     font-family: 'OpenSansSemibold'
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .content .right {
     clear: both;
+    width: 100%;
+  }
+  .content .left {
+    width: 100%;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 1001px) {
   .content .right {
     float:right;
+    width: 30%;
+  }
+  .content .left {
+    width: 60%;
+    margin-left: 10%;
   }
 }
 
@@ -603,12 +612,7 @@ a.icon-link span.icon {
     overflow: auto;
 }
 .content .left {
-    width: 50%;
     float: left;
-}
-.content .right {
-    width: 30%;
-
 }
 .content .right ul {
     padding-left: 10px
