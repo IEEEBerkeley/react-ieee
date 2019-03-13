@@ -165,6 +165,11 @@
     padding-bottom: 3%;
     width: 96%;
 }
+.slider_main {
+    padding: 1%;
+    padding-bottom: 3%;
+    width: 96%;
+}
 .copyrighted {
   font-size: 12px;
   margin-left: 10%;
@@ -367,15 +372,26 @@ a.icon-link span {
 a.icon-link span.icon {
     font-size: 14px
 }
+
+
 .wrapper {
     /* max-width: 1280px;
     min-width: 1024px; */
-    min-width: 1024px;
     background-color: #FFFFFF;
     min-height: 100%;
     height: auto !important;
     height: 100%;
     /* margin: 0 auto -150px */
+}
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+  .wrapper {
+    min-width: 1024px;
+  }
 }
 .footer-wrapper,
 .push {
@@ -390,86 +406,16 @@ a.icon-link span.icon {
     margin: 0px auto;
     height: 200px;
 }
-.header {
-    width: 968px;
-    margin: 0px auto;
-    height: 150px;
-}
-.header .logo-cal {
-    width: 287px;
-    height: 122px;
-    float: left
-}
-.header .logo-cal img {
-    border: 0px
-}
-.header .navigation {
-    font-size: 14px;
-    float: right;
-    margin-top: 100px;
-    color: #98A1AA
-}
-.header .navigation ul {
-    display: block;
-    float: left;
-    padding: 0 20px 0 20px
-}
-.header .navigation ul:hover {
-    background-color: rgba(255, 255, 255, 0.85)
-}
-.header .navigation ul:hover li.option {
-    opacity: 1
-}
-.header .navigation ul li.main {
-    font-family: 'OpenSansSemibold';
-    padding-bottom: 20px
-}
-.header .navigation ul li.option {
-    opacity: 0
-}
-.header .navigation ul li {
-    list-style-type: none;
-    padding-bottom: 8px
-}
-.header .navigation ul li a {
-    text-decoration: none;
-    color: #7B858F
-}
-.header .navigation ul li a:hover {
-    color: #2F3337
-}
+
 .hero {
     /* max-width: 1280px;
     min-width: 1024px; */
     background-repeat: no-repeat;
-    min-width: 1024px;
     height: 400px;
-    background-position: center center
+
 }
 .bg_image {
 
-}
-.applylink a {
-  color: blue
-}
-/* unvisited link */
-.applylink a:link {
-  color: red;
-}
-
-/* visited link */
-.applylink a:visited {
-  color: green;
-}
-
-/* mouse over link */
-.applylink a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-.applylink a:active {
-  color: blue;
 }
 /* new navigation bar
 */
@@ -480,7 +426,7 @@ a.icon-link span.icon {
 }
 .toolbar_logo {
   width: 287px;
-  height: 122px;
+  height: 95px;
 }
 .toolbar_logo img {
   border: 0px;
@@ -494,6 +440,7 @@ a.icon-link span.icon {
 .toolbar_navigation-items a {
   color: white;
   text-decoration: none;
+  font-weight:300;
 }
 .toolbar_navigation-items ul {
   list-style: none;
@@ -509,7 +456,8 @@ a.icon-link span.icon {
 }
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: yellow;
+  color: #145797;
+  font-weight: bold;
 }
 
 .toggle-button {
@@ -592,21 +540,17 @@ a.icon-link span.icon {
   }
 }
 
-
-
-
-.slider_main {
-  width: 90%;
-}
 .submenu {
     /* max-width: 1280px;
     min-width: 1024px; */
     height: 70px;
     color: #FFFFFF;
     background-color: transparent;
+    display: block;
+    margin-left: 15%;
 }
 .submenu ul {
-    width: 968px;
+    width: 100%;
     margin: 0px auto;
     list-style-type: none;
     line-height: 70px;
@@ -640,19 +584,31 @@ a.icon-link span.icon {
     float: right;
     font-family: 'OpenSansSemibold'
 }
+@media (max-width: 768px) {
+  .content .right {
+    clear: both;
+  }
+}
+@media (min-width: 769px) {
+  .content .right {
+    float:right;
+  }
+}
+
 .content {
-    width: 968px;
+    width: 80%;
     margin: 0px auto;
     padding: 43px 0 75px 0;
+
     overflow: auto;
 }
 .content .left {
-    width: 570px;
-    float: left
+    width: 50%;
+    float: left;
 }
 .content .right {
-    width: 342px;
-    float: right
+    width: 30%;
+
 }
 .content .right ul {
     padding-left: 10px
@@ -691,7 +647,7 @@ table td.row-header {
     color: #98A1AA
 }
 .footer {
-    width: 968px;
+    width: 100%;
     margin: 0px auto;
     height: 150px;
     font-size: 12px;
@@ -706,14 +662,15 @@ table td.row-header {
 .footer .copyright .logo-national {
     width: 128px;
     height: 37px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 .footer .copyright .logo-national img {
     border: 0px;
 }
 
 .footer .media {
-    float: right
+    float: right;
+    width: 50%;
 }
 .footer .media ul {
     padding: 0;
@@ -735,7 +692,9 @@ table td.row-header {
   border-radius: 5px;
   background-color: #98A1AA
 }
-
+.contact_info {
+  width: 100%;
+}
 .clickable {
     cursor: pointer
 }

@@ -28,7 +28,7 @@ class Header extends Component {
         <nav className="toolbar_navigation">
         <div className="toolbar_logo" style={{marginTop: '14px', marginBottom: '14px'}}>
           <Link to={"/"}>
-          <img alt={"Logo"} src={require("../assets/logo_main1.png")} />
+          <img alt={"Logo"} src={require("../assets/logo_main2.png")} />
           </Link>
         </div>
         <div className="spacer"/>
