@@ -400,7 +400,7 @@ a.icon-link span.icon {
 .footer-wrapper {
     background-color: #2F3337;
     color: #FFFFFF;
-    max-width: 100%;
+    width: 100%;
     /* max-width: 1280px;
     min-width: 1024px; */
     margin: 0px auto;
@@ -646,8 +646,13 @@ table td.row-header {
     font-size: 18px;
     color: #98A1AA
 }
+@media (min-width: 500px) {
+  .footer {
+    width: 80%;
+  }
+}
+
 .footer {
-    width: 100%;
     margin: 0px auto;
     height: 150px;
     font-size: 12px;
@@ -670,11 +675,12 @@ table td.row-header {
 
 .footer .media {
     float: right;
-    width: 50%;
+
 }
 .footer .media ul {
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
+    height: 50%;
 }
 .footer .media ul li {
     float: left;
