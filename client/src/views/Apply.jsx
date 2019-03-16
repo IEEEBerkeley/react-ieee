@@ -17,7 +17,7 @@ class Apply extends Component {
         <p>
         <br />
         <p> Apply
-        <a href="https://tinyurl.com/ucbieeesp19" class="blue" target="_blank"> here</a>.
+        <a href="https://tinyurl.com/ucbieeesp19" class="blue" target="_blank" rel="noopener noreferrer"> here</a>.
         </p>
         Contact us for more information.
         <br />

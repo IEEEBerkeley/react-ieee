@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import micromouseImage from '../assets/micromouse.png';
 import Slides from './MicromousePic.js';
 import LazyLoad from 'react-lazyload';
 
@@ -9,12 +8,10 @@ class Micromouse extends Component {
       <div>
         <html>
         <body>
-            <div className="hero">
             <div id = "micromouseSlide">
             <LazyLoad height={200}>
                 <Slides/>
             </LazyLoad>
-            </div>
             </div>
         <div class='content'>
         <span class='heading blue'>

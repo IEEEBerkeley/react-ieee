@@ -7,9 +7,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="hero">
-            <Slides/>
-        </div>
+          <Slides/>
         <div className="content">
           <div className="left">
           <span className="heading blue">
