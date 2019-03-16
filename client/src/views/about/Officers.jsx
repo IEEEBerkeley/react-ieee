@@ -185,15 +185,6 @@ class About extends Component {
               </div>
               <div className="officer-container cboxElement">
                 <LazyLoad height={200}>
-                    <div className="tile"><img src={tryAndDefault("Exec", "ron_thalanki.jpg")} alt=""/></div>
-                </LazyLoad>
-                <div className="tile salutation">
-                    <div className="left-align-top"><span>Ron Thalanki</span><span className="rank">External V.P.</span></div>
-                    <div className="bottom-align"><a href="https://www.github.com/ronthalanki" className="icon"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/sairanjiththalanki" className="icon"><i className="icon-linkedin"></i></a></div>
-                </div>
-              </div>
-              <div className="officer-container cboxElement">
-                <LazyLoad height={200}>
                     <div className="tile"><img src={tryAndDefault("Exec", "alex_kassil.jpg")} alt="" /></div>
                 </LazyLoad>
                 <div className="tile salutation">

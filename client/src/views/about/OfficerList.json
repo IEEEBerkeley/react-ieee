@@ -22,13 +22,6 @@
         }
       },
       {
-        "External V.P.": "Ron Thalanki",
-        "Links": {
-          "Github": "https://www.github.com/ronthalanki",
-          "Linkedin": "https://www.linkedin.com/in/sairanjiththalanki"
-        }
-      },
-      {
         "Internal V.P.": "Alex Kassil"
       },
       {
@@ -63,13 +56,6 @@
         }
       },
       {
-        "Officer": "Peru Dayani",
-        "Links": {
-          "Github": "https://github.com/PeruDayani",
-          "Linkedin": "https://www.linkedin.com/in/peru-dayani-09367314a/"
-        }
-      },
-      {
         "Officer": "Josh Yeung",
         "Links": {
           "Github": "https://github.com/yeungjosh",
@@ -84,18 +70,28 @@
           "Personal": "https://joshuayuan.me",
           "Instagram": "https://instagram.com/jolly_joshy"
         }
+      },
+      {
+        "Officer": "Vera Wang"
+      },
+      {
+        "Officer": "Nimalen Sivapalan",
+        "Links": {
+          "Github": "https://github.com/nsivapalan/",
+          "Linkedin": "https://linkedin.com/in/nimalen"
+        }
       }
     ],
 
     "Activities": [
       {
-        "Director": "Jay Dong"
+        "Director": "Claudia Korea"
       },
       {
-        "Officer" : "Michelle Hwang"
+        "Officer" : "Eric Gao"
       },
       {
-        "Officer": "Felix Ching"
+        "Officer": "George Wang"
       }
     ],
     "Marketing": [
@@ -106,10 +102,16 @@
         "Officer" : "Jimmy Pippin"
       },
       {
-        "Officer" : "Shreya Kannan"
+        "Officer" : "Alexander Zerkel"
+      },
+      {
+        "Officer" : "Vincent Wu"
       },
       {
         "Officer" : "Alyssa Huang"
+      },
+      {
+        "Officer" : "Sydney Ty"
       }
     ],
 
@@ -121,13 +123,8 @@
         "Director": "Olivia Hsu"
       },
       {
-        "Officer": "Hall Chen",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/hall-z-h-chen-a39b04a0",
-          "Personal": "https://im.hallchen.us"
-        }
+        "Officer": "Leon Wu"
       }
-
     ],
 
     "Indrel": [
@@ -144,10 +141,10 @@
         "Officer": "Risham Sidhu"
       },
       {
-        "Officer" : "Neha Godbole",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/neha-godbole-b61274126/"
-        }
+        "Officer" : "Harish Palani"
+      },
+      {
+        "Officer" : "Cheljea Jang"
       },
       {
       "Officer": "Sharan Kumar"
@@ -156,10 +153,12 @@
 
     "Prodev": [
       {
-        "Director": "Alex Kassil"
-      },
-      {
-        "Officer": "Ryan Trainer"
+        "Director": "Neha Hudait",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/nehahudait",
+          "Instagram": "https://www.instagram.com/nehahudz/",
+          "Twitter": "https://twitter.com/nehahudz"
+        }
       },
       {
         "Officer": "Hugues Vigner",
@@ -169,18 +168,19 @@
         }
       },
       {
-        "Officer": "Neha Hudait",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/nehahudait",
-          "Instagram": "https://www.instagram.com/nehahudz/",
-          "Twitter": "https://twitter.com/nehahudz"
-        }
-      },
-      {
         "Officer": "Neelesh Ramachandran",
         "Links": {
           "Linkedin": "https://www.linkedin.com/in/neelesh-ramachandran"
         }
+      },
+      {
+        "Officer": "Alyssa Huang"
+      },
+      {
+        "Officer": "Eugene Wong"
+      },
+      {
+        "Officer": "Lucas Huang"
       }
     ],
 
@@ -213,6 +213,9 @@
         "Director": "Nandita Iyer"
       },
       {
+        "Director": "Lorne Briones"
+      },
+      {
         "Officer": "Brent Yi",
         "Links": {
           "Github": "https://github.com/brentyi",
@@ -222,10 +225,44 @@
         }
       },
       {
-        "Officer": "Lorne Briones"
+        "Officer" : "Keahooi Hung"
       },
       {
-        "Officer" : "Billy Zhao"
+        "Officer": "Ron Thalanki",
+        "Links": {
+          "Github": "https://www.github.com/ronthalanki",
+          "Linkedin": "https://www.linkedin.com/in/sairanjiththalanki"
+        }
+      },
+      {
+        "Officer": "Meera Lester"
+      },
+      {
+        "Officer": "Eric Zhong"
+      },
+      {
+        "Officer": "Aakarsh Gupta"
+      },
+      {
+        "Officer": "Ahad Rauf"
+      },
+      {
+        "Officer": "Amay Saxena"
+      },
+      {
+        "Officer": "William (Billy) Zhao"
+      },
+      {
+        "Officer": "Gregory Balke"
+      },
+      {
+        "Officer": "Xingyu Jin"
+      },
+      {
+        "Officer": "Gary Xiang"
+      },
+      {
+        "Officer": "Tara Mirmira"
       }
     ]
 }
