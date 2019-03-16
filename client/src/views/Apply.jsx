@@ -18,7 +18,7 @@ class Apply extends Component {
 			        <p>
 				        <br />
 				        <p> Apply
-				        <a href="https://tinyurl.com/ucbieeesp19" class="blue" target="_blank"> here </a> to become a General Member.
+				        <a href="https://tinyurl.com/ucbieeesp19" class="blue" target="_blank" rel="noopener noreferrer"> here </a> to become a General Member.
 				        </p>
 				    </p>
 
@@ -35,11 +35,11 @@ class Apply extends Component {
 				        </p>
 
 				        <br />
-				        <p> 
-				        General Members: 
+				        <p>
+				        General Members:
 				        	<li> Attend 1 Social Event & 2 Academic/Professional Events </li>
 				        <br />
-				        Committee/Leadership: 
+				        Committee/Leadership:
 				        	<li> Volunteer for 1 hour at the Startup Fair/Soda Hacks </li>
 				        	<li> Volunteer for 3 hours of Service/Outreach events or cookie runs </li>
 				        	<li> Volunteer for one finals breakfast (replaceable with 2 hours of additional service/outreach) </li>
