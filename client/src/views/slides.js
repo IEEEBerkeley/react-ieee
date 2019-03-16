@@ -20,17 +20,17 @@ class SimpleSlider extends React.Component {
       <Slider {...settings}>
         <div>
         <LazyLoad height={200}>
-        <img alt="" src={require('../assets/home.png')}/>
+        <img className="bgimg" alt="" src={require('../assets/home.png')}/>
         </LazyLoad>
         </div>
         <div>
         <LazyLoad height={200}>
-          <img alt = "pic" src={require('../assets/members.jpg')}/>
+          <img className="bgimg" alt = "pic" src={require('../assets/members.jpg')}/>
           </LazyLoad>
         </div>
         <div>
         <LazyLoad height={200}>
-          <img alt = "pic" src={require('../assets/industry.png')}/>
+          <img className="bgimg" alt = "pic" src={require('../assets/industry.png')}/>
           </LazyLoad>
         </div>
       </Slider>

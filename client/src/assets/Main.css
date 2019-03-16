@@ -170,6 +170,9 @@
     padding-bottom: 3%;
     width: 96%;
 }
+.bgimg {
+  width: 100%;
+}
 .copyrighted {
   font-size: 12px;
   margin-left: 10%;
@@ -411,7 +414,9 @@ a.icon-link span.icon {
     /* max-width: 1280px;
     min-width: 1024px; */
     background-repeat: no-repeat;
-    height: 400px;
+    height: 15%;
+    width: 90%;
+    margin-left: 5%;
 
 }
 .bg_image {

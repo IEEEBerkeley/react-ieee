@@ -9,7 +9,6 @@ class Home extends Component {
       <div>
         <div className="hero">
             <Slides/>
-             {/**style={{ backgroundImage: "url(" + homeImage + ")" }}>**/}
         </div>
         <div className="content">
           <div className="left">
