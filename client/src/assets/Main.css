@@ -165,6 +165,14 @@
     padding-bottom: 3%;
     width: 96%;
 }
+.slider_main {
+    padding: 1%;
+    padding-bottom: 3%;
+    width: 96%;
+}
+.bgimg {
+  width: 100%;
+}
 .copyrighted {
   font-size: 12px;
   margin-left: 10%;
@@ -367,15 +375,26 @@ a.icon-link span {
 a.icon-link span.icon {
     font-size: 14px
 }
+
+
 .wrapper {
     /* max-width: 1280px;
     min-width: 1024px; */
-    min-width: 1024px;
     background-color: #FFFFFF;
     min-height: 100%;
     height: auto !important;
     height: 100%;
     /* margin: 0 auto -150px */
+}
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+  .wrapper {
+    min-width: 1024px;
+  }
 }
 .footer-wrapper,
 .push {
@@ -384,84 +403,159 @@ a.icon-link span.icon {
 .footer-wrapper {
     background-color: #2F3337;
     color: #FFFFFF;
-    max-width: 100%;
+    width: 100%;
     /* max-width: 1280px;
     min-width: 1024px; */
     margin: 0px auto;
     height: 200px;
 }
-.header {
-    width: 968px;
-    margin: 0px auto;
-    height: 150px;
-}
-.header .logo-cal {
-    width: 287px;
-    height: 122px;
-    float: left
-}
-.header .logo-cal img {
-    border: 0px
-}
-.header .navigation {
-    font-size: 14px;
-    float: right;
-    margin-top: 100px;
-    color: #98A1AA
-}
-.header .navigation ul {
-    display: block;
-    float: left;
-    padding: 0 20px 0 20px
-}
-.header .navigation ul:hover {
-    background-color: rgba(255, 255, 255, 0.85)
-}
-.header .navigation ul:hover li.option {
-    opacity: 1
-}
-.header .navigation ul li.main {
-    font-family: 'OpenSansSemibold';
-    padding-bottom: 20px
-}
-.header .navigation ul li.option {
-    opacity: 0
-}
-.header .navigation ul li {
-    list-style-type: none;
-    padding-bottom: 8px
-}
-.header .navigation ul li a {
-    text-decoration: none;
-    color: #7B858F
-}
-.header .navigation ul li a:hover {
-    color: #2F3337
-}
+
 .hero {
     /* max-width: 1280px;
     min-width: 1024px; */
     background-repeat: no-repeat;
-    min-width: 1024px;
     height: 400px;
-    background-position: center center
+    width: 90%;
+    margin-left: 5%;
+
 }
 .bg_image {
 
 }
+/* new navigation bar
+*/
+.toolbar {
+  width: 100%;
+  background: #2F3337;
 
-.slider_main {
-  width: 90%;
 }
+.toolbar_logo {
+  width: 287px;
+  height: 95px;
+}
+.toolbar_logo img {
+  border: 0px;
+}
+.toolbar_navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+.toolbar_navigation-items a {
+  color: white;
+  text-decoration: none;
+  font-weight:300;
+}
+.toolbar_navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.spacer {
+  flex: 1;
+}
+.toolbar_navigation-items li {
+  padding: 0 0.5rem
+}
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active {
+  color: #145797;
+  font-weight: bold;
+}
+
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  width: 36px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.toggle-button__line {
+  width: 30px;
+  height: 2px;
+  background: white;
+}
+.toggle-button:focus {
+  outline: none;
+}
+.side-drawer {
+  height: 100%;
+  background: #2F3337;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 250px;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+.side-drawer ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.side-drawer.open {
+  transform: translateX(0);
+
+}
+.side-drawer a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+.side-drawer li {
+  margin: 0.5rem 0;
+}
+.side-drawer a:hover,
+.side-drawer a:active {
+  color: #145797;
+}
+.backdrop {
+  position: fixed;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+@media (max-width: 768px) {
+  .toolbar_navigation-items {
+    display:none;
+  }
+}
+@media (min-width: 769px) {
+  .side-drawer {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .toolbar__toggle-button {
+    display: none;
+  }
+}
+
 .submenu {
     /* max-width: 1280px;
     min-width: 1024px; */
     height: 70px;
     color: #FFFFFF;
     background-color: transparent;
+    display: block;
+    margin-left: 15%;
 }
 .submenu ul {
-    width: 968px;
+    width: 100%;
     margin: 0px auto;
     list-style-type: none;
     line-height: 70px;
@@ -495,19 +589,35 @@ a.icon-link span.icon {
     float: right;
     font-family: 'OpenSansSemibold'
 }
+@media (max-width: 1000px) {
+  .content .right {
+    clear: both;
+    width: 100%;
+  }
+  .content .left {
+    width: 100%;
+  }
+}
+@media (min-width: 1001px) {
+  .content .right {
+    float:right;
+    width: 30%;
+  }
+  .content .left {
+    width: 60%;
+    margin-left: 10%;
+  }
+}
+
 .content {
-    width: 968px;
+    width: 80%;
     margin: 0px auto;
     padding: 43px 0 75px 0;
+
     overflow: auto;
 }
 .content .left {
-    width: 570px;
-    float: left
-}
-.content .right {
-    width: 342px;
-    float: right
+    float: left;
 }
 .content .right ul {
     padding-left: 10px
@@ -545,8 +655,13 @@ table td.row-header {
     font-size: 18px;
     color: #98A1AA
 }
+@media (min-width: 500px) {
+  .footer {
+    width: 80%;
+  }
+}
+
 .footer {
-    width: 968px;
     margin: 0px auto;
     height: 150px;
     font-size: 12px;
@@ -561,18 +676,20 @@ table td.row-header {
 .footer .copyright .logo-national {
     width: 128px;
     height: 37px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 .footer .copyright .logo-national img {
     border: 0px;
 }
 
 .footer .media {
-    float: right
+    float: right;
+
 }
 .footer .media ul {
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
+    height: 50%;
 }
 .footer .media ul li {
     float: left;
@@ -590,7 +707,9 @@ table td.row-header {
   border-radius: 5px;
   background-color: #98A1AA
 }
-
+.contact_info {
+  width: 100%;
+}
 .clickable {
     cursor: pointer
 }
