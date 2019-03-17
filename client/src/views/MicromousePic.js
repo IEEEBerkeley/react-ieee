@@ -10,7 +10,18 @@ class SimpleSlider extends React.Component {
     var settings = {
         infinite: true,
         speed: 1500,
-        slidesToShow: 4,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        dots : false,
+        autoplaySpeed: 3500,
+        dots: true,
+        variablewidth: true
+    };
+    var settings2 = {
+        infinite: true,
+        speed: 1500,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         dots : false,
@@ -19,6 +30,7 @@ class SimpleSlider extends React.Component {
         variablewidth: true
     };
     return (
+    <div>
     <div className="microslide">
     <LazyLoad height={200}>
       <Slider {...settings}>
@@ -45,6 +57,34 @@ class SimpleSlider extends React.Component {
         </div>
       </Slider>
     </LazyLoad>
+    </div>
+    <div className="microslide2">
+    <LazyLoad height={200}>
+      <Slider {...settings2}>
+        <div>
+        <img alt="" src={require('../assets/micromouse/micromouse1.jpg')}/>
+        </div>
+        <div>
+        <img alt="" src={require('../assets/micromouse/micromouse7.jpg')}/>
+        </div>
+        <div>
+        <img alt="" src={require('../assets/micromouse/micromouse2.jpg')}/>
+        </div>
+        <div>
+        <img alt="" src={require('../assets/micromouse/micromouse3.jpg')}/>
+        </div>
+        <div>
+        <img alt="" src={require('../assets/micromouse/micromouse4.jpg')}/>
+        </div>
+        <div>
+        <img alt="" src={require('../assets/micromouse/micromouse5.jpg')}/>
+        </div>
+        <div>
+        <img alt="" src={require('../assets/micromouse/micromouse6.jpg')}/>
+        </div>
+      </Slider>
+    </LazyLoad>
+    </div>
     </div>
     );
   }
