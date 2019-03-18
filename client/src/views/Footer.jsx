@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import "./footer.css"
 
 class Footer extends Component {
   render() {
     return (
       <div className="footer-wrapper">
       <div className="footer">
-      <div className="copyright vertically-centered" style={{marginTop: '47px', marginBottom: '47px'}}>
+      <div className="copyright vertically-centered" >
         <div className="logo-national">
         <a href="https://www.ieee.org/"><img alt={"Logo"} src={require("../assets/logo_kite.png")} /></a>
         </div>
