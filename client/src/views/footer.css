@@ -13,7 +13,7 @@ body {
     margin-Bottom: '51px';
 }
 
-.icon {
+.media .icon {
     width: '39px';
     height: '39px';
     margin-top:30px;
@@ -39,6 +39,3 @@ body {
     /* width: 100%; */
     /* height: 20%;  */
 }
-
-
-
