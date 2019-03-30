@@ -147,7 +147,10 @@
         "Officer" : "Cheljea Jang"
       },
       {
-      "Officer": "Sharan Kumar"
+        "Officer": "Sharan Kumar",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/sharansatishkumar"
+        }
       }
     ],
 
@@ -263,6 +266,39 @@
       },
       {
         "Officer": "Tara Mirmira"
+      }
+    ],
+
+    "Outreach": [
+      {
+        "Director": "Billy Lu",
+        "Links": {
+          "Github": "https://github.com/williammlu",
+          "Linkedin": "https://www.linkedin.com/in/williammlu/",
+          "Personal": "http://william.lu/",
+          "Instagram": "https://instagram.com/williammlu"
+        }
+      },
+      {
+        "Officer": "Gary Yang",
+        "Links": {
+          "Github": "https://github.com/lzyang2000/",
+          "Linkedin": "https://www.linkedin.com/in/gary-yang-2aa70215a/"
+        }
+      },
+      {
+        "Officer" : "Manav Rathod",
+        "Links": {
+          "Github": "https://github.com/ManavR123",
+          "Linkedin": "https://www.linkedin.com/in/manavrathod"
+        }
+      },
+      {
+        "Officer": "Aman Sidhant",
+        "Links": {
+          "Github": "http://github.com/amansidhant",
+          "Linkedin": "http://linkedin.com/in/amansidhant"
+        }
       }
     ]
 }
