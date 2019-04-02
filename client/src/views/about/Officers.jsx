@@ -33,7 +33,8 @@ class About extends Component {
       "7": "Techops",
       "8": "Website",
       "9": "Micromouse",
-      "0": "Marketing"
+      "0": "Marketing",
+      "10": "Outreach"
     }
   }
 
@@ -301,6 +302,16 @@ class About extends Component {
               <div className="committee-description ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-8" aria-labelledby="ui-accordion-1-header-8" role="tabpanel" aria-expanded="false" aria-hidden="true" style={{display: "none"}}>
               <p>
               Click <a href="/">here</a> if you want to learn more about what we do.
+              </p>
+              </div>
+            </li>
+            <li data-committee_id="10">
+              <span onClick={(e) => this.changeView(10, e)} className="committee-name clickable ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-1-header-8" aria-controls="ui-accordion-1-panel-8" aria-selected="false" tabIndex="-1"><span className="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
+              Outreach
+              </span>
+              <div className="committee-description ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-8" aria-labelledby="ui-accordion-1-header-8" role="tabpanel" aria-expanded="false" aria-hidden="true" style={{display: "none"}}>
+              <p>
+              The Outreach committee organizes service and inter-club events for the officer and members of IEEE.
               </p>
               </div>
             </li>
