@@ -1,7 +1,11 @@
 {
     "Exec": [
       {
-        "Co-President": "Gregory Balke"
+        "Co-President": "Gregory Balke",
+        "Links": {
+          "Github": "https://github.com/gbalke",
+          "Linkedin": "https://www.linkedin.com/in/~balke/"
+        }
       },
       {
         "Co-President": "Brent Yi",
@@ -59,7 +63,8 @@
         "Officer": "Josh Yeung",
         "Links": {
           "Github": "https://github.com/yeungjosh",
-          "Linkedin": "https://www.linkedin.com/in/yeungjosh/"
+          "Linkedin": "https://www.linkedin.com/in/yeungjosh/",
+          "Personal": "https://yeungjosh.github.io"
         }
       },
       {
@@ -85,7 +90,11 @@
 
     "Activities": [
       {
-        "Director": "Claudia Korea"
+        "Director": "Claudia Korea",
+        "Links": {
+          "Github": "https://github.com/claudiakorea",
+          "Linkedin": "https://www.linkedin.com/in/claudia-korea-87a747174"
+        }
       },
       {
         "Officer" : "Eric Gao"
@@ -105,13 +114,19 @@
         "Officer" : "Alexander Zerkel"
       },
       {
-        "Officer" : "Vincent Wu"
+        "Officer" : "Vincent Wu",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/wensenwu/"
+        }
       },
       {
         "Officer" : "Alyssa Huang"
       },
       {
-        "Officer" : "Sydney Ty"
+        "Officer" : "Sydney Ty",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/sydney-ty/"
+        }
       }
     ],
 
@@ -141,7 +156,11 @@
         "Officer": "Risham Sidhu"
       },
       {
-        "Officer" : "Harish Palani"
+        "Officer" : "Harish Palani",
+        "Links": {
+          "Github": "https://github.com/harishpalani",
+          "Linkedin": "https://www.linkedin.com/in/harishkpalani/"
+        }
       },
       {
         "Officer" : "Cheljea Jang"
@@ -225,7 +244,10 @@
         }
       },
       {
-        "Officer" : "Keahooi Hung"
+        "Officer" : "Keahooi Hung",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/keahooi/"
+        }
       },
       {
         "Officer": "Ron Thalanki",
@@ -235,13 +257,24 @@
         }
       },
       {
+        "Officer": "Gregory Balke",
+        "Links": {
+          "Github": "https://github.com/gbalke",
+          "Linkedin": "https://www.linkedin.com/in/~balke/"
+        }
+      },
+      {
         "Officer": "Meera Lester"
       },
       {
         "Officer": "Eric Zhong"
       },
       {
-        "Officer": "Aakarsh Gupta"
+        "Officer": "Aakarsh Gupta",
+        "Links": {
+          "Github": "http://www.github.com/aakarshgupta97",
+          "Linkedin": "http://www.linkedin.com/in/aakarshgupta97"
+        }
       },
       {
         "Officer": "Ahad Rauf"
@@ -251,9 +284,6 @@
       },
       {
         "Officer": "William (Billy) Zhao"
-      },
-      {
-        "Officer": "Gregory Balke"
       },
       {
         "Officer": "Xingyu Jin"

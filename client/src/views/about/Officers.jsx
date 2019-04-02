@@ -280,7 +280,7 @@ class About extends Component {
               </span>
               <div className="committee-description ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-7" aria-labelledby="ui-accordion-1-header-7" role="tabpanel" aria-expanded="false" aria-hidden="true" style={{display: "none"}}>
               <p>
-              Our student branch hosts several computers and servers inside our very own lab, which also houses an open lab bench for soldering, making PCBs, and any other electrical engineering related task. The Tech-Ops committee resolves all technical issues in the IEEE lab and maintains the full availability of these services for the EECS community.
+              The Technical Operations (TechOps) committee upgrades and upkeeps the club's technological infrastructure, including their website and mail server, their office space, and their internal organizational documentation.
               </p>
               </div>
             </li>
@@ -300,7 +300,7 @@ class About extends Component {
               </span>
               <div className="committee-description ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-8" aria-labelledby="ui-accordion-1-header-8" role="tabpanel" aria-expanded="false" aria-hidden="true" style={{display: "none"}}>
               <p>
-              What do you think we do?
+              Click <a href="/">here</a> if you want to learn more about what we do.
               </p>
               </div>
             </li>
