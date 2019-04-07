@@ -17,15 +17,18 @@ class Googlecal extends Component {
         );
     }
 }
-const iframe = '<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%233366ff&amp;src=berkeley.edu_9k08nrpdahaujiva7u1ss9j92s%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FLos_Angeles" style="border:solid 1px #777" width="900" height="700" frameborder="0" scrolling="no"></iframe>';
-const divStyle = {
-  padding: '40px',
-};
 
+let iframe = ''
+if(window.innerWidth >= 500) {
+  iframe = '<iframe src="https://calendar.google.com/calendar/b/1/embed?mode=MONTH&height=600&amp;wkst=1&amp;bgcolor=%233366ff&amp;src=berkeley.edu_9k08nrpdahaujiva7u1ss9j92s%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FLos_Angeles" style="border:solid 1px #777" width="900" height="700" frameborder="0" scrolling="no"></iframe>';
+} else {
+  iframe = '<iframe src="https://calendar.google.com/calendar/b/1/embed?mode=AGENDA&height=600&amp;wkst=1&amp;bgcolor=%233366ff&amp;src=berkeley.edu_9k08nrpdahaujiva7u1ss9j92s%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FLos_Angeles" style="border:solid 1px #777" width="450" height="700" frameborder="0" scrolling="no"></iframe>';
+}
 class Calendar extends Component {
 
   render() {
       let self = this;
+
       return (
         <div>
           <div className="hero"
@@ -33,14 +36,12 @@ class Calendar extends Component {
           </div>
 
       <div class="content">
-
-      <div class = "left">
-          
-          <div style = {divStyle}>
-          <Googlecal iframe={iframe} />
-          </div>
+        <div class = "left">
+            <div>
+              <Googlecal iframe={iframe} />
+            </div>
+        </div>
       </div>
-    </div>
     </div>
     );
   }
