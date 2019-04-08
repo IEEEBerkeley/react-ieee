@@ -396,6 +396,11 @@ a.icon-link span.icon {
     min-width: 1024px;
   }
 }
+@media (max-width: 500px) {
+  .hero {
+    display:none;
+  }
+}
 .footer-wrapper,
 .push {
     height: 150px
@@ -417,7 +422,6 @@ a.icon-link span.icon {
     height: 400px;
     width: 90%;
     margin-left: 5%;
-
 }
 .bg_image {
 
