@@ -126,6 +126,7 @@ class About extends Component {
             let aTag = document.createElement("a");
             aTag.href = link;
             aTag.classList = "icon";
+            aTag.target = "_blank";
             let icon = document.createElement("i");
             icon.classList = "icon-" + iconName.toLowerCase();
             aTag.appendChild(icon);
@@ -164,7 +165,7 @@ class About extends Component {
                 </LazyLoad>
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Gregory Balke</span><span className="rank">Co-President</span></div>
-                    <div className="bottom-align"><a href="https://github.com/gbalke" className="icon"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/~balke/" className="icon"><i className="icon-linkedin"></i></a></div>
+                    <div className="bottom-align"><a href="https://github.com/gbalke" className="icon" target="_blank"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/~balke/" className="icon" target="_blank"><i className="icon-linkedin"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
@@ -173,7 +174,7 @@ class About extends Component {
                 </LazyLoad>
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Brent Yi</span><span className="rank">Co-President</span></div>
-                    <div className="bottom-align"><a href="https://github.com/brentyi" className="icon"><i className="icon-github"></i></a><a href="https://linkedin.com/in/brentyi" className="icon"><i className="icon-linkedin"></i></a><a href="https://brentyi.com" className="icon"><i className="icon-personal"></i></a><a href="https://twitter.com/brenthyi" className="icon"><i className="icon-twitter"></i></a></div>
+                    <div className="bottom-align"><a href="https://github.com/brentyi" className="icon" target="_blank"><i className="icon-github"></i></a><a href="https://linkedin.com/in/brentyi" className="icon" target="_blank"><i className="icon-linkedin"></i></a><a href="https://brentyi.com" className="icon" target="_blank"><i className="icon-personal"></i></a><a href="https://twitter.com/brenthyi" className="icon" target="_blank"><i className="icon-twitter"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
@@ -182,7 +183,7 @@ class About extends Component {
                 </LazyLoad>
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Billy Lu</span><span className="rank">External V.P.</span></div>
-                    <div className="bottom-align"><a href="https://github.com/williammlu" className="icon"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/williammlu/" className="icon"><i className="icon-linkedin"></i></a><a href="http://william.lu/" className="icon"><i className="icon-personal"></i></a><a href="https://instagram.com/williammlu" className="icon"><i className="icon-instagram"></i></a></div>
+                    <div className="bottom-align"><a href="https://github.com/williammlu" className="icon"><i className="icon-github" target="_blank"></i></a><a href="https://www.linkedin.com/in/williammlu/" className="icon"><i className="icon-linkedin" target="_blank"></i></a><a href="http://william.lu/" className="icon"><i className="icon-personal" target="_blank"></i></a><a href="https://instagram.com/williammlu" className="icon"><i className="icon-instagram" target="_blank"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
@@ -197,7 +198,7 @@ class About extends Component {
                 <div className="tile"><img src={tryAndDefault("Exec", "hall_chen.jpg")} alt="" /></div>
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Hall Chen</span><span className="rank">Treasurer</span></div>
-                    <div className="bottom-align"><a href="https://www.linkedin.com/in/hall-z-h-chen-a39b04a0" className="icon"><i className="icon-linkedin"></i></a><a href="https://im.hallchen.us" className="icon"><i className="icon-personal"></i></a></div>
+                    <div className="bottom-align"><a href="https://www.linkedin.com/in/hall-z-h-chen-a39b04a0" className="icon" target="_blank"><i className="icon-linkedin"></i></a><a href="https://im.hallchen.us" className="icon" target="_blank"><i className="icon-personal"></i></a></div>
                 </div>
               </div>
               <div className="officer-container cboxElement">
@@ -206,7 +207,7 @@ class About extends Component {
                 </LazyLoad>
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Neha Godbole</span><span className="rank">Secretary</span></div>
-                    <div className="bottom-align"><a href="https://www.linkedin.com/in/neha-godbole-b61274126/" className="icon"><i className="icon-linkedin"></i></a></div>
+                    <div className="bottom-align"><a href="https://www.linkedin.com/in/neha-godbole-b61274126/" className="icon" target="_blank"><i className="icon-linkedin"></i></a></div>
                 </div>
               </div>
             </div>
