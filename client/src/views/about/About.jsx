@@ -18,7 +18,7 @@ class About extends Component {
         </ul>
         </div>
         <div class='content'>
-          <div class='left'>
+        
             <span class='heading blue'>
             Who are we?
             </span>
@@ -57,7 +57,7 @@ class About extends Component {
               </li>
             </ul>
           </div>*/}
-        </div>
+        
       </div>
     );
   }

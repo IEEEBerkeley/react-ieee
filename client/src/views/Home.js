@@ -9,7 +9,6 @@ class Home extends Component {
       <div>
           <Slides/>
         <div className="content">
-          <div className="left">
           <span className="heading blue">
             Who are we?
             </span>
@@ -33,7 +32,6 @@ class Home extends Component {
             <a className="blue">Photos</a>
             </span>
           </div>*/}
-        </div>
       </div>
     );
   }
