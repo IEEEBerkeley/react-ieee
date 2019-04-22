@@ -1,7 +1,6 @@
 # Getting started
 
-Clone the repo, cd into the directory, and type `npm install`. After that, you
-can start a local server by typing `npm start`.
+Read the [Development Onboarding wiki page](https://github.com/IEEEBerkeley/react-ieee/wiki/Development-Onboarding) for details on contributing to this repository!
 
 # Deployment Details
 
