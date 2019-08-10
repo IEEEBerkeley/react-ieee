@@ -162,8 +162,14 @@
 }
 #micromouseSlide {
     padding: 1%;
-    padding-bottom: 3%;
-    width: 96%;
+    margin:auto;
+    width: 90%;
+}
+.calendar {
+  display: inline-block
+}
+.containerCalendar {
+  text-align: center
 }
 .slider_main {
     padding: 1%;
@@ -426,8 +432,7 @@ a.icon-link span.icon {
     min-width: 1024px; */
     background-repeat: no-repeat;
     height: 400px;
-    width: 90%;
-    margin-left: 5%;
+    background-position: center;
 }
 .bg_image {
 
@@ -682,10 +687,10 @@ table td.row-header {
     text-align: center
 }
 .microslide {
-  margin-left: 2%;
+
 }
 .microslide2 {
-  margin-left: 2%;
+
 }
 @media (max-width: 768px) {
   .microslide {

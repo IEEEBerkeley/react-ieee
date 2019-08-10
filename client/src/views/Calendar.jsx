@@ -11,9 +11,7 @@ class Googlecal extends Component {
     }
     render() {
         return (
-          <div>
-            <div dangerouslySetInnerHTML={ this.iframe() } />
-          </div>
+            <div class="calendar" dangerouslySetInnerHTML={ this.iframe() } />
         );
     }
 }
@@ -36,11 +34,9 @@ class Calendar extends Component {
           </div>
 
       <div class="content">
-        <div class = "left">
-            <div>
-              <Googlecal iframe={iframe} />
-            </div>
-        </div>
+          <div class="containerCalendar">
+            <Googlecal iframe={iframe} />
+          </div>
       </div>
     </div>
     );
