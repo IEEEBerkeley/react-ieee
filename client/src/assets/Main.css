@@ -169,6 +169,8 @@
     padding: 1%;
     padding-bottom: 3%;
     width: 96%;
+    margin: auto;
+    max-width: 1500px;
 }
 .bgimg {
   width: 100%;
