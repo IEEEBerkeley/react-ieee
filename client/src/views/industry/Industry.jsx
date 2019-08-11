@@ -5,7 +5,7 @@ import LazyLoad from 'react-lazyload';
 class Industry extends Component {
   render() {
     return (
-    <div>
+    <div className="main">
     <LazyLoad height={200}>
       <div className="hero"
         style={{ backgroundImage: "url(" + industryImage + ")" }}>

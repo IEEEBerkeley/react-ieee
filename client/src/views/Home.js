@@ -6,7 +6,7 @@ import Slides from './slides';
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="main">
           <Slides/>
         <div className="content">
           <span className="heading blue">

@@ -85,7 +85,7 @@ class Events extends Component {
   render() {
     let self = this;
     return (
-      <div>
+      <div className="main">
         <div className="hero"
         style={{ backgroundImage: "url(" + eventsImage + ")" }}>
         </div>

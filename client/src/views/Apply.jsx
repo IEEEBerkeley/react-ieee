@@ -4,7 +4,7 @@ import memberImage from '../assets/members.jpg';
 class Apply extends Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <html>
 	        <body>
 	            <div className="hero"

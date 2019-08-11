@@ -28,7 +28,7 @@ class Calendar extends Component {
       let self = this;
 
       return (
-        <div>
+        <div className="main">
           <div className="hero"
           style={{ backgroundImage: "url(" + eventsImage + ")" }}>
           </div>

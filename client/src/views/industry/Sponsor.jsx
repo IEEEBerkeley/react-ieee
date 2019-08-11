@@ -7,7 +7,7 @@ import Download from './Download';
 class Sponsor extends Component {
   render() {
     return (
-    <div>
+    <div className="main">
       <div className="hero"
         style={{ backgroundImage: "url(" + industryImage + ")" }}>
         </div>

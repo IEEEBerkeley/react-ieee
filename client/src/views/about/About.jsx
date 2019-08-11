@@ -6,7 +6,7 @@ import Mailto from 'react-protected-mailto';
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <div className="hero"
         style={{ backgroundImage: "url(" + memberImage + ")" }}>
         </div>
@@ -18,7 +18,7 @@ class About extends Component {
         </ul>
         </div>
         <div class='content'>
-        
+
             <span class='heading blue'>
             Who are we?
             </span>
@@ -57,7 +57,7 @@ class About extends Component {
               </li>
             </ul>
           </div>*/}
-        
+
       </div>
     );
   }

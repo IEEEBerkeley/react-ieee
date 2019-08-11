@@ -413,6 +413,9 @@ a.icon-link span.icon {
   }
 
 }
+.main {
+  background-color: #F5F5F5;
+}
 .footer-wrapper,
 .push {
     height: 150px
@@ -441,12 +444,12 @@ a.icon-link span.icon {
 */
 .toolbar {
   width: 100%;
-  background: #2F3337;
+  background: white;
 
 }
 .toolbar_logo {
-  width: 287px;
-  height: 95px;
+  width: 400px;
+  height: 100px;
 }
 .toolbar_logo img {
   border: 0px;
@@ -458,9 +461,10 @@ a.icon-link span.icon {
   padding: 0 1rem;
 }
 .toolbar_navigation-items a {
-  color: white;
+  color: #145797;
+  font-weight: bold;
+  font-size: 20px;
   text-decoration: none;
-  font-weight:300;
 }
 .toolbar_navigation-items ul {
   list-style: none;
@@ -476,8 +480,10 @@ a.icon-link span.icon {
 }
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: #145797;
+  color: #186cbc;
   font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #186cbc;
 }
 
 .toggle-button {

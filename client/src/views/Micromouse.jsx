@@ -5,7 +5,7 @@ import LazyLoad from 'react-lazyload';
 class Micromouse extends Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <html>
         <body>
             <div id = "micromouseSlide">

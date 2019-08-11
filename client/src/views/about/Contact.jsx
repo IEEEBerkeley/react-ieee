@@ -6,7 +6,7 @@ import LazyLoad from 'react-lazyload';
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <div className="main">
       <LazyLoad height={200}>
         <div className="hero"
         style={{ backgroundImage: "url(" + memberImage + ")" }}>
