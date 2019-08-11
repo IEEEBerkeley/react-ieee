@@ -448,7 +448,7 @@ a.icon-link span.icon {
 
 }
 .toolbar_logo {
-  width: 400px;
+  width: 200px;
   height: 100px;
 }
 .toolbar_logo img {
@@ -500,7 +500,7 @@ a.icon-link span.icon {
 .toggle-button__line {
   width: 30px;
   height: 2px;
-  background: white;
+  background: #186cbc;
 }
 .toggle-button:focus {
   outline: none;
