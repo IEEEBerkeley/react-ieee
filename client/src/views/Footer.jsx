@@ -22,7 +22,7 @@ class Footer extends Component {
             </ul>
             **/}
             <div className="footercol">
-            <a href="https://www.ieee.org/"><img alt={"Logo"} src={require("../assets/logo_kite.png")} /></a>
+            <a href="https://www.ieee.org/" className="footerlogo"><img alt={"Logo"} src={require("../assets/logo_kite.png")} /></a>
             </div>
             <div  className="footercol ">
             <div>

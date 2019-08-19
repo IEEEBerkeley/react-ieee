@@ -757,6 +757,12 @@ footer a:hover {
 a {
   cursor: pointer;
 }
+.footerlogo {
+  opacity: .5;
+}
+.footerlogo:hover {
+  opacity: 1;
+}
 .copyright {
   opacity: .5;
 }
