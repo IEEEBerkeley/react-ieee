@@ -1,36 +1,54 @@
 import React, { Component } from 'react';
-import "./footer.css"
 
 class Footer extends Component {
   render() {
     return (
-      <div className="footer-wrapper">
-      <div className="footer">
-      <div className="copyright vertically-centered" >
-        <div className="logo-national">
-        <a href="https://www.ieee.org/"><img alt={"Logo"} src={require("../assets/logo_kite.png")} /></a>
+      <footer>
+        <div className="container">
+          {/**
+            <ul>
+            <li className="mail">
+              <a className="mailing" href="http://eepurl.com/c-RpPr"> Join our mailing list</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416" className="icon"><i className="icon-facebook"></i></a>
+            </li>
+            <li>
+            <a href="https://www.linkedin.com/company/ieee-ucb/" className="icon"><i className="icon-linkedin"></i></a>
+            </li>
+            <li>
+            <a href="https://www.instagram.com/ieeeucb/" className="icon"><i className="icon-instagram"></i></a>
+            </li>
+            </ul>
+            **/}
+            <div className="footercol">
+            <a href="https://www.ieee.org/"><img alt={"Logo"} src={require("../assets/logo_kite.png")} /></a>
+            </div>
+            <div  className="footercol ">
+            <div>
+            <p className="copyright">© Copyright 2019 UC Berkeley IEEE</p>
+            </div>
+            </div>
+            <div className="footercol">
+            <div>
+            <ul id="iconlink">
+              <li className="item">
+              <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416" target="_blank" class="icon"><i class="icon-facebook"></i></a>
+              </li>
+              <li className="item">
+              <a href="https://www.linkedin.com/company/ieee-ucb/"  target="_blank"  class="icon"><i class="icon-linkedin"></i></a>
+              </li>
+              <li className="item">
+              <a href="https://www.instagram.com/ieeeucb/" target="_blank"  class="icon"><i class="icon-instagram"></i></a>
+              </li>
+            </ul>
+            <form action="http://eepurl.com/c-RpPr"><button className="mailbutton" type="submit">Join Our Mailing List</button></form>
+            <p className="contact_info">Contact us: <a href="mailto:inquiry@stac.berkeley.edu"><span><u>ieee@berkeley.edu</u></span></a></p>
+
+            </div>
+            </div>
         </div>
-      </div>
-      <div className="media vertically-centered" style={{marginTop: '51px', marginBottom: '51px'}}>
-      <ul>
-      <li className="mail">
-        <a className="mailing" href="http://eepurl.com/c-RpPr"> Join our mailing list</a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416" className="icon"><i className="icon-facebook"></i></a>
-      </li>
-      <li>
-      <a href="https://www.linkedin.com/company/ieee-ucb/" className="icon"><i className="icon-linkedin"></i></a>
-      </li>
-      <li>
-      <a href="https://www.instagram.com/ieeeucb/" className="icon"><i className="icon-instagram"></i></a>
-      </li>
-      </ul>
-      <br />
-      </div>
-      </div>
-      <p className="copyrighted">© Copyright 2019 UC Berkeley IEEE</p>
-      </div>
+      </footer>
     );
   }
 }
