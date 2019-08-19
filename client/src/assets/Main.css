@@ -338,7 +338,6 @@ li.mail {
 .icon-instagram:before { content: "\f16d"; }
 
 * {
-  overflow: scroll;
   -webkit-overflow-scrolling: touch;
   margin: 0;
 }
