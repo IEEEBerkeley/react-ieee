@@ -15,7 +15,7 @@ class Home extends Component {
             science.
             </p>
           <div class="section">
-            <span className="heading blue">A recognized presence on campus</span>>
+            <span className="heading blue">A recognized presence on campus</span>
             <p>Our student branch is involved on campus. Our student branch:</p>
             <ul class="simple">
               <li>Hosts presentations and workshops from technology companies</li>
