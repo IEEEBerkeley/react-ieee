@@ -595,6 +595,42 @@ a.icon-link span.icon {
     float: right;
     font-family: 'OpenSansSemibold'
 }
+.nestedlist {
+  list-style-type: none;
+}
+.list_descript {
+}
+.list_section {
+  text-align: left;
+}
+.homecard {
+
+}
+.section_title {
+  display: block;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 15px;
+
+}
+.section_descipt {
+  font-size: 20px;
+  margin-bottom: 40px;
+  display: inline-block;
+  margin: auto;
+}
+.section_descipt p {
+  text-align: left;
+}
+.section {
+  padding: 30px;
+  position: relative;
+  top: 2px;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
 @media (max-width: 1000px) {
   .content .right {
     clear: both;
@@ -603,7 +639,15 @@ a.icon-link span.icon {
   .content .left {
     width: 100%;
   }
+  .section_descipt {
+    width: 100%;
+  }
+  .section {
+    padding: 0px;
+    width: 100%;
+  }
 }
+
 @media (min-width: 1001px) {
   .content .right {
     float:right;
@@ -828,7 +872,11 @@ a {
 }
 
 span.heading {
-    font-size: 27px
+    font-size: 35px;
+    border-bottom: 2px solid currentColor; /* Or whatever color you want */
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 15px;
 }
 span.subheading {
     font-size: 21px

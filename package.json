@@ -43,6 +43,7 @@
     "css-loader": "^1.0.0",
     "moment": "^2.22.2",
     "react-big-calendar": "^0.20.1",
+    "react-slick": "^0.23.2",
     "style-loader": "^0.23.0",
     "webpack": "^3.0.0"
   }
