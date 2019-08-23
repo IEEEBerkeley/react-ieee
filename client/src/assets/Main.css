@@ -344,7 +344,6 @@ li.mail {
 html,
 body {
     height: 100%;
-    overflow-x: hidden;
 }
 body {
     font-family: 'OpenSansRegular';
@@ -354,9 +353,7 @@ body {
     background-repeat: repeat-y;
     background-position: center
 }
-p {
 
-}
 .horizontal-line {
     width: 100%;
     height: 1px;
@@ -391,12 +388,12 @@ a.icon-link span.icon {
     /* margin: 0 auto -150px */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 999px) {
   .wrapper {
     width: 100%;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
   .wrapper {
     min-width: 1024px;
   }
@@ -408,7 +405,9 @@ a.icon-link span.icon {
   .slider_main {
     display: none;
   }
-
+}
+.offset {
+  padding-top: 110px;
 }
 .main {
   background-color: #F5F5F5;
@@ -429,11 +428,15 @@ a.icon-link span.icon {
 .toolbar {
   width: 100%;
   background: white;
-
+  height: 110px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
 }
 .toolbar_logo {
   width: 200px;
-  height: 100px;
+  height: 96px;
 }
 .toolbar_logo img {
   border: 0px;
@@ -504,7 +507,8 @@ a.icon-link span.icon {
 }
 .side-drawer ul {
   height: 100%;
-  margin-top: 35%;
+  margin-top: 25%;
+  overflow: scroll;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -603,19 +607,55 @@ a.icon-link span.icon {
 .list_section {
   text-align: left;
 }
-.homecard {
+.white {
+  color: white;
+}
+#homebanner {
+  width: 100%;
+  height: calc(100vh - 110px);
+  background-image: radial-gradient(#145797, #010C0F);
+}
+#particles {
 
+}
+.slogan-container {
+  height: 100%;
+}
+.slogan {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 0;
+  color: white;
+  font-size: 20px;
+}
+.slogan img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  margin-bottom: 32px;
+
+}
+.slogan h1 {
+  margin-bottom: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.slogan p {
+  text-align: justify;
 }
 .section_title {
   display: block;
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 15px;
-
 }
 .section_descipt {
   font-size: 20px;
-  margin-bottom: 40px;
   display: inline-block;
   margin: auto;
 }
@@ -627,10 +667,19 @@ a.icon-link span.icon {
   position: relative;
   top: 2px;
   display: block;
-  margin: auto;
-  width: 50%;
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 3px 10px 0 rgba(0,0,0,.19);
+  background-color: #fff;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-
+.section:hover {
+  -webkit-transform: translate(-3px, -3px);
+  transform: translate(-3px, -3px);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
 @media (max-width: 1000px) {
   .content .right {
     clear: both;
@@ -643,8 +692,8 @@ a.icon-link span.icon {
     width: 100%;
   }
   .section {
-    padding: 0px;
-    width: 100%;
+    padding: 15px;
+
   }
 }
 
@@ -661,8 +710,7 @@ a.icon-link span.icon {
 .content {
     width: 80%;
     margin: 0px auto;
-    padding: 43px 0 75px 0;
-
+    padding: 10px 0 75px 0;
     overflow: auto;
 }
 .content .left {
@@ -812,7 +860,7 @@ a {
   opacity: .5;
 }
 .mailbutton {
-  background-color: #145797; /* Green */
+  background-color: #145797;
   border: none;
   color: white;
   padding: 10px 27px;
@@ -873,8 +921,6 @@ a {
 
 span.heading {
     font-size: 35px;
-    border-bottom: 2px solid currentColor; /* Or whatever color you want */
-    text-decoration: none;
     display: inline-block;
     margin-bottom: 15px;
 }

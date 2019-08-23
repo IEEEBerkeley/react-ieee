@@ -10,8 +10,9 @@ class App extends Component {
       <div>
         <div className="wrapper">
           <Header />
-
+          <div className="offset">
           <Main />
+          </div>
           <Footer />
         </div>
       </div>

@@ -1,34 +1,94 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import homeImage from '../assets/home.png';
+import bannerlogo from '../assets/logo_kite.png'
 import Slides from './slides';
+import Particles from 'react-particles-js';
 
 class Home extends Component {
   render() {
     return (
       <div className="main">
-          <Slides/>
+        <div id="homebanner">
+        <div id="particles">
+        <Particles
+            params={{
+        	    "particles": {
+        	        "number": {
+        	            "value": 160,
+        	            "density": {
+        	                "enable": false
+        	            }
+        	        },
+        	        "size": {
+        	            "value": 3,
+        	            "random": true,
+        	            "anim": {
+        	                "speed": 4,
+        	                "size_min": 0.3
+        	            }
+        	        },
+        	        "line_linked": {
+        	            "enable": false
+        	        },
+        	        "move": {
+        	            "random": true,
+        	            "speed": 1,
+        	            "direction": "top",
+        	            "out_mode": "out"
+        	        }
+        	    },
+        	    "interactivity": {
+        	        "events": {
+        	            "onhover": {
+        	                "enable": true,
+        	                "mode": "bubble"
+        	            },
+        	            "onclick": {
+        	                "enable": true,
+        	                "mode": "repulse"
+        	            }
+        	        },
+        	        "modes": {
+        	            "bubble": {
+        	                "distance": 250,
+        	                "duration": 2,
+        	                "size": 0,
+        	                "opacity": 0
+        	            },
+        	            "repulse": {
+        	                "distance": 400,
+        	                "duration": 4
+        	            }
+        	        }
+        	    }
+        	}} />
+          </div>
+          <div className="slogan-container">
+            <div className="slogan">
+                <img alt={"Logo"} src={bannerlogo} />
+                <h1 className="white">Connecting Engineers with Opportunities</h1>
+                <p className="white">
+                The University of California, Berkeley IEEE Student Branch connects electrical
+                engineering students with opportunities in electrical engineering and computer
+                science.
+                </p>
+            </div>
+          </div>
+        </div>
         <div className="content">
           <div className="section">
-          <div className="section_title blue">Connecting Engineers with Opportunities</div>
-            <div className="section_descipt">
-            The University of California, Berkeley IEEE Student Branch connects electrical
-            engineering students with opportunities in electrical engineering and computer
-            science.
-            </div>
-          </div >
-          <div className="section">
+
             <div className="section_title blue">A recognized presence on campus</div>
             <div className="section_descipt">
             <p>Our student branch is involved on campus. Our student branch:</p>
-            <div className="list_section">
-              <ul className="list_descript">
-                <li>Hosts presentations and workshops from technology companies</li>
-                <li>Teaches elective engineering classes (&quot;DeCals&quot;)</li>
-                <li>Represents student body in department town halls</li>
-                <li>Maintains student &quot;maker spaces&quot; and amateur radio station</li>
-              </ul>
-            </div>
+              <div className="list_section">
+                <ul className="list_descript">
+                  <li>Hosts presentations and workshops from technology companies</li>
+                  <li>Teaches elective engineering classes (&quot;DeCals&quot;)</li>
+                  <li>Represents student body in department town halls</li>
+                  <li>Maintains student &quot;maker spaces&quot; and amateur radio station</li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="section">
@@ -70,7 +130,6 @@ class Home extends Component {
             </div>
             </div>
           </div>
-
         </div>
       </div>
     );
