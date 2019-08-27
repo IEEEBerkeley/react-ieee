@@ -622,7 +622,12 @@ a.icon-link span.icon {
   background-image: radial-gradient(#145797, #010C0F);
 }
 #particles {
-
+  height:100%;
+  width: 100%;
+}
+#particles div {
+  height:100%;
+  width: 100%;
 }
 .slogan-container {
   height: 100%;
