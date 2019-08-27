@@ -14,7 +14,7 @@ import About from './views/about/About';
 import Contact from './views/about/Contact';
 import Officers from './views/about/Officers';
 import Apply from './views/Apply'
-
+import './assets/Main.css';
 
 const Main = () => (
     <Switch>

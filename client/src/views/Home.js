@@ -4,6 +4,7 @@ import bannerlogo from '../assets/logo_kite.png'
 import Slides from './slides';
 import Particles from 'react-particles-js';
 
+
 class Home extends Component {
   render() {
     return (
@@ -14,7 +15,7 @@ class Home extends Component {
             params={{
         	    "particles": {
         	        "number": {
-        	            "value": 160,
+        	            "value": 400,
         	            "density": {
         	                "enable": false
         	            }
@@ -35,13 +36,19 @@ class Home extends Component {
         	            "speed": 1,
         	            "direction": "top",
         	            "out_mode": "out"
-        	        }
+        	        },
+                  "shape": {
+                      "type": "circle"
+                  },
+                  "line_linked": {
+                      "enable": false,
+                  }
         	    },
         	    "interactivity": {
         	        "events": {
         	            "onhover": {
         	                "enable": true,
-        	                "mode": "bubble"
+        	                "mode": "grab"
         	            },
         	            "onclick": {
         	                "enable": true,
@@ -49,11 +56,11 @@ class Home extends Component {
         	            }
         	        },
         	        "modes": {
-        	            "bubble": {
+        	            "grab": {
         	                "distance": 250,
-        	                "duration": 2,
-        	                "size": 0,
-        	                "opacity": 0
+                          "line_linked": {
+                              "opacity": .25
+                          }
         	            },
         	            "repulse": {
         	                "distance": 400,
@@ -89,8 +96,14 @@ class Home extends Component {
                   <li>Maintains student &quot;maker spaces&quot; and amateur radio station</li>
                 </ul>
               </div>
+              <div className="center flexbutton">
+                <Link to="/events"  className="flex-item">
+                  <button className="homebutton">Upcoming Events</button>
+                </Link>
+              </div>
             </div>
           </div>
+
           <div className="section">
             <div className="section_title blue">Opportunities for members</div>
             <div className="section_descipt">
@@ -112,6 +125,14 @@ class Home extends Component {
                 </li>
               </ul>
               </div>
+              <div className="center flexbutton">
+                <Link to="/micromouse"  className="flex-item">
+                  <button className="homebutton">About    Micromouse</button>
+                </Link>
+                <a href="https://ieee.berkeley.edu/hope/"  className="flex-item">
+                  <button className="homebutton">About    H.O.P.E.</button>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -127,6 +148,14 @@ class Home extends Component {
                 <li>Community outreach</li>
                 <li>Join our unique community by coming to one of our in-person meetings throughout the semester.</li>
               </ul>
+            </div>
+            <div className="center flexbutton">
+              <form action="http://eepurl.com/c-RpPr" className="flex-item">
+                <button className="homebutton" type="submit">Subscribe to Our Newsletter</button>
+              </form>
+              <Link to="/apply"  className="flex-item">
+                <button className="homebutton">Learn how to join</button>
+              </Link>
             </div>
             </div>
           </div>

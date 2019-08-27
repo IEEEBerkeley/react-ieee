@@ -539,17 +539,23 @@ a.icon-link span.icon {
   top: 0;
   left: 0;
 }
-@media (max-width: 768px) {
+@media only screen and (min-width: 1016px) {
+  .toolbar_navigation {
+      padding-right: 5em;
+  }
+}
+
+@media (max-width: 1015px) {
   .toolbar_navigation-items {
     display:none;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 1016px) {
   .side-drawer {
     display: none;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 1016px) {
   .toolbar__toggle-button {
     display: none;
   }
@@ -658,6 +664,7 @@ a.icon-link span.icon {
   font-size: 20px;
   display: inline-block;
   margin: auto;
+  width: 100%;
 }
 .section_descipt p {
   text-align: left;
@@ -859,7 +866,34 @@ a {
 .copyright {
   opacity: .5;
 }
+.flexbutton {
+  display: flex;
+  justify-content: center;
+}
+.flex-item + .flex-item {
+  margin-left: 10px;
+}
+.homebutton {
+  background-color: #145797;
+  border: none;
+  color: white;
+  padding: 15px 27px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  font-weight:500;
+}
+.homebutton:hover {
+  background-color: #004080;
+}
 .mailbutton {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
   background-color: #145797;
   border: none;
   color: white;
@@ -873,10 +907,18 @@ a {
 
   border-radius: 10px;
 }
+
 .mailbutton:hover {
   opacity:1;
 }
-
+@media (max-width: 501px) {
+  .flexbutton {
+    display:block;
+  }
+  .flex-item + .flex-item {
+    margin-left: 0px;
+  }
+}
 @media (min-width: 768px) {
   .footercol {
       width: 33.33333333%;
@@ -1235,7 +1277,6 @@ a.hope-resource:hover {
 #cboxClose:hover {
     background-position: bottom center
 }
-
 .sponsor-container {
     float: left;
     height: 150px;
