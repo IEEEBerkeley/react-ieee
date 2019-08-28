@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import memberImage from '../assets/members.jpg';
+import { Link } from 'react-router-dom';
 
 class Apply extends Component {
   render() {
@@ -15,12 +16,12 @@ class Apply extends Component {
 			        <span class='heading blue'>
 			        Join Us @ UC Berkeley IEEE!
 			        </span>
-			        <p>
+
 				        <br />
-				        <p> Apply
-				        <a href="https://tinyurl.com/ucbieeesp19" class="blue" target="_blank" rel="noopener noreferrer"> here </a> to become a General Member.
-				        </p>
-				    </p>
+                <form action="https://tinyurl.com/ucbieeesp19" className="flex-item">
+                  <button className="homebutton" type="submit">Apply here!</button>
+                </form>
+				  
 
 				    <br />
 
@@ -36,19 +37,19 @@ class Apply extends Component {
 
 				        <br />
 				        <p>
-				        General Members:
-				        	<li> Attend 1 Social Event & 2 Academic/Professional Events </li>
 				        <br />
-				        Committee/Leadership:
-				        	<li> Volunteer for 1 hour at the Startup Fair/Soda Hacks </li>
-				        	<li> Volunteer for 3 hours of Service/Outreach events or cookie runs </li>
-				        	<li> Volunteer for one finals breakfast (replaceable with 2 hours of additional service/outreach) </li>
+				        Guidelines for Committee Officers:
+                <ul>
+				        	<li>Attend 1 Social Event</li>
+				        	<li>Attend 2 Professional Events</li>
+				        	<li>Attend 1 Volunteering Event</li>
+                </ul>
 				        </p>
 
 				        <br />
 
 				        <p>
-				        These requirements are to encourage you to support the EECS community and IEEE's major initiatives, and each of these events will be a great opportunity to meet your peers within IEEE!
+				        These guidelines are for Committee Officers, and members are not required to meet these guidelines. However, IEEE members are to encouraged to meet come to as many events as possible as the events support the EECS community and IEEE's major initiatives. Each of these events are also great opportunities to meet your peers within IEEE!
 				        </p>
 			        </p>
 		        </div>
