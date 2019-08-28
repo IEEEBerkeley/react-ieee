@@ -708,6 +708,9 @@ a.icon-link span.icon {
     padding: 15px;
     width: 100%;
   }
+  .content {
+    width: 90%;
+  }
 }
 
 @media (min-width: 1001px) {
