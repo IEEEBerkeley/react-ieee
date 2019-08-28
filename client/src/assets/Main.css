@@ -706,7 +706,7 @@ a.icon-link span.icon {
   }
   .section {
     padding: 15px;
-
+    width: 100%;
   }
 }
 
