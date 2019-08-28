@@ -42,7 +42,10 @@ class About extends Component {
             If you’d like to get in touch, please email us at <span class="blue"><Mailto email='ieee@berkeley.edu' /></span>.</p>
             <br/>
             <h3 class='blue'>
-            To be notified about upcoming events and opportunities subscribe to our mailing list at the bottom of the page.
+            To be notified about upcoming events and opportunities,
+            <form action="http://eepurl.com/c-RpPr" className="flex-item">
+              <button className="homebutton" type="submit">Subscribe to our mailing list!</button>
+            </form>
             </h3>
             <br/>
 
