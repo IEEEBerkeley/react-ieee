@@ -29,16 +29,12 @@ class Calendar extends Component {
 
       return (
         <div className="main">
-          <div className="hero"
-          style={{ backgroundImage: "url(" + eventsImage + ")" }}>
+          <div class="content">
+              <div class="containerCalendar">
+                <Googlecal iframe={iframe} />
+              </div>
           </div>
-
-      <div class="content">
-          <div class="containerCalendar">
-            <Googlecal iframe={iframe} />
-          </div>
-      </div>
-    </div>
+        </div>
     );
   }
 }
