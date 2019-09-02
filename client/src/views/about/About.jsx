@@ -28,18 +28,18 @@ class About extends Component {
               The UC Berkeley IEEE student branch was established in 1912 and has been one of the most active engineering student organizations on campus ever since. We aim to promote professional development, encourage academic growth, and organize social activities within the greater engineering community. We host various events to encourage professional development within the EECS and greater engineering community at berkeley, ranging from company info-sessions, to research mixers, and resume workshops.
               </p>
               <br/>
-              <p>IEEE also hosts social events aimed at connecting the engineering community within Berkeley, these include board game nights, dinners, a ski retreat, and much more. IEEE also hosts two classes (<a href="https://ieee.berkeley.edu/hope/" class="blue">HOPE</a>, and <a href="/micromouse" class="blue">micromouse</a>) intended to provide students with practical hands on experience in the EE/CS field.
+              <p>IEEE also hosts social events aimed at connecting the engineering community within Berkeley, these include board game nights, dinners, a ski retreat, and much more. IEEE also hosts two classes (<a href="https://ieee.berkeley.edu/hope/" className="blue link">HOPE</a>, and <a href="/micromouse" className="blue link">micromouse</a>) intended to provide students with practical hands on experience in the EE/CS field.
             </p>
             <br/>
             <p>
-            To see what we have been up to recently, check out our <a href="https://www.facebook.com/ieeeucb/" class="blue">Facebook</a>, or <a href="https://www.instagram.com/ieeeucb/" class="blue">Instagram</a>!
+            To see what we have been up to recently, check out our <a  href="https://www.facebook.com/ieeeucb/" className="blue link">Facebook</a>, or <a href="https://www.instagram.com/ieeeucb/" className="blue link">Instagram</a>!
             </p>
             <br/>
             <p>
             Contact us:
             </p>
             <p>
-            If you’d like to get in touch, please email us at <span class="blue"><Mailto email='ieee@berkeley.edu' /></span>.</p>
+            If you’d like to get in touch, please email us at <span className="blue link"><Mailto email='ieee@berkeley.edu' /></span>.</p>
             <br/>
             <h3 class='blue'>
             To be notified about upcoming events and opportunities,

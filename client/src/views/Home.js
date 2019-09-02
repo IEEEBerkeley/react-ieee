@@ -71,8 +71,10 @@ class Home extends Component {
         	}} />
           </div>
           <div className="slogan-container">
+            <div clasname="slogan_img">
+                <img  alt={"Logo"} src={bannerlogo} />
+            </div>
             <div className="slogan">
-                <img alt={"Logo"} src={bannerlogo} />
                 <h1 className="white">Connecting Engineers with Opportunities</h1>
                 <p className="white">
                 The University of California, Berkeley IEEE Student Branch connects electrical

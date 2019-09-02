@@ -569,7 +569,7 @@ a.icon-link span.icon {
     color: #FFFFFF;
     background-color: transparent;
     display: block;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .submenu ul {
     width: 100%;
@@ -631,9 +631,6 @@ a.icon-link span.icon {
   width: 100%;
 }
 .slogan-container {
-  height: 100%;
-}
-.slogan {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -643,14 +640,13 @@ a.icon-link span.icon {
   padding: 0;
   color: white;
   font-size: 20px;
+  text-align: center!important;
 }
-.slogan img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
-  margin-bottom: 32px;
+.slogan {
 
+}
+.slogan-container img {
+  vertical-align: center;
 }
 .slogan h1 {
   margin-bottom: 32px;
@@ -658,7 +654,7 @@ a.icon-link span.icon {
   text-transform: uppercase;
 }
 .slogan p {
-  text-align: justify;
+
 }
 .section_title {
   display: block;
@@ -866,6 +862,7 @@ footer a:hover {
 a {
   cursor: pointer;
 }
+
 .footerlogo {
   opacity: .5;
 }
@@ -971,7 +968,7 @@ a {
 }
 
 span.heading {
-    font-size: 35px;
+    font-size: 30px;
     display: inline-block;
     margin-bottom: 15px;
 }
@@ -986,6 +983,23 @@ span.subheading {
 }
 a {
     text-decoration: none
+}
+.faq {
+  text-align: center;
+}
+.faq-question {
+  color: #555555;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.faq-answer {
+  font-size: 16px;
+  line-height: 2em;
+  max-width: 60vw;
+  margin: 0 auto;
 }
 #face-grid {
     display: block;
@@ -1111,6 +1125,9 @@ a.hope-resource {
 }
 a.hope-resource:hover {
     color: #2F3337
+}
+.link:hover {
+  text-decoration: underline;
 }
 .email {
     font-family: 'OpenSansSemibold'

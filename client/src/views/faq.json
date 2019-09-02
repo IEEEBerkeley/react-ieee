@@ -1,0 +1,32 @@
+{
+  "FAQ":[
+    {
+      "Question": "I’m not a CS/EECS student. Can I still join and attend events hosted by IEEE?",
+      "Answer":"Yes! Our organization is not limited to any major. As long as you have an interest in any of our activities and events, you are welcome to participate!"
+    },
+    {
+      "Question": "Do I need any experience to join __ committee?",
+      "Answer":"Other than our two decal committees, experience is not required for most of our committees! Having relevant experience may help though if there are a limited number of positions in committees such as Website and Techops. "
+    },
+    {
+      "Question": "What are the membership requirements?",
+      "Answer":"All students from all majors are welcome! We suggest general members attend two professional events, one social event and one volunteer event, especially if you want to apply to be an officer next semester. "
+    },
+    {
+      "Question": "What does IEEE stand for/mean?",
+      "Answer":"IEEE stands for Institute of Electrical and Electronics Engineers, which is the full legal name of our parent organization. However, IEEE’s membership (in both Berkeley’s student branch and the worldwide professional org) has long been composed of far more disciplines than just EE. In fact, our parent organization no longer goes by the full name, except on legal business documents, in order to better include the wide variety of disciplines of its members."
+    },
+    {
+      "Question": "I’m trying to get involved in research, can you help?",
+      "Answer":"Absolutely! We regularly hold events related to finding research opportunities, and in the past, this has included a graduate student panel (where students present their research and labs) and a research mixer (where students talk directly to undergrad/grad students about their work to see what makes sense for them to get involved in). The events will be updated on the calendar and facebook pages as details are finalized."
+    },
+    {
+      "Question": " Can I come to any event I want?",
+      "Answer":"Yep! Bring your friends, too! "
+    },
+    {
+      "Question": "If I have questions about my courses, can IEEE help with that?",
+      "Answer":"Yes, we have a whole spectrum of majors in IEEE and can help with most courses in Engineering, especially CS/EE courses."
+    }
+  ]
+}
