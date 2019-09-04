@@ -17,7 +17,7 @@ class Apply extends Component {
           </div>
           <div class='content'>
           <span class='heading blue'> Apply to IEEE!</span>
-          <form action="https://tinyurl.com/ucbieeesp19" className="flex-item">
+          <form action="https://forms.gle/6NvEaXvTX1yLhcYX6" className="flex-item">
             <button className="homebutton" type="submit">Apply Now</button>
           </form>
           <br/>
