@@ -46,7 +46,7 @@
     "moment": "^2.24.0",
     "react-big-calendar": "^0.22.0",
     "style-loader": "^1.0.0",
-    "webpack": "^4.39.3"
+    "webpack": "4.39.1"
   },
   "repository": {
     "type": "git",
