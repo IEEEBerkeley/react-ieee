@@ -166,7 +166,7 @@ class About extends Component {
                 </LazyLoad>
                
                 <div className="tile salutation">
-                    <div className="left-align-top"><span>Kevin Zheng</span><span className="rank">CPresident</span></div>
+                    <div className="left-align-top"><span>Kevin Zheng</span><span className="rank">President</span></div>
                     {/*<div className="bottom-align"><a href="https://github.com/gbalke" className="icon" target="_blank"  rel="noopener noreferrer"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/~balke/" className="icon" target="_blank"  rel="noopener noreferrer"><i className="icon-linkedin"></i></a></div>*/}
                 </div>
               </div>
