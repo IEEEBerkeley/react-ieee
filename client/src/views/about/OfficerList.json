@@ -1,45 +1,24 @@
 {
     "Exec": [
       {
-        "Co-President": "Gregory Balke",
+        "Co-President": "Kevin Zheng"
+      },
+      {
+        "External V.P.": "Neha Hudait",
         "Links": {
-          "Github": "https://github.com/gbalke",
-          "Linkedin": "https://www.linkedin.com/in/~balke/"
+          "Linkedin": "https://www.linkedin.com/in/nehahudait",
+          "Instagram": "https://www.instagram.com/nehahudz/",
+          "Twitter": "https://twitter.com/nehahudz"
         }
       },
       {
-        "Co-President": "Brent Yi",
-        "Links": {
-          "Github": "https://github.com/brentyi",
-          "Linkedin": "https://linkedin.com/in/brentyi",
-          "Personal": "http://brentyi.com/",
-          "Twitter": "https://twitter.com/brenthyi"
-        }
+        "Internal V.P.": "Alyssa Huang"
       },
       {
-        "External V.P.": "Billy Lu",
-        "Links": {
-          "Github": "https://github.com/williammlu",
-          "Linkedin": "https://www.linkedin.com/in/williammlu/",
-          "Personal": "http://william.lu/",
-          "Instagram": "https://instagram.com/williammlu"
-        }
+        "Treasurer": "Jimmy Pippin"
       },
       {
-        "Internal V.P.": "Alex Kassil"
-      },
-      {
-        "Treasurer": "Hall Chen",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/hall-z-h-chen-a39b04a0",
-          "Personal": "https://im.hallchen.us"
-        }
-      },
-      {
-        "Secretary": "Neha Godbole",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/neha-godbole-b61274126/"
-        }
+        "Secretary": "Claudia Korea"
       }
     ],
 
@@ -60,55 +39,50 @@
         }
       },
       {
-        "Officer": "Josh Yeung",
-        "Links": {
-          "Github": "https://github.com/yeungjosh",
-          "Linkedin": "https://www.linkedin.com/in/yeungjosh/",
-          "Personal": "https://yeungjosh.github.io"
-        }
-      },
-      {
-        "Officer": "Joshua Yuan",
-        "Links": {
-          "Github": "https://github.com/joshuayuan/",
-          "Linkedin": "https://linkedin.com/in/joshua-yuan",
-          "Personal": "https://joshuayuan.me",
-          "Instagram": "https://instagram.com/jolly_joshy"
-        }
-      },
-      {
-        "Officer": "Vera Wang"
-      },
-      {
         "Officer": "Nimalen Sivapalan",
         "Links": {
           "Github": "https://github.com/nsivapalan/",
           "Linkedin": "https://linkedin.com/in/nimalen"
         }
+      },
+      {
+        "Officer": "Su Latt Phone",
+        "Links": {
+          "Github": "https://github.com/sulattphone",
+          "Linkedin": "https://linkedin.com/in/sulatt-phone"
+        }
+      },
+      {
+        "Officer": "Kevin Mo"
+      },
+      {
+        "Officer": "Elizabeth Wang"
       }
     ],
 
     "Activities": [
       {
-        "Director": "Claudia Korea",
-        "Links": {
-          "Github": "https://github.com/claudiakorea",
-          "Linkedin": "https://www.linkedin.com/in/claudia-korea-87a747174"
-        }
-      },
-      {
-        "Officer" : "Eric Gao"
+        "Director" : "Eric Gao"
       },
       {
         "Officer": "George Wang"
+      },
+      {
+        "Officer": "Tiffany Cappellari"
+      },
+      {
+        "Officer": "Justin Fu"
+      },
+      {
+        "Officer": "Kunal Basu"
+      },
+      {
+        "Officer": "Wesley Chen"
       }
     ],
     "Marketing": [
       {
         "Director": "Ray Altenberg"
-      },
-      {
-        "Officer" : "Jimmy Pippin"
       },
       {
         "Officer" : "Alexander Zerkel"
@@ -120,40 +94,33 @@
         }
       },
       {
-        "Officer" : "Alyssa Huang"
-      },
-      {
         "Officer" : "Sydney Ty",
         "Links": {
           "Linkedin": "https://www.linkedin.com/in/sydney-ty/"
         }
+      },
+      {
+        "Officer": "Abhik Ahuja"
+      },
+      {
+        "Officer": "Nikki Kanakadandila"
       }
     ],
 
     "Hope": [
       {
-        "Director": "Kevin Zheng"
+        "Director": "Leon Wu"
       },
       {
-        "Director": "Olivia Hsu"
-      },
-      {
-        "Officer": "Leon Wu"
+        "Officer": "Jeffrey Ni"
       }
     ],
-
     "Indrel": [
       {
-        "Director": "Aishwarya Bhupatiraju"
-      },
-      {
-        "Officer": "Srividhya Shanker"
+        "Director": "Risham Sidhu"
       },
       {
         "Officer": "Anoosha Balebail"
-      },
-      {
-        "Officer": "Risham Sidhu"
       },
       {
         "Officer" : "Harish Palani",
@@ -170,40 +137,35 @@
         "Links": {
           "Linkedin": "https://www.linkedin.com/in/sharansatishkumar"
         }
+      },
+      {
+        "Officer": "Vivian Hsu"
+      },
+      {
+        "Officer": "Shaantam Chawla"
       }
     ],
 
     "Prodev": [
       {
-        "Director": "Neha Hudait",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/nehahudait",
-          "Instagram": "https://www.instagram.com/nehahudz/",
-          "Twitter": "https://twitter.com/nehahudz"
-        }
-      },
-      {
-        "Officer": "Hugues Vigner",
-        "Links": {
-          "Github": "https://github.com/hvigner",
-          "Linkedin": "https://www.linkedin.com/in/hugues-vigner/"
-        }
-      },
-      {
-        "Officer": "Neelesh Ramachandran",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/neelesh-ramachandran"
-        }
-      },
-      {
-        "Officer": "Alyssa Huang"
+        "Director": "Neelesh Ramachandran"
       },
       {
         "Officer": "Eugene Wong"
       },
       {
         "Officer": "Lucas Huang"
+      },
+      {
+        "Officer": "Yujie Wang"
+      },
+      {
+        "Officer": "Anusha Subramanian"
+      },
+      {
+        "Officer": "Julie Chun"
       }
+
     ],
 
     "Techops": [
@@ -218,59 +180,24 @@
         "Officer": "Robert Quitt"
       },
       {
-        "Officer": "Emerson Hsieh"
-      },
-      {
         "Officer" : "Mark Theis",
         "Links": {
           "Github": "https://github.com/metheis",
           "Linkedin": "https://linkedin.com/in/mark-theis",
           "Personal": "https://mark.theis.ca/"
         }
+      },
+      {
+        "Officer": "Kevin Lo"
       }
     ],
 
     "Micromouse": [
       {
-        "Director": "Nandita Iyer"
+        "Director": "Keahooi Hung"
       },
       {
         "Director": "Lorne Briones"
-      },
-      {
-        "Officer": "Brent Yi",
-        "Links": {
-          "Github": "https://github.com/brentyi",
-          "Linkedin": "https://linkedin.com/in/brentyi",
-          "Personal": "http://brentyi.com/",
-          "Twitter": "https://twitter.com/brenthyi"
-        }
-      },
-      {
-        "Officer" : "Keahooi Hung",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/keahooi/"
-        }
-      },
-      {
-        "Officer": "Ron Thalanki",
-        "Links": {
-          "Github": "https://www.github.com/ronthalanki",
-          "Linkedin": "https://www.linkedin.com/in/sairanjiththalanki"
-        }
-      },
-      {
-        "Officer": "Gregory Balke",
-        "Links": {
-          "Github": "https://github.com/gbalke",
-          "Linkedin": "https://www.linkedin.com/in/~balke/"
-        }
-      },
-      {
-        "Officer": "Meera Lester"
-      },
-      {
-        "Officer": "Eric Zhong"
       },
       {
         "Officer": "Aakarsh Gupta",
@@ -292,29 +219,19 @@
         "Officer": "Xingyu Jin"
       },
       {
-        "Officer": "Gary Xiang"
+        "Officer": "Eric Li"
       },
       {
-        "Officer": "Tara Mirmira"
+        "Officer": "Matthew Tran"
+      },
+      {
+        "Officer": "Ethan Mehta"
       }
     ],
 
     "Outreach": [
       {
-        "Director": "Billy Lu",
-        "Links": {
-          "Github": "https://github.com/williammlu",
-          "Linkedin": "https://www.linkedin.com/in/williammlu/",
-          "Personal": "http://william.lu/",
-          "Instagram": "https://instagram.com/williammlu"
-        }
-      },
-      {
-        "Officer": "Gary Yang",
-        "Links": {
-          "Github": "https://github.com/lzyang2000/",
-          "Linkedin": "https://www.linkedin.com/in/gary-yang-2aa70215a/"
-        }
+        "Director": "Gary Yang"
       },
       {
         "Officer" : "Manav Rathod",
@@ -329,6 +246,12 @@
           "Github": "http://github.com/amansidhant",
           "Linkedin": "http://linkedin.com/in/amansidhant"
         }
+      },
+      {
+        "Officer": "Sina Moshfeghi"
+      },
+      {
+        "Officer": "Andrew Young"
       }
     ]
 }
