@@ -1,45 +1,24 @@
 {
     "Exec": [
       {
-        "Co-President": "Gregory Balke",
+        "Co-President": "Kevin Zheng"
+      },
+      {
+        "External V.P.": "Neha Hudait",
         "Links": {
-          "Github": "https://github.com/gbalke",
-          "Linkedin": "https://www.linkedin.com/in/~balke/"
+          "Linkedin": "https://www.linkedin.com/in/nehahudait",
+          "Instagram": "https://www.instagram.com/nehahudz/",
+          "Twitter": "https://twitter.com/nehahudz"
         }
       },
       {
-        "Co-President": "Brent Yi",
-        "Links": {
-          "Github": "https://github.com/brentyi",
-          "Linkedin": "https://linkedin.com/in/brentyi",
-          "Personal": "http://brentyi.com/",
-          "Twitter": "https://twitter.com/brenthyi"
-        }
+        "Internal V.P.": "Alyssa Huang"
       },
       {
-        "External V.P.": "Billy Lu",
-        "Links": {
-          "Github": "https://github.com/williammlu",
-          "Linkedin": "https://www.linkedin.com/in/williammlu/",
-          "Personal": "http://william.lu/",
-          "Instagram": "https://instagram.com/williammlu"
-        }
+        "Treasurer": "Jimmy Pippin"
       },
       {
-        "Internal V.P.": "Alex Kassil"
-      },
-      {
-        "Treasurer": "Hall Chen",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/hall-z-h-chen-a39b04a0",
-          "Personal": "https://im.hallchen.us"
-        }
-      },
-      {
-        "Secretary": "Neha Godbole",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/neha-godbole-b61274126/"
-        }
+        "Secretary": "Claudia Korea"
       }
     ],
 
@@ -83,13 +62,6 @@
 
     "Activities": [
       {
-        "Director": "Claudia Korea",
-        "Links": {
-          "Github": "https://github.com/claudiakorea",
-          "Linkedin": "https://www.linkedin.com/in/claudia-korea-87a747174"
-        }
-      },
-      {
         "Director" : "Eric Gao"
       },
       {
@@ -128,28 +100,24 @@
         }
       },
       {
-        "Officer": "Abhik"
+        "Officer": "Abhik Ahuja"
       },
       {
-        "Officer": "Nikki"
+        "Officer": "Nikki Kanakadandila"
       }
     ],
 
     "Hope": [
       {
-        "Director": "Kevin Zheng"
-      },
-      {
-        "Director": "Olivia Hsu"
+        "Director": "Leon Wu"
       },
       {
         "Officer": "Jeffrey Ni"
       }
     ],
-
     "Indrel": [
       {
-        "Director": "Aishwarya Bhupatiraju"
+        "Director": "Risham Sidhu"
       },
       {
         "Officer": "Anoosha Balebail"
@@ -180,12 +148,7 @@
 
     "Prodev": [
       {
-        "Director": "Neha Hudait",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/nehahudait",
-          "Instagram": "https://www.instagram.com/nehahudz/",
-          "Twitter": "https://twitter.com/nehahudz"
-        }
+        "Director": "Neelesh Ramachandran"
       },
       {
         "Officer": "Eugene Wong"
@@ -231,7 +194,7 @@
 
     "Micromouse": [
       {
-        "Director": "Nandita Iyer"
+        "Director": "Keahooi Hung"
       },
       {
         "Director": "Lorne Briones"
@@ -268,13 +231,7 @@
 
     "Outreach": [
       {
-        "Director": "Billy Lu",
-        "Links": {
-          "Github": "https://github.com/williammlu",
-          "Linkedin": "https://www.linkedin.com/in/williammlu/",
-          "Personal": "http://william.lu/",
-          "Instagram": "https://instagram.com/williammlu"
-        }
+        "Director": "Gary Yang"
       },
       {
         "Officer" : "Manav Rathod",
