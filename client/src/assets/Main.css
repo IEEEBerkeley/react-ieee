@@ -421,8 +421,12 @@ a.icon-link span.icon {
     height: 400px;
     background-position: center;
 }
-.bg_image {
-
+embed {
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+.resources {
+  overflow:hidden;
 }
 /* new navigation bar
 */
