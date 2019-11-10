@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import memberImage from '../../assets/members.jpg';
+import memberImage from '../../assets/officer_photo_fa19_cropped.png';
 import Mailto from 'react-protected-mailto';
 
 class About extends Component {
