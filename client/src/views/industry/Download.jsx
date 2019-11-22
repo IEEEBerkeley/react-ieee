@@ -7,7 +7,7 @@ class Download extends Component {
 
     return (
       <div className = "App">
-        <a class="blue" href = {Pdf} target = "_blank">Please read more about company sponsorship.</a>
+        <a class="blue" href = {Pdf} target = "_blank" rel="noopener noreferrer" >Please read more about company sponsorship.</a>
       </div>
     );
   }
