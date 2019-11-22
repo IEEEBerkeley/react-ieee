@@ -17,9 +17,9 @@ class About extends Component {
         <Link to={"/about/resource"}><li className="">Resources</li></Link>
         </ul>
         </div>
-        <div class='content'>
+        <div className='content'>
 
-            <span class='heading blue'>
+            <span className='heading blue'>
             Who are we?
             </span>
             <br/>
@@ -41,7 +41,7 @@ class About extends Component {
             <p>
             If you’d like to get in touch, please email us at <span className="blue link"><Mailto email='ieee@berkeley.edu' /></span>.</p>
             <br/>
-            <h3 class='blue'>
+            <h3 className='blue'>
             To be notified about upcoming events and opportunities,
             <form action="http://eepurl.com/c-RpPr" className="flex-item">
               <button className="homebutton" type="submit">Subscribe to our mailing list!</button>

@@ -33,13 +33,13 @@ class Footer extends Component {
             <div>
             <ul id="iconlink">
               <li className="item">
-              <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416" target="_blank" rel="noopener noreferrer"  class="icon"><i class="icon-facebook"></i></a>
+              <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416" target="_blank" rel="noopener noreferrer"  className="icon"><i className="icon-facebook"></i></a>
               </li>
               <li className="item">
-              <a href="https://www.linkedin.com/company/ieee-ucb/"  target="_blank"  rel="noopener noreferrer"  class="icon"><i class="icon-linkedin"></i></a>
+              <a href="https://www.linkedin.com/company/ieee-ucb/"  target="_blank"  rel="noopener noreferrer"  className="icon"><i className="icon-linkedin"></i></a>
               </li>
               <li className="item">
-              <a href="https://www.instagram.com/ieeeucb/" target="_blank"  rel="noopener noreferrer"  class="icon"><i class="icon-instagram"></i></a>
+              <a href="https://www.instagram.com/ieeeucb/" target="_blank"  rel="noopener noreferrer"  className="icon"><i className="icon-instagram"></i></a>
               </li>
             </ul>
             <form action="http://eepurl.com/c-RpPr"><button className="mailbutton" type="submit">Join Our Mailing List</button></form>

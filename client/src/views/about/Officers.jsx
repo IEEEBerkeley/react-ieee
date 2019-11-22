@@ -57,12 +57,12 @@ class About extends Component {
       }
     }
 
-    for (var i in liList) {
-      var li = liList[i];
+    for (i in liList) {
+      li = liList[i];
       if (li.attributes === undefined) {
         continue;
       } else {
-        var currVal = parseInt(li.attributes[0].value);
+        currVal = parseInt(li.attributes[0].value);
         if (currVal === committee) {
           this.currentCommittee = committee;
           li.getElementsByTagName('div')[0].style['display'] = 'block';

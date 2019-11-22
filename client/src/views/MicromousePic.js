@@ -13,7 +13,6 @@ class SimpleSlider extends React.Component {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        dots : false,
         autoplaySpeed: 3500,
         dots: true,
         variablewidth: true
@@ -24,7 +23,6 @@ class SimpleSlider extends React.Component {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        dots : false,
         autoplaySpeed: 3500,
         dots: true,
         variablewidth: true

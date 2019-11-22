@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { Link } from 'react-router-dom';
-import eventsImage from '../assets/home.png';
+// import ReactDOM from 'react-dom';
+// import { Link } from 'react-router-dom';
+// import eventsImage from '../assets/home.png';
 class Googlecal extends Component {
-    constructor() {
-        super();
-    }
     iframe() {
         return {__html: this.props.iframe};
     }
@@ -25,8 +22,6 @@ if(window.innerWidth >= 500) {
 class Calendar extends Component {
 
   render() {
-      let self = this;
-
       return (
         <div className="main">
           <div class="content">

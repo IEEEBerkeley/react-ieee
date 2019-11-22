@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import bannerlogo from '../assets/logo_kite.png'
-import Slides from './slides';
+// import Slides from './slides';
 import Particles from 'react-particles-js';
 
 
@@ -27,9 +27,6 @@ class Home extends Component {
         	                "speed": 4,
         	                "size_min": 0.3
         	            }
-        	        },
-        	        "line_linked": {
-        	            "enable": false
         	        },
         	        "move": {
         	            "random": true,
