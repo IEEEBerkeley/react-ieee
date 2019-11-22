@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@auth0/auth0-spa-js": "^1.5.0",
     "@babel/runtime": "^7.6.2",
     "@types/lodash": "^4.14.141",
     "babel": "^6.23.0",
@@ -17,7 +18,7 @@
     "macaddress": "^0.2.9",
     "merge": "^1.2.1",
     "mime": "^2.4.4",
-    "npm": "^6.11.2",
+    "npm": "^6.13.0",
     "randomatic": "^3.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -26,7 +27,7 @@
     "react-particles-js": "^2.7.0",
     "react-protected-mailto": "^1.0.3",
     "react-responsive": "^8.0.0",
-    "react-router-dom": "^5.0.1",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "^3.1.1",
     "react-slick": "^0.25.2",
     "react_google_calendar": "^2.2.4444",
