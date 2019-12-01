@@ -30,7 +30,7 @@ class Footer extends Component {
             </div>
             </div>
             <div className="footercol">
-            <div>
+            
             <ul id="iconlink">
               <li className="item">
               <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416" target="_blank" rel="noopener noreferrer"  class="icon"><i class="icon-facebook"></i></a>
@@ -45,7 +45,7 @@ class Footer extends Component {
             <form action="http://eepurl.com/c-RpPr"><button className="mailbutton" type="submit">Join Our Mailing List</button></form>
             <p className="contact_info">Contact us: <a href="mailto:inquiry@stac.berkeley.edu"><span><u>ieee@berkeley.edu</u></span></a></p>
 
-            </div>
+            
             </div>
         </div>
       </footer>
