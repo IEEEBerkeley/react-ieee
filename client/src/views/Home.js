@@ -84,6 +84,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        
         <div className="content">
           <div className="section">
 
@@ -105,8 +106,9 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          /*
+
           <div className="section">
+
             <div className="section_title blue">Opportunities for members</div>
             <div className="section_descipt">
             <p>Our student branch provides opportunities for its members, including:</p>
@@ -137,9 +139,9 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          */
 
-          /*
+
+
           <div className="section">
             <div className="section_title blue">Join our community</div>
 
@@ -162,7 +164,7 @@ class Home extends Component {
               </Link>
             </div>
             </div>
-          </div>*/
+          </div>
         </div>
       </div>
     );
