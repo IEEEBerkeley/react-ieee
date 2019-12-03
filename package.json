@@ -23,6 +23,7 @@
     "react-dom": "^16.9.0",
     "react-iframe": "^1.8.0",
     "react-lazyload": "^2.6.2",
+    "react-native-paper": "^3.3.0",
     "react-particles-js": "^2.7.0",
     "react-protected-mailto": "^1.0.3",
     "react-responsive": "^8.0.0",
