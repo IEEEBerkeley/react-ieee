@@ -34,13 +34,13 @@ class Header extends Component {
         <div className="spacer"/>
         <div className="toolbar_navigation-items">
           <ul>
-            <li><Link to="/"> HOME</Link> </li>
-            <li><Link to="/events"> EVENTS</Link> </li>
-            <li><Link to="/industry"> INDUSTRY</Link> </li>
-            <li><a href="https://ieee.berkeley.edu/hope/"> HOPE</a> </li>
-            <li><Link to="/micromouse"> MICROMOUSE</Link> </li>
-            <li><Link to="/about"> ABOUT</Link> </li>
-            <li><Link to="/apply"> APPLY</Link> </li>
+            <li><Link to="/" onClick = {this.scrollToTop}> HOME</Link> </li>
+            <li><Link to="/events" onClick = {this.scrollToTop}> EVENTS</Link> </li>
+            <li><Link to="/industry" onClick = {this.scrollToTop}> INDUSTRY</Link> </li>
+            <li><a href="https://ieee.berkeley.edu/hope/" onClick = {this.scrollToTop}> HOPE</a> </li>
+            <li><Link to="/micromouse" onClick = {this.scrollToTop}> MICROMOUSE</Link> </li>
+            <li><Link to="/about" onClick = {this.scrollToTop}> ABOUT</Link> </li>
+            <li><Link to="/apply" onClick = {this.scrollToTop}> APPLY</Link> </li>
           </ul>
         </div>
         <div className="toolbar__toggle-button">

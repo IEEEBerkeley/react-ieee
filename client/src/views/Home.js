@@ -100,7 +100,7 @@ class Home extends Component {
               </div>
               <div className="center flexbutton">
                 <Link to="/events"  className="flex-item">
-                  <button className="homebutton">Upcoming Events</button>
+                  <button className="homebutton" onClick = {this.scrollToTop}>Upcoming Events</button>
                 </Link>
               </div>
             </div>
@@ -129,10 +129,10 @@ class Home extends Component {
               </div>
               <div className="center flexbutton">
                 <Link to="/micromouse"  className="flex-item">
-                  <button className="homebutton">About    Micromouse</button>
+                  <button className="homebutton" onClick = {this.scrollToTop}>About    Micromouse</button>
                 </Link>
                 <a href="https://ieee.berkeley.edu/hope/"  className="flex-item">
-                  <button className="homebutton">About    H.O.P.E.</button>
+                  <button className="homebutton" onClick = {this.scrollToTop} >About    H.O.P.E.</button>
                 </a>
               </div>
             </div>
@@ -156,7 +156,7 @@ class Home extends Component {
                 <button className="homebutton" type="submit">Subscribe to Our Newsletter</button>
               </form>
               <Link to="/apply"  className="flex-item">
-                <button className="homebutton">Learn how to join</button>
+                <button className="homebutton" onClick = {this.scrollToTop}>Learn how to join</button>
               </Link>
             </div>
             </div>
