@@ -16,6 +16,10 @@ class Header extends Component {
     this.setState({sideDrawerOpen: false});
   };
 
+  scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   render() {
     let sideDrawer;
     let backdrop;
