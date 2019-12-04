@@ -4,6 +4,11 @@ import memberImage from '../../assets/members.jpg';
 import Mailto from 'react-protected-mailto';
 
 class About extends Component {
+  scrollToTop = () => {
+    window.scrollTo(0,0);
+  };
+
+
   render() {
     return (
       <div className="main">
@@ -28,7 +33,7 @@ class About extends Component {
               The UC Berkeley IEEE student branch was established in 1912 and has been one of the most active engineering student organizations on campus ever since. We aim to promote professional development, encourage academic growth, and organize social activities within the greater engineering community. We host various events to encourage professional development within the EECS and greater engineering community at berkeley, ranging from company info-sessions, to research mixers, and resume workshops.
               </p>
               <br/>
-              <p>IEEE also hosts social events aimed at connecting the engineering community within Berkeley, these include board game nights, dinners, a ski retreat, and much more. IEEE also hosts two classes (<a href="https://ieee.berkeley.edu/hope/" className="blue link">HOPE</a>, and <Link to="/micromouse" className="blue link">micromouse</Link>) intended to provide students with practical hands on experience in the EE/CS field.
+              <p>IEEE also hosts social events aimed at connecting the engineering community within Berkeley, these include board game nights, dinners, a ski retreat, and much more. IEEE also hosts two classes (<a href="https://ieee.berkeley.edu/hope/" className="blue link">HOPE</a>, and <Link to="/micromouse" className="blue link" onClick = {this.scrollToTop}>micromouse</Link>) intended to provide students with practical hands on experience in the EE/CS field.
             </p>
             <br/>
             <p>
