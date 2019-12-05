@@ -17,8 +17,8 @@ class About extends Component {
         <Link to={"/about/resource"}><li className="">Resources</li></Link>
         </ul>
         </div>
-        <div class='content'>
-            <span class='heading blue'>
+        <div className='content'>
+            <span className='heading blue'>
             Who are we?
             </span>
             <br/>
@@ -38,7 +38,7 @@ class About extends Component {
             </p>
             <p>
             <br/>
-              In addition to our decals, we have a Mentor & Mentee program that pairs students together for individualized advice in topics including -- but not limited to -- courses, career choices, and great opportunities to take advantage of.
+              In addition to our decals, we have a Mentor and Mentee program that pairs students together for individualized advice in topics including -- but not limited to -- courses, career choices, and great opportunities to take advantage of.
               </p>
               <br/>
             <span class='subheading orange'>
@@ -70,7 +70,7 @@ class About extends Component {
             <p>
             If you’d like to get in touch, please email us at <span className="blue link"><Mailto email='ieee@berkeley.edu' /></span>.</p>
             <br/>
-            <h3 class='blue'>
+            <h3 className='blue'>
             To be notified about upcoming events and opportunities,
             <form action="http://eepurl.com/c-RpPr" className="flex-item">
               <button className="homebutton" type="submit">Subscribe to our mailing list!</button>

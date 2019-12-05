@@ -55,5 +55,6 @@
   "repository": {
     "type": "git",
     "url": "git://https://github.com/IEEEBerkeley/react-ieee.git"
-  }
+  },
+  "license": "CC-BY-NC-ND-4.0"
 }
