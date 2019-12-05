@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './views/Home';
-import Events from './views/Events';
+//import Events from './views/Events';
 import Calendar from './views/Calendar.jsx';
 import Industry from './views/industry/Industry';
 import Sponsor from './views/industry/Sponsor';
 //import Hope from './views/prodev/Hope';
 //import Faq from './views/prodev/Faq';
-import Resources from './views/prodev/Resources';
-import Archive from './views/prodev/Archive';
+//import Resources from './views/prodev/Resources';
+//import Archive from './views/prodev/Archive';
 import Micromouse from './views/Micromouse';
 import About from './views/about/About';
-import Contact from './views/about/Contact';
+import Resource from './views/about/Resource';
 import Officers from './views/about/Officers';
 import Apply from './views/Apply'
 import Faq from './views/Faq'
@@ -31,7 +31,7 @@ const Main = () => (
       <Route path='/micromouse' component={Micromouse}/>
       <Route exact path='/about' component={About}/>
       <Route path='/about/leadership' component={Officers}/>
-      {/*<Route path='/about/contact' component={Contact}/>*/}
+      <Route path='/about/resource' component={Resource}/>
       <Route exact path='/apply' component={Apply}/>
       <Route path='/apply/faq' component={Faq}/>
       <Route path='/*' component={Home}/>

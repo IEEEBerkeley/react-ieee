@@ -421,8 +421,12 @@ a.icon-link span.icon {
     height: 400px;
     background-position: center;
 }
-.bg_image {
-
+embed {
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+.resources {
+  overflow:hidden;
 }
 /* new navigation bar
 */
@@ -493,6 +497,7 @@ a.icon-link span.icon {
 .toggle-button:focus {
   outline: none;
 }
+
 .side-drawer {
   height: 100%;
   background: #2F3337;
@@ -508,21 +513,22 @@ a.icon-link span.icon {
 }
 .side-drawer ul {
   height: 100%;
-  margin-top: 25%;
+  margin-top: 30%;
   overflow: scroll;
   list-style: none;
   display: flex;
   flex-direction: column;
-
 }
 .side-drawer.open {
   transform: translateX(0);
 
 }
 .side-drawer a {
-  font-size: 1.2rem;
   color: white;
   text-decoration: none;
+}
+.side-drawer .page {
+  font-size: 1.2rem;
 }
 .side-drawer li {
   margin: 0.5rem 0;
@@ -530,6 +536,13 @@ a.icon-link span.icon {
 .side-drawer a:hover,
 .side-drawer a:active {
   color: #145797;
+}
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 4.0rem;
+  margin-left: 50px;
 }
 .backdrop {
   position: fixed;

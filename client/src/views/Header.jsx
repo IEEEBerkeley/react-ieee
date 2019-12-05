@@ -21,7 +21,6 @@ class Header extends Component {
   };
 
   render() {
-    let sideDrawer;
     let backdrop;
     if (this.state.sideDrawerOpen) {
       backdrop = <BackDrop click={this.backdropClickHandler}/>
@@ -52,7 +51,7 @@ class Header extends Component {
         </div>
         </nav>
       </div>
-      <SideDrawer show={this.state.sideDrawerOpen}/>
+      <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler}/>
       {backdrop}
       </div>
     )

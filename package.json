@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@babel/runtime": "^7.6.2",
+    "@types/lodash": "^4.14.141",
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
     "bootstrap": "^4.3.1",
@@ -22,6 +23,7 @@
     "react-dom": "^16.9.0",
     "react-iframe": "^1.8.0",
     "react-lazyload": "^2.6.2",
+    "react-native-paper": "^3.3.0",
     "react-particles-js": "^2.7.0",
     "react-protected-mailto": "^1.0.3",
     "react-responsive": "^8.0.0",
@@ -42,6 +44,7 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "ajv": "^6.10.2",
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
     "concurrently": "4.1.2",
     "css-loader": "^3.2.0",
     "moment": "^2.24.0",
@@ -52,5 +55,6 @@
   "repository": {
     "type": "git",
     "url": "git://https://github.com/IEEEBerkeley/react-ieee.git"
-  }
+  },
+  "license": "CC-BY-NC-ND-4.0"
 }

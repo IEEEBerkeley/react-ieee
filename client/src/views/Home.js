@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import bannerlogo from '../assets/logo_kite.png'
-import Slides from './slides';
+// import Slides from './slides';
 import Particles from 'react-particles-js';
 
 
@@ -27,9 +27,6 @@ class Home extends Component {
         	                "speed": 4,
         	                "size_min": 0.3
         	            }
-        	        },
-        	        "line_linked": {
-        	            "enable": false
         	        },
         	        "move": {
         	            "random": true,
@@ -84,6 +81,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        
         <div className="content">
           <div className="section">
 
@@ -107,6 +105,7 @@ class Home extends Component {
           </div>
 
           <div className="section">
+
             <div className="section_title blue">Opportunities for members</div>
             <div className="section_descipt">
             <p>Our student branch provides opportunities for its members, including:</p>
@@ -137,6 +136,8 @@ class Home extends Component {
               </div>
             </div>
           </div>
+
+
 
           <div className="section">
             <div className="section_title blue">Join our community</div>

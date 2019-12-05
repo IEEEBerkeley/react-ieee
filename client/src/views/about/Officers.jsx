@@ -57,12 +57,12 @@ class About extends Component {
       }
     }
 
-    for (var i in liList) {
-      var li = liList[i];
+    for (i in liList) {
+      li = liList[i];
       if (li.attributes === undefined) {
         continue;
       } else {
-        var currVal = parseInt(li.attributes[0].value);
+        currVal = parseInt(li.attributes[0].value);
         if (currVal === committee) {
           this.currentCommittee = committee;
           li.getElementsByTagName('div')[0].style['display'] = 'block';
@@ -151,7 +151,7 @@ class About extends Component {
         <ul>
         <Link to={"/about"}><li className="">About</li></Link>
         <Link to={"/about/leadership"}><li className="">Officers</li></Link>
-        {/** <Link to={"/about/contact"}><li className="">Contact</li></Link> **/}
+        <Link to={"/about/resource"}><li className="">Resources</li></Link>
         </ul>
         </div>
         <LazyLoad>
@@ -166,7 +166,7 @@ class About extends Component {
                 </LazyLoad>
                
                 <div className="tile salutation">
-                    <div className="left-align-top"><span>Kevin Zheng</span><span className="rank">Co-President</span></div>
+                    <div className="left-align-top"><span>Kevin Zheng</span><span className="rank">President</span></div>
                     {/*<div className="bottom-align"><a href="https://github.com/gbalke" className="icon" target="_blank"  rel="noopener noreferrer"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/~balke/" className="icon" target="_blank"  rel="noopener noreferrer"><i className="icon-linkedin"></i></a></div>*/}
                 </div>
               </div>
