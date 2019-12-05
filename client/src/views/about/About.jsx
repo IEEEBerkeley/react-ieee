@@ -52,8 +52,8 @@ class About extends Component {
             Interested and want to get involved?
             <span class='subheading orange'>
             <br/>
-            Apply to be an officer!
-            <Link to={"/Apply"}><li className="">Apply</li></Link>
+            <Link to={"/Apply"}>Apply to be an officer!</Link>
+            <br/>
             </span>
             <span class='subheading orange'>
             Become a general member!
