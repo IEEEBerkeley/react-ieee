@@ -53,10 +53,18 @@
         }
       },
       {
-        "Officer": "Kevin Mo"
+        "Officer": "Kevin Mo",
+        "Links": {
+          "Github": "https://github.com/encadyma",
+          "Personal": "https://encadyma.com"
+        }
       },
       {
-        "Officer": "Elizabeth Wang"
+        "Officer": "Elizabeth Wang",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/elizabeth-t-wang/"
+
+        }
       }
     ],
 
@@ -68,7 +76,10 @@
         "Officer": "George Wang"
       },
       {
-        "Officer": "Tiffany Cappellari"
+        "Officer": "Tiffany Cappellari",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/tiffany-cappellari-199174149/"
+        }
       },
       {
         "Officer": "Justin Fu"
@@ -157,7 +168,11 @@
         "Officer": "Lucas Huang"
       },
       {
-        "Officer": "Yujie Wang"
+        "Officer": "Yujie Wang",
+        "Links": {
+          "Github": "github.com/yuji3w",
+          "Linkedin": "www.linkedin.com/in/yuji3w"
+        }
       },
       {
         "Officer": "Anusha Subramanian"
@@ -188,7 +203,11 @@
         }
       },
       {
-        "Officer": "Kevin Lo"
+        "Officer": "Kevin Lo",
+        "Links": {
+          "Github": "github.com/databears-cal",
+          "Linkedin": "linkedin.com/kevin-lo-ucb"
+        }
       }
     ],
 

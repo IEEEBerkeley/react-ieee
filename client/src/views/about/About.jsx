@@ -4,6 +4,11 @@ import memberImage from '../../assets/officer_photo_fa19_cropped.png';
 import Mailto from 'react-protected-mailto';
 
 class About extends Component {
+  scrollToTop = () => {
+    window.scrollTo(0,0);
+  };
+
+
   render() {
     return (
       <div className="main">
