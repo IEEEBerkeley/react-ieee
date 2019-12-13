@@ -6,6 +6,11 @@ import Particles from 'react-particles-js';
 
 
 class Home extends Component {
+
+  scrollToTop = () => {
+    window.scrollTo(0,0);
+  };
+
   render() {
     return (
       <div className="main">
@@ -97,8 +102,8 @@ class Home extends Component {
                 </ul>
               </div>
               <div className="center flexbutton">
-                <Link to="/events"  className="flex-item">
-                  <button className="homebutton" onClick = {this.scrollToTop}>Upcoming Events</button>
+                <Link to="/events"  className="flex-item" onClick = {this.scrollToTop}>
+                  <button className="homebutton" >Upcoming Events</button>
                 </Link>
               </div>
             </div>
@@ -127,11 +132,11 @@ class Home extends Component {
               </ul>
               </div>
               <div className="center flexbutton">
-                <Link to="/micromouse"  className="flex-item">
-                  <button className="homebutton" onClick = {this.scrollToTop}>About    Micromouse</button>
+                <Link to="/micromouse"  className="flex-item" onClick = {this.scrollToTop}>
+                  <button className="homebutton" >About    Micromouse</button>
                 </Link>
                 <a href="https://ieee.berkeley.edu/hope/"  className="flex-item">
-                  <button className="homebutton" onClick = {this.scrollToTop} >About    H.O.P.E.</button>
+                  <button className="homebutton" >About    H.O.P.E.</button>
                 </a>
               </div>
             </div>

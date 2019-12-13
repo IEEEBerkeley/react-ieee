@@ -30,7 +30,7 @@ class Header extends Component {
       <div className="toolbar">
         <nav className="toolbar_navigation">
         <div className="toolbar_logo" style={{marginTop: '14px', marginBottom: '14px'}}>
-          <Link to={"/"}>
+          <Link to={"/"} onClick = {this.scrollToTop}>
           <img alt={"Logo"} src={require("../assets/logo_main.png")} />
           </Link>
         </div>
