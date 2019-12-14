@@ -6,6 +6,11 @@ import Particles from 'react-particles-js';
 
 
 class Home extends Component {
+
+  scrollToTop = () => {
+    window.scrollTo(0,0);
+  };
+
   render() {
     return (
       <div className="main">
@@ -81,6 +86,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        
         <div className="content">
           <div className="section">
 
@@ -96,14 +102,15 @@ class Home extends Component {
                 </ul>
               </div>
               <div className="center flexbutton">
-                <Link to="/events"  className="flex-item">
-                  <button className="homebutton">Upcoming Events</button>
+                <Link to="/events"  className="flex-item" onClick = {this.scrollToTop}>
+                  <button className="homebutton" >Upcoming Events</button>
                 </Link>
               </div>
             </div>
           </div>
 
           <div className="section">
+
             <div className="section_title blue">Opportunities for members</div>
             <div className="section_descipt">
             <p>Our student branch provides opportunities for its members, including:</p>
@@ -125,15 +132,17 @@ class Home extends Component {
               </ul>
               </div>
               <div className="center flexbutton">
-                <Link to="/micromouse"  className="flex-item">
-                  <button className="homebutton">About    Micromouse</button>
+                <Link to="/micromouse"  className="flex-item" onClick = {this.scrollToTop}>
+                  <button className="homebutton" >About    Micromouse</button>
                 </Link>
                 <a href="https://ieee.berkeley.edu/hope/"  className="flex-item">
-                  <button className="homebutton">About    H.O.P.E.</button>
+                  <button className="homebutton" >About    H.O.P.E.</button>
                 </a>
               </div>
             </div>
           </div>
+
+
 
           <div className="section">
             <div className="section_title blue">Join our community</div>
@@ -153,7 +162,7 @@ class Home extends Component {
                 <button className="homebutton" type="submit">Subscribe to Our Newsletter</button>
               </form>
               <Link to="/apply"  className="flex-item">
-                <button className="homebutton">Learn how to join</button>
+                <button className="homebutton" onClick = {this.scrollToTop}>Learn how to join</button>
               </Link>
             </div>
             </div>
