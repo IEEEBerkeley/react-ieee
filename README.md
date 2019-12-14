@@ -21,22 +21,14 @@ url.
 
 # Deployment Instructions
 
-(As of 1/21/18)
-
-- ssh into ieee.berkeley.edu
-    - `ssh <username>@ieee.berkeley.edu`
-    - `ssh -i .ssh/id_ed25519 username@ieee.berkeley.edu`
-- `cd /srv/react-ieee`
-- `sudo su deployer`
-- `git fetch`
-- `git merge --ff <branch>` (optional)
-- `git checkout <branch>`
-
 As a sudoer:
 
 updated 9/5/18:
-- `sudo systemctl stop react-ieee`
-- `sudo systemctl start react-ieee`
-- check to make sure it worked
-    -  `systemctl status react-ieee`
+- ssh into ieee.berkeley.edu
+    - `ssh -i .ssh/id_ed25519 username@ieee.berkeley.edu` (depending on where the token is)
+- `sudo systemctl stop react-ieee` Halts the website hosting the website. Similar to ctrl-c locally.
+- `sudo git pull` Fetch and merge the changes on the remote repository.
+- `sudo systemctl start react-ieee` Starts the website. Similar to npm start locally.
+- check to make sure it worked:
+    -  `sudo systemctl status react-ieee` Should show active.
     -  logs in `/var/log/nginx/access.log` and `/var/log/nginx/error.log`
