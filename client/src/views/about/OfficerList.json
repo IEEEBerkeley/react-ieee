@@ -18,24 +18,24 @@
         "Treasurer": "Jimmy Pippin"
       },
       {
-        "Secretary": "Claudia Korea"
+        "Secretary": "Eugene Wong"
       }
     ],
 
     "Website": [
       {
-        "Director": "Eric Leong",
+        "Director": "Kevin Mo",
         "Links": {
-          "Github": "https://github.com/mageofboy",
-          "Linkedin": "https://linkedin.com/in/eric-leong-542a56149/",
-          "Personal": "https://ericleong.herokuapp.com"
+          "Github": "https://github.com/encadyma",
+          "Personal": "https://encadyma.com"
         }
       },
       {
-        "Director": "Ewen Dai",
+        "Director": "Su Latt Phone",
         "Links": {
-          "Github": "https://github.com/ewendai",
-          "Linkedin": "https://linkedin.com/in/ewendai"
+          "Github": "https://github.com/sulattphone",
+          "Linkedin": "https://linkedin.com/in/sulatt-phone",
+          "Personal": "https://sulattphone.github.io/"
         }
       },
       {
@@ -45,20 +45,7 @@
           "Linkedin": "https://linkedin.com/in/nimalen"
         }
       },
-      {
-        "Officer": "Su Latt Phone",
-        "Links": {
-          "Github": "https://github.com/sulattphone",
-          "Linkedin": "https://linkedin.com/in/sulatt-phone"
-        }
-      },
-      {
-        "Officer": "Kevin Mo",
-        "Links": {
-          "Github": "https://github.com/encadyma",
-          "Personal": "https://encadyma.com"
-        }
-      },
+      
       {
         "Officer": "Elizabeth Wang",
         "Links": {
@@ -93,7 +80,10 @@
     ],
     "Marketing": [
       {
-        "Director": "Ray Altenberg"
+        "Director": "Abhik Ajuha"
+      },
+      {
+        "Director": "Sydney Ty"
       },
       {
         "Officer" : "Alexander Zerkel"
@@ -159,7 +149,10 @@
 
     "Prodev": [
       {
-        "Director": "Neelesh Ramachandran"
+        "Director": "Julie Chun"
+      },
+      {
+        "Director": "Anusha Subramanian"
       },
       {
         "Officer": "Eugene Wong"
@@ -192,16 +185,17 @@
         }
       },
       {
-        "Officer": "Robert Quitt"
-      },
-      {
-        "Officer" : "Mark Theis",
+        "Director" : "Mark Theis",
         "Links": {
           "Github": "https://github.com/metheis",
           "Linkedin": "https://linkedin.com/in/mark-theis",
           "Personal": "https://mark.theis.ca/"
         }
       },
+      {
+        "Officer": "Robert Quitt"
+      },
+      
       {
         "Officer": "Kevin Lo",
         "Links": {
@@ -213,10 +207,10 @@
 
     "Micromouse": [
       {
-        "Director": "Keahooi Hung"
+        "Director": "Matthew Tran"
       },
       {
-        "Director": "Lorne Briones"
+        "Director": "Ethan Mehta"
       },
       {
         "Officer": "Aakarsh Gupta",
