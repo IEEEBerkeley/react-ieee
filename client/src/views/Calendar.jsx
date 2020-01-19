@@ -25,6 +25,9 @@ class Calendar extends Component {
       return (
         <div className="main">
           <div class="content">
+              <div class="imgDiv">
+                <img src="../assets/recruitmentTimeline2020.png" />
+              </div>
               <div class="containerCalendar">
                 <Googlecal iframe={iframe} />
               </div>

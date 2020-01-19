@@ -17,10 +17,11 @@ class Apply extends Component {
           </div>
           <div class='content'>
           <span class='heading blue'> Apply to IEEE!</span>
-          <form action="https://forms.gle/6NvEaXvTX1yLhcYX6" className="flex-item">
+          <form action="https://forms.gle/VXSeC8HsAjp8hMxYA" className="flex-item">
             <button className="homebutton" type="submit">Apply Now</button>
           </form>
           <br/>
+
 	        <span class='heading blue'> Member Requirements </span>
 			      <p>
   				    <br />
@@ -40,7 +41,24 @@ class Apply extends Component {
   		        </p>
   		        <br />
   		        <p>
-  		        These guidelines are for Committee Officers, and members are not required to meet these guidelines. However, IEEE members are to encouraged to meet come to as many events as possible as the events support the EECS community and IEEE's major initiatives. Each of these events are also great opportunities to meet your peers within IEEE!
+  		        These guidelines are for Committee Officers, and members are not required to meet these guidelines. However, IEEE members are to encouraged to meet come to as many events as possible as the events support the EECS community and IEEE's major initiatives. Each of these events are also great opportunities to meet your peers within IEEE! Also, please feel free to apply to our mentorship program! Mentees will be paired with mentors and will meet throughout the semester.
+  		        </p>
+              <br />
+              <p>
+  		        <br />
+  		        Links are listed below:
+              <ul>
+  		        	<li>General Member Application (rolling): 
+                  <a class="blue" href="https://forms.gle/BTG2sa4oR2foHxsBA">https://forms.gle/BTG2sa4oR2foHxsBA</a>
+                </li>
+  		        	<li>Committee Application (due 1/31): <a class="blue" href="https://forms.gle/Lxab4WLaMsHgA8kXA">https://forms.gle/Lxab4WLaMsHgA8kXA</a></li>
+  		        	<li>Mentor Application  (due 1/31): 
+                <a class="blue" href="https://forms.gle/6fShEMoim7nqXv2Q6">https://forms.gle/6fShEMoim7nqXv2Q6</a>
+                </li>
+                <li>Mentee Application (due 1/31): 
+                <a class="blue" href="https://forms.gle/haUAZWzohSVs9UMG6">https://forms.gle/haUAZWzohSVs9UMG6</a>
+                </li>
+              </ul>
   		        </p>
 	          </p>
 
