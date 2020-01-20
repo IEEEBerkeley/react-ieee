@@ -310,6 +310,7 @@ class About extends Component {
               </p>
               </div>
             </li>
+            {/*
             <li data-committee_id="10">
               <span onClick={(e) => this.changeView(10, e)} className="committee-name clickable ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-1-header-8" aria-controls="ui-accordion-1-panel-8" aria-selected="false" tabIndex="-1"><span className="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
               Outreach
@@ -319,7 +320,7 @@ class About extends Component {
               The Outreach committee organizes service and inter-club events for the officer and members of IEEE.
               </p>
               </div>
-            </li>
+            </li>*/}
 
             </ul>
 
