@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
 // import { Link } from 'react-router-dom';
 // import eventsImage from '../assets/home.png';
+import timeline from '../assets/recruitmentTimeline2020.png';
 class Googlecal extends Component {
     iframe() {
         return {__html: this.props.iframe};
@@ -25,6 +26,11 @@ class Calendar extends Component {
       return (
         <div className="main">
           <div class="content">
+              <div class="imgContainer">
+              <div class="imgDiv">
+                <img class="eventImg" src={timeline} />
+              </div>
+              </div>
               <div class="containerCalendar">
                 <Googlecal iframe={iframe} />
               </div>
