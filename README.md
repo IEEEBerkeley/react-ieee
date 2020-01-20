@@ -34,5 +34,5 @@ updated 9/5/18:
 - check to make sure it worked:
     -  `sudo systemctl status react-ieee` Should show active.
     -  logs in `/var/log/nginx/access.log` and `/var/log/nginx/error.log`
-tips for debugging if website doesn't start up on server:
-- call `sudo npm start` and you will get the normal error output as you get locally.
+- tips for debugging if website doesn't start up on server: 
+    - call `sudo npm start` and you will get the normal error output as you get locally.
