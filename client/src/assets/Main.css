@@ -788,6 +788,8 @@ table td.row-header {
   .microslide {
     display: none;
   }
+
+  
 }
 @media (min-width: 769px) {
   .microslide2 {
@@ -1340,4 +1342,25 @@ a.hope-resource:hover {
 }
 .sponsor-container:hover img {
     opacity: 1
+}
+.imgContainer{
+  
+}
+
+.imgDiv{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.imgDiv img{
+  width: 100%;
+  height: auto;
+
+}
+
+@media (max-width: 575.98px){
+  .imgDiv{
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
 }
