@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import eventsImage from '../assets/home.png';
 
-const iframe = '<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=berkeley.edu_9k08nrpdahaujiva7u1ss9j92s%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>';
+const iframe_cal = '<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=berkeley.edu_9k08nrpdahaujiva7u1ss9j92s%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>';
+const iframe_airtable = '<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrUx5RnoM7qhuzXL?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="1229" style="background: transparent; border: 1px solid #ccc;"></iframe>'
 
 class Calendar extends Component {
     constructor() {

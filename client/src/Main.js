@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './views/Home';
 //import Events from './views/Events';
 import Calendar from './views/Calendar.jsx';
+import CheckIn from './views/CheckIn.jsx';
 import Industry from './views/industry/Industry';
 import Sponsor from './views/industry/Sponsor';
 //import Hope from './views/prodev/Hope';
@@ -21,6 +22,7 @@ const Main = () => (
     <Switch>
       <Route exact path='/' component={Home}/>
       <Route exact path='/events' component={Calendar}/>
+      <Route exact path='/checkin' component={CheckIn}/>
       <Route path='/events/calendar' component={Calendar}/>
       <Route exact path='/industry' component={Industry}/>
       <Route path='/industry/sponsors' component={Sponsor}/>
