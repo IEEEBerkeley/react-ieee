@@ -13,7 +13,7 @@ class Micromouse extends Component {
             </div>
         <div class='content'>
         <span class='heading blue'>
-        <a href="https://ieee.berkeley.edu/micromouse">Micromouse</a>
+        Micromouse
         </span>
 
         <p>
@@ -26,7 +26,7 @@ class Micromouse extends Component {
          <br />
           All necessary parts will be provided to students at no cost.
         </p>
-        <h3 className="blue">Sign up information for decals can be found on the decal website. Information about Micromouse can be found <a className="link" href="https://decal.berkeley.edu/courses/5033">here.</a> </h3>
+        <h3 className="blue">Sign up information for decals can be found on the decal website. Information about Micromouse can be found <a className="link" href="https://decal.berkeley.edu/courses/5092">here.</a> </h3>
         </div>
       </div>
     );
