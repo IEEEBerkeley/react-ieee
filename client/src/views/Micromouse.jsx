@@ -13,7 +13,7 @@ class Micromouse extends Component {
             </div>
         <div class='content'>
         <span class='heading blue'>
-        Micromouse
+        <a href="https://ieee.berkeley.edu/micromouse">Micromouse</a>
         </span>
 
         <p>

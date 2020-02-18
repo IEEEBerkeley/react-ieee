@@ -26,7 +26,7 @@ class Footer extends Component {
             </div>
             <div  className="footercol ">
             <div>
-            <p className="copyright">© Copyright 2019 UC Berkeley IEEE</p>
+            <p className="copyright">© Copyright 2020 UC Berkeley IEEE</p>
             </div>
             </div>
             <div className="footercol">
