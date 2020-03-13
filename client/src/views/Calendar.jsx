@@ -36,8 +36,6 @@ class Calendar extends Component {
             </ul>
           </div>
           <div class="content">
-              <div class="imgContainer">
-              </div>
               <div class="containerCalendar">
                 <IFrameComponent iframe={iframe_cal} />
               </div>
