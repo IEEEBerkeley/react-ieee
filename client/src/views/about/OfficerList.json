@@ -62,13 +62,13 @@
         "Director" : "Eric Gao"
       },
       {
-        "Officer": "George Wang"
-      },
-      {
-        "Officer": "Tiffany Cappellari",
+        "Director": "Tiffany Cappellari",
         "Links": {
           "Linkedin": "https://www.linkedin.com/in/tiffany-cappellari-199174149/"
         }
+      },
+      {
+        "Officer": "George Wang"
       },
       {
         "Officer": "Justin Fu"
@@ -97,7 +97,10 @@
         "Director": "Abhik Ajuha"
       },
       {
-        "Director": "Sydney Ty"
+        "Director": "Sydney Ty",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/sydney-ty/"
+        }
       },
       {
         "Officer" : "Alexander Zerkle"
@@ -115,12 +118,6 @@
         "Officer" : "Vincent Wu",
         "Links": {
           "Linkedin": "https://www.linkedin.com/in/wensenwu/"
-        }
-      },
-      {
-        "Officer" : "Sydney Ty",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/sydney-ty/"
         }
       },
       {
