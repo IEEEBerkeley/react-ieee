@@ -39,19 +39,21 @@
         }
       },
       {
-        "Officer": "Nimalen Sivapalan",
+        "Officer": "Andrew Dinh",
         "Links": {
-          "Github": "https://github.com/nsivapalan/",
-          "Linkedin": "https://linkedin.com/in/nimalen"
+          "Github": "https://github.com/andrewkdinh",
+          "Linkedin": "https://www.linkedin.com/in/andrewkdinh-com",
+          "Personal": "https://andrewkdinh.com"
         }
       },
-      
       {
-        "Officer": "Elizabeth Wang",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/elizabeth-t-wang/"
-
-        }
+        "Officer": "John Lee"
+      },
+      {
+        "Officer": "Ishaan Mishra"
+      },
+      {
+        "Officer": "Wilson Nguyen"
       }
     ],
 
@@ -60,13 +62,13 @@
         "Director" : "Eric Gao"
       },
       {
-        "Officer": "George Wang"
-      },
-      {
-        "Officer": "Tiffany Cappellari",
+        "Director": "Tiffany Cappellari",
         "Links": {
           "Linkedin": "https://www.linkedin.com/in/tiffany-cappellari-199174149/"
         }
+      },
+      {
+        "Officer": "George Wang"
       },
       {
         "Officer": "Justin Fu"
@@ -76,6 +78,18 @@
       },
       {
         "Officer": "Wesley Chen"
+      },
+      {
+        "Officer": "Sunay Dagli"
+      },
+      {
+        "Officer": "Justin Chen"
+      },
+      {
+        "Officer": "Kathy Wu"
+      },
+      {
+        "Officer": "Aditya Bhawal"
       }
     ],
     "Marketing": [
@@ -83,10 +97,22 @@
         "Director": "Abhik Ajuha"
       },
       {
-        "Director": "Sydney Ty"
+        "Director": "Sydney Ty",
+        "Links": {
+          "Linkedin": "https://www.linkedin.com/in/sydney-ty/"
+        }
       },
       {
-        "Officer" : "Alexander Zerkel"
+        "Officer" : "Alexander Zerkle"
+      },
+      {
+        "Officer" : "Pranay Rajpaul"
+      },
+      {
+        "Officer" : "Katja Maucec"
+      },
+      {
+        "Officer" : "Ray Altenberg"
       },
       {
         "Officer" : "Vincent Wu",
@@ -95,19 +121,9 @@
         }
       },
       {
-        "Officer" : "Sydney Ty",
-        "Links": {
-          "Linkedin": "https://www.linkedin.com/in/sydney-ty/"
-        }
-      },
-      {
-        "Officer": "Abhik Ahuja"
-      },
-      {
         "Officer": "Nikki Kanakadandila"
       }
     ],
-
     "Hope": [
       {
         "Director": "Leon Wu"
@@ -132,6 +148,18 @@
       },
       {
         "Officer" : "Cheljea Jang"
+      },
+      {
+        "Officer" : "Alex Thomas"
+      },
+      {
+        "Officer" : "Joshua Wong"
+      },
+      {
+        "Officer" : "Efsane Soyer"
+      },
+      {
+        "Officer" : "Ramanan Abeyakaran"
       },
       {
         "Officer": "Sharan Kumar",
@@ -161,19 +189,18 @@
         "Officer": "Lucas Huang"
       },
       {
+        "Officer": "Xingyu Li"
+      },
+      {
+        "Officer": "Korinna Frangias"
+      },
+      {
         "Officer": "Yujie Wang",
         "Links": {
           "Github": "github.com/yuji3w",
           "Linkedin": "www.linkedin.com/in/yuji3w"
         }
-      },
-      {
-        "Officer": "Anusha Subramanian"
-      },
-      {
-        "Officer": "Julie Chun"
       }
-
     ],
 
     "Techops": [
@@ -195,7 +222,9 @@
       {
         "Officer": "Robert Quitt"
       },
-      
+      {
+        "Officer": "Enran Wu"
+      },
       {
         "Officer": "Kevin Lo",
         "Links": {
@@ -223,6 +252,27 @@
         "Officer": "Ahad Rauf"
       },
       {
+        "Officer": "Jason Dong"
+      },
+      {
+        "Officer": "Julian Meyn"
+      },
+      {
+        "Officer": "Keahooi  Hung"
+      },
+      {
+        "Officer": "Boyang Li"
+      },
+      {
+        "Officer": "Lorne Briones"
+      },
+      {
+        "Officer": "Anton Than"
+      },
+      {
+        "Officer": "Conor Martin"
+      },
+      {
         "Officer": "Amay Saxena"
       },
       {
@@ -233,12 +283,6 @@
       },
       {
         "Officer": "Eric Li"
-      },
-      {
-        "Officer": "Matthew Tran"
-      },
-      {
-        "Officer": "Ethan Mehta"
       }
     ],
 

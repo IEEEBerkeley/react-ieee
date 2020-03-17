@@ -11,6 +11,8 @@ That server is currently hosted by the EECS department, and is running Ubuntu
 12.04 LTS. It is running Nginx 1.1.19, Node 8.9.4, and NPM 5.6.0. The service
 is handled by an Upstart job, located in `/etc/init/react-ieee.conf`.
 
+Routing is handled using Nginx in `nginx.conf`
+
 ## HOPE sub-site
 
 [ieee.berkeley.edu/hope/](ieee.berkeley.edu/hope/)
