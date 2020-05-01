@@ -8,7 +8,7 @@ class Footer extends Component {
           {/**
             <ul>
             <li className="mail">
-              <a className="mailing" href="http://eepurl.com/c-RpPr"> Join our mailing list</a>
+              <a className="mailing" href="https://eepurl.com/c-RpPr"> Join our mailing list</a>
             </li>
             <li>
               <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416" className="icon"><i className="icon-facebook"></i></a>
@@ -42,7 +42,7 @@ class Footer extends Component {
               <a href="https://www.instagram.com/ieeeucb/" target="_blank"  rel="noopener noreferrer"  className="icon"><i className="icon-instagram"></i></a>
               </li>
             </ul>
-            <form action="http://eepurl.com/c-RpPr"><button className="mailbutton" type="submit">Join Our Mailing List</button></form>
+            <form action="https://eepurl.com/c-RpPr"><button className="mailbutton" type="submit">Join Our Mailing List</button></form>
             <p className="contact_info">Contact us: <a href="mailto:inquiry@stac.berkeley.edu"><span><u>ieee@berkeley.edu</u></span></a></p>
 
             

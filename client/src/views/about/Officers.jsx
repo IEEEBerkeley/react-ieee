@@ -167,7 +167,6 @@ class About extends Component {
                
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Kevin Zheng</span><span className="rank">President</span></div>
-                    {/*<div className="bottom-align"><a href="https://github.com/gbalke" className="icon" target="_blank"  rel="noopener noreferrer"><i className="icon-github"></i></a><a href="https://www.linkedin.com/in/~balke/" className="icon" target="_blank"  rel="noopener noreferrer"><i className="icon-linkedin"></i></a></div>*/}
                 </div>
               </div>
               <div className="officer-container cboxElement">
@@ -176,9 +175,6 @@ class About extends Component {
                 </LazyLoad>
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Neha Hudait</span><span className="rank">External V.P.</span></div>
-                    {/*
-                    <div className="bottom-align"><a href="https://github.com/williammlu" className="icon"><i className="icon-github" target="_blank"  rel="noopener noreferrer"></i></a><a href="https://www.linkedin.com/in/williammlu/" className="icon"><i className="icon-linkedin" target="_blank"  rel="noopener noreferrer"></i></a><a href="http://william.lu/" className="icon"><i className="icon-personal" target="_blank"  rel="noopener noreferrer"></i></a><a href="https://instagram.com/williammlu" className="icon"><i className="icon-instagram" target="_blank"  rel="noopener noreferrer"></i></a></div>
-                    */}
                 </div>
               </div>
               <div className="officer-container cboxElement">
@@ -195,23 +191,16 @@ class About extends Component {
                 </LazyLoad>
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Jimmy Pippin</span><span className="rank">Treasurer</span></div>
-                    {/*
-                    <div className="bottom-align"><a href="https://www.linkedin.com/in/hall-z-h-chen-a39b04a0" className="icon" target="_blank"  rel="noopener noreferrer"><i className="icon-linkedin"></i></a><a href="https://im.hallchen.us" className="icon" target="_blank"  rel="noopener noreferrer"><i className="icon-personal"></i></a></div>
-                    */}
                 </div>
               </div>
-              <div className="officer-container cboxElement">
-                
+              <div className="officer-container cboxElement"> 
                 <LazyLoad height={200}>
                     <div className="tile"><img src={tryAndDefault("Exec", "claudia_korea.jpg")} alt="" /></div>
                 </LazyLoad>
                
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Claudia Korea</span><span className="rank">Secretary</span></div>
-                    {/*
-                    <div className="bottom-align"><a href="https://www.linkedin.com/in/neha-godbole-b61274126/" className="icon" target="_blank"  rel="noopener noreferrer"><i className="icon-linkedin"></i></a></div>
-                    */}
-                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -310,20 +299,7 @@ class About extends Component {
               </p>
               </div>
             </li>
-            {/*
-            <li data-committee_id="10">
-              <span onClick={(e) => this.changeView(10, e)} className="committee-name clickable ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-1-header-8" aria-controls="ui-accordion-1-panel-8" aria-selected="false" tabIndex="-1"><span className="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
-              Outreach
-              </span>
-              <div className="committee-description ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-8" aria-labelledby="ui-accordion-1-header-8" role="tabpanel" aria-expanded="false" aria-hidden="true" style={{display: "none"}}>
-              <p>
-              The Outreach committee organizes service and inter-club events for the officer and members of IEEE.
-              </p>
-              </div>
-            </li>*/}
-
             </ul>
-
           </div>
         </div>
         </LazyLoad>
