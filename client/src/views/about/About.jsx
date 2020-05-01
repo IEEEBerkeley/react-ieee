@@ -77,7 +77,7 @@ class About extends Component {
             <br/>
             <h3 className='blue'>
             To be notified about upcoming events and opportunities,
-            <form action="http://eepurl.com/c-RpPr" className="flex-item">
+            <form action="https://eepurl.com/c-RpPr" className="flex-item">
               <button className="homebutton" type="submit">Subscribe to our mailing list!</button>
             </form>
             </h3>

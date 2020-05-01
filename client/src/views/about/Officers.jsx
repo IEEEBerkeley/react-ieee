@@ -177,7 +177,7 @@ class About extends Component {
                 <div className="tile salutation">
                     <div className="left-align-top"><span>Neha Hudait</span><span className="rank">External V.P.</span></div>
                     {/*
-                    <div className="bottom-align"><a href="https://github.com/williammlu" className="icon"><i className="icon-github" target="_blank"  rel="noopener noreferrer"></i></a><a href="https://www.linkedin.com/in/williammlu/" className="icon"><i className="icon-linkedin" target="_blank"  rel="noopener noreferrer"></i></a><a href="http://william.lu/" className="icon"><i className="icon-personal" target="_blank"  rel="noopener noreferrer"></i></a><a href="https://instagram.com/williammlu" className="icon"><i className="icon-instagram" target="_blank"  rel="noopener noreferrer"></i></a></div>
+                    <div className="bottom-align"><a href="https://github.com/williammlu" className="icon"><i className="icon-github" target="_blank"  rel="noopener noreferrer"></i></a><a href="https://www.linkedin.com/in/williammlu/" className="icon"><i className="icon-linkedin" target="_blank"  rel="noopener noreferrer"></i></a><a href="https://william.lu/" className="icon"><i className="icon-personal" target="_blank"  rel="noopener noreferrer"></i></a><a href="https://instagram.com/williammlu" className="icon"><i className="icon-instagram" target="_blank"  rel="noopener noreferrer"></i></a></div>
                     */}
                 </div>
               </div>
