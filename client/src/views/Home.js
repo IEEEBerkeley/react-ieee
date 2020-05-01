@@ -158,7 +158,7 @@ class Home extends Component {
               </ul>
             </div>
             <div className="center flexbutton">
-              <form action="http://eepurl.com/c-RpPr" className="flex-item">
+              <form action="https://eepurl.com/c-RpPr" className="flex-item">
                 <button className="homebutton" type="submit">Subscribe to Our Newsletter</button>
               </form>
               <Link to="/apply"  className="flex-item">
